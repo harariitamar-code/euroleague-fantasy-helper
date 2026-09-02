@@ -1,9 +1,13 @@
-# Euroleague Fantasy Helper
+# Euroleague Fantasy Helper — "Courtside Ledger"
 
 A helper app for building the best possible team in both:
 
 - the official **Euroleague Fantasy Challenge**, and
 - **Sport5 Euroleague Fantasy**
+
+**Live at:** https://euroleague-fantasy-helper.vercel.app — deployed on
+Vercel, auto-redeploying from the `main` branch on every push. This is a
+personal project: development happens directly on `main`, no PR workflow.
 
 ## Data model
 
@@ -91,6 +95,31 @@ npm run dev
 ```
 
 Then open `/players` to see the merged player list across both leagues.
+
+## Deploying
+
+The site is connected to Vercel via GitHub — pushing to `main` triggers an
+auto-deploy, no manual `vercel` CLI steps needed. One important constraint:
+**Vercel's filesystem is read-only at runtime**, so `npm run import` only
+works run locally/in a dev session against the repo checkout. It cannot be
+run against the live deployed site. The workflow for new data is:
+
+```
+npm run import -- --league <league> --file <path>   # locally
+npm run build                                         # sanity check
+git add -A && git commit -m "..."
+git push origin main                                  # Vercel auto-redeploys
+```
+
+## Design system
+
+The UI ("Courtside Ledger") uses **Big Shoulders** for display headlines,
+**IBM Plex Sans** for body/UI text, and **IBM Plex Mono** for prices/numbers
+(tabular figures). Amber is the Euroleague Fantasy Challenge accent, teal is
+the Sport5 accent — used consistently for that league's price column,
+position pills, etc. Full light/dark theme tokens live in
+`src/app/globals.css`. Keep new UI consistent with this rather than
+introducing new fonts or palettes.
 
 ## Roadmap
 
