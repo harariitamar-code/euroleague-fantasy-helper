@@ -7,52 +7,81 @@ A helper app for building the best possible team in both:
 
 ## Data model
 
-- `data/players.json` — canonical, game-agnostic player identities (name, team,
-  nationality). Shared between both leagues.
+- `data/players.json` — canonical, game-agnostic player identities (name, Hebrew
+  name when known, team, jersey number). Shared between both leagues.
 - `data/euroleague-fantasy/prices.json` — current prices/positions/stats for the
   official Euroleague Fantasy Challenge.
 - `data/sport5-fantasy/prices.json` — current prices/positions/stats for Sport5
   Euroleague Fantasy.
 - `data/<league>/history/YYYY-MM-DD.json` — a dated snapshot saved on every
   import, so price history can be tracked over time.
+- `data/teams.json` — the 20 Euroleague clubs, with each club's id in both
+  fantasy games' own APIs. Used to line up identity across leagues.
+- `data/player-aliases.json` — manual overrides for the rare case automatic
+  cross-league matching gets wrong (see below).
 
 See `src/lib/data/types.ts` for the exact shapes.
 
 ## Importing/updating player data
 
-Export or save the player list (with prices) from the official app or Sport5
-as a `.csv` or `.xlsx` file, then run:
+Run this any time you have new data — it's safe to re-run:
 
 ```bash
-npm run import -- --league euroleague --file ./incoming/euroleague.csv
-npm run import -- --league sport5 --file ./incoming/sport5.xlsx
+npm run import -- --league euroleague --file ./incoming/euroleague.json
+npm run import -- --league sport5 --file ./incoming/sport5.json
 ```
 
-Run this any time you have new data — it's safe to re-run. It will:
+**Import the official Euroleague file first** when you have both — it gives
+clean English names, which the Sport5 import (Hebrew names) then matches
+against.
 
-- match players by name+team against the existing canonical list (adding new
-  players it hasn't seen before),
-- update that league's prices/positions/stats,
-- save a dated snapshot under `data/<league>/history/`,
-- print a summary of what changed, including price moves.
+Three input shapes are supported:
 
-The importer recognizes common column header variants (case/spacing
-insensitive) — see `src/lib/data/normalize.ts` for the full alias list:
+1. **Official Euroleague Fantasy API JSON** — the raw response from the
+   official app/site (an array of players with a `quotation` field).
+2. **Sport5 Fantasy API JSON** — the raw response from the Sport5 app/site
+   (an array of teams, each with a `players` array; names in Hebrew).
+3. **Generic CSV/XLSX** — any spreadsheet export with loosely-named columns.
+   Recognized header aliases (case/spacing insensitive):
 
-| Field | Recognized headers |
-|---|---|
-| name | name, player, player name, full name |
-| team | team, club |
-| position | position, pos, role |
-| price | price, value, credits, cost, salary |
-| totalPoints | points, total points, pts |
-| avgPoints | avg, average, ppg |
-| ownershipPct | ownership, owned, selected |
-| status | status, fitness, injury |
-| nationality | nationality, nation, country |
+   | Field | Recognized headers |
+   |---|---|
+   | name | name, player, player name, full name |
+   | team | team, club |
+   | position | position, pos, role |
+   | price | price, value, credits, cost, salary |
+   | totalPoints | points, total points, pts |
+   | avgPoints | avg, average, ppg |
+   | ownershipPct | ownership, owned, selected |
+   | status | status, fitness, injury |
+   | nationality | nationality, nation, country |
 
-Any columns it can't map are ignored and reported at the end of the import
-so you can tell if something needs a new alias.
+For the two JSON shapes, the importer matches the same person across
+leagues by **(team, shirt number)** using `data/teams.json`, since Sport5
+names are in Hebrew and the official feed uses English. Every import prints
+a summary: new players added, players matched/updated (and how many were
+newly linked across leagues), and any price changes since the last import
+for that league.
+
+### Known limitation: cross-league matching isn't 100% certain
+
+Team+shirt-number matching is a heuristic, not a guarantee — jersey numbers
+occasionally differ between the two sources (transfers, number changes, or
+one feed being briefly stale), which can attach the wrong Sport5 entry to an
+official-feed player. If you spot a player showing an unrelated Hebrew name
+or price, fix it with `data/player-aliases.json`:
+
+```json
+{
+  "aliases": {
+    "sport5:4042": "the-correct-canonical-player-id"
+  }
+}
+```
+
+The key is `<league>:<sourceId>` (the source's own player id, visible in
+`sourceId` on that league's `prices.json` entry); the value is the canonical
+player id it should map to instead. Re-run the import afterwards.
 
 ## Running the app
 
@@ -66,6 +95,7 @@ Then open `/players` to see the merged player list across both leagues.
 ## Roadmap
 
 - [x] Import & persist player data/prices for both leagues
+- [x] Cross-league identity matching (team + shirt number)
 - [x] Browse/search/sort merged player list
 - [ ] Team/lineup builder with budget constraints per league's rules
 - [ ] Optimizer (best team under budget, per-league roster rules)

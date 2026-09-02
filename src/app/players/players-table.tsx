@@ -72,7 +72,10 @@ export default function PlayersTable({ rows }: { rows: MergedPlayerRow[] }) {
           <tbody>
             {filtered.map((r) => (
               <tr key={r.id} className="border-t border-neutral-800 hover:bg-neutral-900/60">
-                <td className="px-3 py-2">{r.name}</td>
+                <td className="px-3 py-2">
+                  {r.name}
+                  {r.nameHebrew && <span className="ml-2 text-neutral-500">{r.nameHebrew}</span>}
+                </td>
                 <td className="px-3 py-2 text-neutral-400">{r.team}</td>
                 <PriceCell league="euroleague" entry={r.byLeague.euroleague} />
                 <PriceCell league="sport5" entry={r.byLeague.sport5} />

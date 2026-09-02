@@ -1,0 +1,4 @@
+{
+  "note": "Manual overrides for cross-league player matching. Add an entry when the importer creates two separate canonical players for what is actually the same person (e.g. ambiguous duplicate shirt numbers within a club). Key is '<league>:<sourceId>' using the source id from that league's raw export; value is the canonical player id (from data/players.json) it should map to instead.",
+  "aliases": {}
+}

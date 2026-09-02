@@ -2,13 +2,15 @@ import fs from "node:fs";
 import path from "node:path";
 import {
   DATA_ROOT,
+  PLAYER_ALIASES_FILE,
   PLAYERS_FILE,
+  TEAMS_FILE,
   leagueDir,
   leagueHistoryDir,
   leagueHistoryFile,
   leaguePricesFile,
 } from "./paths";
-import type { League, LeaguePriceSheet, PlayersDb } from "./types";
+import type { League, LeaguePriceSheet, PlayerAliases, PlayersDb, TeamsDb } from "./types";
 
 function ensureDir(dir: string) {
   fs.mkdirSync(dir, { recursive: true });
@@ -52,4 +54,13 @@ export function writeLeaguePrices(sheet: LeaguePriceSheet) {
   ensureDir(leagueHistoryDir(sheet.league));
   const dateStr = sheet.updatedAt.slice(0, 10); // YYYY-MM-DD
   writeJson(leagueHistoryFile(sheet.league, dateStr), sheet);
+}
+
+export function readTeamsDb(): TeamsDb {
+  return readJson<TeamsDb>(TEAMS_FILE, { teams: [] });
+}
+
+export function readPlayerAliases(): PlayerAliases {
+  const raw = readJson<{ aliases?: PlayerAliases }>(PLAYER_ALIASES_FILE, { aliases: {} });
+  return raw.aliases ?? {};
 }

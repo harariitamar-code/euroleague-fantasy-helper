@@ -1,4 +1,4007 @@
 {
-  "updatedAt": "1970-01-01T00:00:00.000Z",
-  "players": []
+  "updatedAt": "2026-09-02T20:34:41.544Z",
+  "players": [
+    {
+      "id": "sasha-vezenkov-olympiacos-piraeus",
+      "name": "Sasha Vezenkov",
+      "team": "Olympiacos Piraeus",
+      "teamId": "olympiacos",
+      "shirtNumber": 14,
+      "nameHebrew": "סשה וזנקוב"
+    },
+    {
+      "id": "mike-james-anadolu-efes-istanbul",
+      "name": "Mike James",
+      "team": "Anadolu Efes Istanbul",
+      "teamId": "anadolu-efes",
+      "shirtNumber": 55,
+      "nameHebrew": "מייק ג'יימס"
+    },
+    {
+      "id": "chima-moneke-crvena-zvezda-meridianbet-belgrade",
+      "name": "Chima Moneke",
+      "team": "Crvena Zvezda Meridianbet Belgrade",
+      "teamId": "crvena-zvezda",
+      "shirtNumber": 95,
+      "nameHebrew": "צ'ימה מונקה"
+    },
+    {
+      "id": "elijah-bryant-hapoel-ibi-tel-aviv",
+      "name": "Elijah Bryant",
+      "team": "Hapoel IBI Tel Aviv",
+      "teamId": "hapoel-tel-aviv",
+      "shirtNumber": 3,
+      "nameHebrew": "אלייז'ה בראיינט"
+    },
+    {
+      "id": "jonas-valanciunas-zalgiris-kaunas",
+      "name": "Jonas Valanciunas",
+      "team": "Zalgiris Kaunas",
+      "teamId": "zalgiris",
+      "shirtNumber": 17,
+      "nameHebrew": "מנטס רובסטביצ'יוס"
+    },
+    {
+      "id": "nikola-milutinov-olympiacos-piraeus",
+      "name": "Nikola Milutinov",
+      "team": "Olympiacos Piraeus",
+      "teamId": "olympiacos",
+      "shirtNumber": 33,
+      "nameHebrew": "ניקולה מילוטינוב"
+    },
+    {
+      "id": "tj-shorts-valencia-basket",
+      "name": "TJ Shorts",
+      "team": "Valencia Basket",
+      "teamId": "valencia"
+    },
+    {
+      "id": "jaylen-hoard-maccabi-rapyd-tel-aviv",
+      "name": "Jaylen Hoard",
+      "team": "Maccabi Rapyd Tel Aviv",
+      "teamId": "maccabi-tel-aviv",
+      "shirtNumber": 1,
+      "nameHebrew": "ג'יילן הורד"
+    },
+    {
+      "id": "nadir-hifi-paris-basketball",
+      "name": "Nadir Hifi",
+      "team": "Paris Basketball",
+      "teamId": "paris-basketball",
+      "shirtNumber": 2,
+      "nameHebrew": "נאדיר היפי"
+    },
+    {
+      "id": "sylvain-francisco-panathinaikos-aktor-athens",
+      "name": "Sylvain Francisco",
+      "team": "Panathinaikos AKTOR Athens",
+      "teamId": "panathinaikos",
+      "shirtNumber": 3
+    },
+    {
+      "id": "walter-tavares-real-madrid",
+      "name": "Walter Tavares",
+      "team": "Real Madrid",
+      "teamId": "real-madrid",
+      "shirtNumber": 22,
+      "nameHebrew": "וולטר טבארס"
+    },
+    {
+      "id": "kendrick-nunn-panathinaikos-aktor-athens",
+      "name": "Kendrick Nunn",
+      "team": "Panathinaikos AKTOR Athens",
+      "teamId": "panathinaikos",
+      "shirtNumber": 25,
+      "nameHebrew": "קנדריק נאן"
+    },
+    {
+      "id": "mfiondu-kabengele-dubai-basketball",
+      "name": "Mfiondu Kabengele",
+      "team": "Dubai Basketball",
+      "teamId": "dubai",
+      "shirtNumber": 17,
+      "nameHebrew": "מפיונדו קבנגלה"
+    },
+    {
+      "id": "dario-saric-anadolu-efes-istanbul",
+      "name": "Dario Saric",
+      "team": "Anadolu Efes Istanbul",
+      "teamId": "anadolu-efes",
+      "shirtNumber": 5
+    },
+    {
+      "id": "mathias-lessort-panathinaikos-aktor-athens",
+      "name": "Mathias Lessort",
+      "team": "Panathinaikos AKTOR Athens",
+      "teamId": "panathinaikos",
+      "shirtNumber": 26,
+      "nameHebrew": "מתיאס לסור"
+    },
+    {
+      "id": "wade-baldwin-fenerbahce-tarfin-istanbul",
+      "name": "Wade Baldwin",
+      "team": "Fenerbahce Tarfin Istanbul",
+      "teamId": "fenerbahce",
+      "shirtNumber": 2,
+      "nameHebrew": "ווייד בולדווין"
+    },
+    {
+      "id": "guerschon-yabusele-panathinaikos-aktor-athens",
+      "name": "Guerschon Yabusele",
+      "team": "Panathinaikos AKTOR Athens",
+      "teamId": "panathinaikos",
+      "shirtNumber": 7
+    },
+    {
+      "id": "dan-oturu-hapoel-ibi-tel-aviv",
+      "name": "Dan Oturu",
+      "team": "Hapoel IBI Tel Aviv",
+      "teamId": "hapoel-tel-aviv",
+      "shirtNumber": 25,
+      "nameHebrew": "דן אוטורו"
+    },
+    {
+      "id": "moses-wright-armani-olimpia-milan",
+      "name": "Moses Wright",
+      "team": "Armani Olimpia Milan",
+      "teamId": "milan",
+      "shirtNumber": 5,
+      "nameHebrew": "מוזס רייט"
+    },
+    {
+      "id": "tornike-shengelia-dubai-basketball",
+      "name": "Tornike Shengelia",
+      "team": "Dubai Basketball",
+      "teamId": "dubai",
+      "shirtNumber": 23
+    },
+    {
+      "id": "facundo-campazzo-real-madrid",
+      "name": "Facundo Campazzo",
+      "team": "Real Madrid",
+      "teamId": "real-madrid",
+      "shirtNumber": 7,
+      "nameHebrew": "פקונדו קמפאסו"
+    },
+    {
+      "id": "carlik-jones-partizan-mozzart-bet-belgrade",
+      "name": "Carlik Jones",
+      "team": "Partizan Mozzart Bet Belgrade",
+      "teamId": "partizan",
+      "shirtNumber": 1
+    },
+    {
+      "id": "kevin-punter-fc-barcelona",
+      "name": "Kevin Punter",
+      "team": "FC Barcelona",
+      "teamId": "barcelona"
+    },
+    {
+      "id": "shane-larkin-fenerbahce-tarfin-istanbul",
+      "name": "Shane Larkin",
+      "team": "Fenerbahce Tarfin Istanbul",
+      "teamId": "fenerbahce"
+    },
+    {
+      "id": "mckinley-wright-dubai-basketball",
+      "name": "Mckinley Wright",
+      "team": "Dubai Basketball",
+      "teamId": "dubai",
+      "shirtNumber": 25,
+      "nameHebrew": "מקינלי רייט"
+    },
+    {
+      "id": "nigel-hayes-davis-panathinaikos-aktor-athens",
+      "name": "Nigel Hayes-davis",
+      "team": "Panathinaikos AKTOR Athens",
+      "teamId": "panathinaikos",
+      "shirtNumber": 11,
+      "nameHebrew": "נייג'ל הייז-דייויס"
+    },
+    {
+      "id": "roman-sorkin-maccabi-rapyd-tel-aviv",
+      "name": "Roman Sorkin",
+      "team": "Maccabi Rapyd Tel Aviv",
+      "teamId": "maccabi-tel-aviv",
+      "shirtNumber": 9,
+      "nameHebrew": "רומן סורקין"
+    },
+    {
+      "id": "dzanan-musa-dubai-basketball",
+      "name": "Dzanan Musa",
+      "team": "Dubai Basketball",
+      "teamId": "dubai",
+      "shirtNumber": 13,
+      "nameHebrew": "דז'נאן מוסא"
+    },
+    {
+      "id": "zach-leday-hapoel-ibi-tel-aviv",
+      "name": "Zach Leday",
+      "team": "Hapoel IBI Tel Aviv",
+      "teamId": "hapoel-tel-aviv",
+      "shirtNumber": 16,
+      "nameHebrew": "זאק לידיי"
+    },
+    {
+      "id": "jordan-nwora-crvena-zvezda-meridianbet-belgrade",
+      "name": "Jordan Nwora",
+      "team": "Crvena Zvezda Meridianbet Belgrade",
+      "teamId": "crvena-zvezda",
+      "shirtNumber": 33,
+      "nameHebrew": "ג'ורדן נוורה"
+    },
+    {
+      "id": "timothe-luwawu-cabarrot-real-madrid",
+      "name": "Timothé Luwawu-Cabarrot",
+      "team": "Real Madrid",
+      "teamId": "real-madrid",
+      "shirtNumber": 3,
+      "nameHebrew": "טימוטי לוואו-קברו"
+    },
+    {
+      "id": "jean-montero-olympiacos-piraeus",
+      "name": "Jean Montero",
+      "team": "Olympiacos Piraeus",
+      "teamId": "olympiacos",
+      "shirtNumber": 8,
+      "nameHebrew": "יאן מונטרו"
+    },
+    {
+      "id": "filip-petrusev-dubai-basketball",
+      "name": "Filip Petrusev",
+      "team": "Dubai Basketball",
+      "teamId": "dubai",
+      "shirtNumber": 30,
+      "nameHebrew": "פיליפ פטרושב"
+    },
+    {
+      "id": "dwayne-bacon-dubai-basketball",
+      "name": "Dwayne Bacon",
+      "team": "Dubai Basketball",
+      "teamId": "dubai",
+      "shirtNumber": 3,
+      "nameHebrew": "דוויין בייקון"
+    },
+    {
+      "id": "talen-horton-tucker-fenerbahce-tarfin-istanbul",
+      "name": "Talen Horton-Tucker",
+      "team": "Fenerbahce Tarfin Istanbul",
+      "teamId": "fenerbahce",
+      "shirtNumber": 8,
+      "nameHebrew": "טיילן הורטון טאקר"
+    },
+    {
+      "id": "tyler-dorsey-olympiacos-piraeus",
+      "name": "Tyler Dorsey",
+      "team": "Olympiacos Piraeus",
+      "teamId": "olympiacos",
+      "shirtNumber": 22,
+      "nameHebrew": "טיילר דורסי"
+    },
+    {
+      "id": "josh-nebo-fc-barcelona",
+      "name": "Josh Nebo",
+      "team": "FC Barcelona",
+      "teamId": "barcelona",
+      "shirtNumber": 32
+    },
+    {
+      "id": "amir-coffey-hapoel-ibi-tel-aviv",
+      "name": "Amir Coffey",
+      "team": "Hapoel IBI Tel Aviv",
+      "teamId": "hapoel-tel-aviv",
+      "shirtNumber": 7
+    },
+    {
+      "id": "shavon-shields-fenerbahce-tarfin-istanbul",
+      "name": "Shavon Shields",
+      "team": "Fenerbahce Tarfin Istanbul",
+      "teamId": "fenerbahce",
+      "shirtNumber": 31,
+      "nameHebrew": "שאבון שילדס"
+    },
+    {
+      "id": "will-clyburn-fenerbahce-tarfin-istanbul",
+      "name": "Will Clyburn",
+      "team": "Fenerbahce Tarfin Istanbul",
+      "teamId": "fenerbahce",
+      "shirtNumber": 21
+    },
+    {
+      "id": "kameron-taylor-valencia-basket",
+      "name": "Kameron Taylor",
+      "team": "Valencia Basket",
+      "teamId": "valencia",
+      "shirtNumber": 1,
+      "nameHebrew": "קמרון טיילור"
+    },
+    {
+      "id": "patty-mills-ldlc-asvel-villeurbanne",
+      "name": "Patty Mills",
+      "team": "LDLC ASVEL Villeurbanne",
+      "teamId": "villeurbanne",
+      "shirtNumber": 8,
+      "nameHebrew": "מלווין אג'ינסה"
+    },
+    {
+      "id": "elie-okobo-dubai-basketball",
+      "name": "Elie Okobo",
+      "team": "Dubai Basketball",
+      "teamId": "dubai"
+    },
+    {
+      "id": "daniel-theis-maccabi-rapyd-tel-aviv",
+      "name": "Daniel Theis",
+      "team": "Maccabi Rapyd Tel Aviv",
+      "teamId": "maccabi-tel-aviv",
+      "shirtNumber": 23,
+      "nameHebrew": "דניאל תייס"
+    },
+    {
+      "id": "justin-robinson-fc-barcelona",
+      "name": "Justin Robinson",
+      "team": "FC Barcelona",
+      "teamId": "barcelona",
+      "shirtNumber": 5
+    },
+    {
+      "id": "chris-jones-crvena-zvezda-meridianbet-belgrade",
+      "name": "Chris Jones",
+      "team": "Crvena Zvezda Meridianbet Belgrade",
+      "teamId": "crvena-zvezda",
+      "shirtNumber": 1
+    },
+    {
+      "id": "tyrique-jones-olympiacos-piraeus",
+      "name": "Tyrique Jones",
+      "team": "Olympiacos Piraeus",
+      "teamId": "olympiacos",
+      "shirtNumber": 88,
+      "nameHebrew": "טייריק ג'ונס"
+    },
+    {
+      "id": "ante-zizic-besiktas-istanbul",
+      "name": "Ante Zizic",
+      "team": "Besiktas Istanbul",
+      "teamId": "besiktas",
+      "shirtNumber": 41
+    },
+    {
+      "id": "vasilije-micic-hapoel-ibi-tel-aviv",
+      "name": "Vasilije Micic",
+      "team": "Hapoel IBI Tel Aviv",
+      "teamId": "hapoel-tel-aviv",
+      "shirtNumber": 22,
+      "nameHebrew": "ואסיליה מיציץ'"
+    },
+    {
+      "id": "alec-peters-armani-olimpia-milan",
+      "name": "Alec Peters",
+      "team": "Armani Olimpia Milan",
+      "teamId": "milan",
+      "shirtNumber": 25,
+      "nameHebrew": "אלק פיטרס"
+    },
+    {
+      "id": "isaac-bonga-panathinaikos-aktor-athens",
+      "name": "Isaac Bonga",
+      "team": "Panathinaikos AKTOR Athens",
+      "teamId": "panathinaikos",
+      "shirtNumber": 17
+    },
+    {
+      "id": "tj-warren-paris-basketball",
+      "name": "Tj Warren",
+      "team": "Paris Basketball",
+      "teamId": "paris-basketball",
+      "shirtNumber": 1
+    },
+    {
+      "id": "juancho-hernangomez-panathinaikos-aktor-athens",
+      "name": "Juancho Hernangomez",
+      "team": "Panathinaikos AKTOR Athens",
+      "teamId": "panathinaikos",
+      "shirtNumber": 41,
+      "nameHebrew": "חואנצ'ו הרננגומס"
+    },
+    {
+      "id": "carsen-edwards-zalgiris-kaunas",
+      "name": "Carsen Edwards",
+      "team": "Zalgiris Kaunas",
+      "teamId": "zalgiris",
+      "shirtNumber": 3,
+      "nameHebrew": "קארסן אדוארדס"
+    },
+    {
+      "id": "bonzie-colson-maccabi-rapyd-tel-aviv",
+      "name": "Bonzie Colson",
+      "team": "Maccabi Rapyd Tel Aviv",
+      "teamId": "maccabi-tel-aviv",
+      "shirtNumber": 50,
+      "nameHebrew": "בונזי קולסון"
+    },
+    {
+      "id": "marcus-bingham-fenerbahce-tarfin-istanbul",
+      "name": "Marcus Bingham",
+      "team": "Fenerbahce Tarfin Istanbul",
+      "teamId": "fenerbahce",
+      "shirtNumber": 30
+    },
+    {
+      "id": "marjon-beauchamp-fc-bayern-munich",
+      "name": "Marjon Beauchamp",
+      "team": "FC Bayern Munich",
+      "teamId": "bayern-munich",
+      "shirtNumber": 3
+    },
+    {
+      "id": "azuolas-tubelis-zalgiris-kaunas",
+      "name": "Azuolas Tubelis",
+      "team": "Zalgiris Kaunas",
+      "teamId": "zalgiris",
+      "shirtNumber": 10,
+      "nameHebrew": "אזולאס טובליס"
+    },
+    {
+      "id": "tyson-etienne-paris-basketball",
+      "name": "Tyson Etienne",
+      "team": "Paris Basketball",
+      "teamId": "paris-basketball",
+      "shirtNumber": 9
+    },
+    {
+      "id": "codi-miller-mcintyre-olympiacos-piraeus",
+      "name": "Codi Miller-Mcintyre",
+      "team": "Olympiacos Piraeus",
+      "teamId": "olympiacos",
+      "shirtNumber": 11,
+      "nameHebrew": "מונטה מוריס"
+    },
+    {
+      "id": "johnathan-motley-crvena-zvezda-meridianbet-belgrade",
+      "name": "Johnathan Motley",
+      "team": "Crvena Zvezda Meridianbet Belgrade",
+      "teamId": "crvena-zvezda"
+    },
+    {
+      "id": "austin-wiley-fc-bayern-munich",
+      "name": "Austin Wiley",
+      "team": "FC Bayern Munich",
+      "teamId": "bayern-munich",
+      "shirtNumber": 50
+    },
+    {
+      "id": "rasheed-bello-virtus-bologna",
+      "name": "Rasheed Bello",
+      "team": "Virtus Bologna",
+      "teamId": "virtus-bologna"
+    },
+    {
+      "id": "donta-hall-olympiacos-piraeus",
+      "name": "Donta Hall",
+      "team": "Olympiacos Piraeus",
+      "teamId": "olympiacos",
+      "shirtNumber": 45,
+      "nameHebrew": "דונטה הול"
+    },
+    {
+      "id": "keaton-wallace-maccabi-rapyd-tel-aviv",
+      "name": "Keaton Wallace",
+      "team": "Maccabi Rapyd Tel Aviv",
+      "teamId": "maccabi-tel-aviv",
+      "shirtNumber": 17
+    },
+    {
+      "id": "kostas-sloukas-panathinaikos-aktor-athens",
+      "name": "Kostas Sloukas",
+      "team": "Panathinaikos AKTOR Athens",
+      "teamId": "panathinaikos",
+      "shirtNumber": 10
+    },
+    {
+      "id": "daron-russell-anadolu-efes-istanbul",
+      "name": "Daron Russell",
+      "team": "Anadolu Efes Istanbul",
+      "teamId": "anadolu-efes",
+      "shirtNumber": 11,
+      "nameHebrew": "רולנדס שמיתס"
+    },
+    {
+      "id": "trent-forrest-fenerbahce-tarfin-istanbul",
+      "name": "Trent Forrest",
+      "team": "Fenerbahce Tarfin Istanbul",
+      "teamId": "fenerbahce",
+      "shirtNumber": 11,
+      "nameHebrew": "ברנדון בוסטון ג'וניור"
+    },
+    {
+      "id": "sterling-brown-zalgiris-kaunas",
+      "name": "Sterling Brown",
+      "team": "Zalgiris Kaunas",
+      "teamId": "zalgiris"
+    },
+    {
+      "id": "patrick-baldwin-jr-crvena-zvezda-meridianbet-belgrade",
+      "name": "Patrick Baldwin Jr",
+      "team": "Crvena Zvezda Meridianbet Belgrade",
+      "teamId": "crvena-zvezda",
+      "shirtNumber": 24
+    },
+    {
+      "id": "johannes-thiemann-fc-bayern-munich",
+      "name": "Johannes Thiemann",
+      "team": "FC Bayern Munich",
+      "teamId": "bayern-munich",
+      "shirtNumber": 32
+    },
+    {
+      "id": "tj-leaf-maccabi-rapyd-tel-aviv",
+      "name": "TJ Leaf",
+      "team": "Maccabi Rapyd Tel Aviv",
+      "teamId": "maccabi-tel-aviv",
+      "shirtNumber": 22,
+      "nameHebrew": "טי ג'יי ליף"
+    },
+    {
+      "id": "eugene-omoruyi-besiktas-istanbul",
+      "name": "Eugene Omoruyi",
+      "team": "Besiktas Istanbul",
+      "teamId": "besiktas",
+      "shirtNumber": 20,
+      "nameHebrew": "יוג'ין אומורוי"
+    },
+    {
+      "id": "trent-frazier-virtus-bologna",
+      "name": "Trent Frazier",
+      "team": "Virtus Bologna",
+      "teamId": "virtus-bologna",
+      "shirtNumber": 1
+    },
+    {
+      "id": "tadas-sedekerskis-kosner-baskonia-vitoria-gasteiz",
+      "name": "Tadas Sedekerskis",
+      "team": "Kosner Baskonia Vitoria-Gasteiz",
+      "teamId": "baskonia",
+      "shirtNumber": 8,
+      "nameHebrew": "טאדאס סדקרסקיס"
+    },
+    {
+      "id": "joel-bolomboy-ldlc-asvel-villeurbanne",
+      "name": "Joel Bolomboy",
+      "team": "LDLC ASVEL Villeurbanne",
+      "teamId": "villeurbanne",
+      "shirtNumber": 21,
+      "nameHebrew": "ג'ואל בולומבוי"
+    },
+    {
+      "id": "armoni-brooks-valencia-basket",
+      "name": "Armoni Brooks",
+      "team": "Valencia Basket",
+      "teamId": "valencia",
+      "shirtNumber": 12
+    },
+    {
+      "id": "matthew-strazel-anadolu-efes-istanbul",
+      "name": "Matthew Strazel",
+      "team": "Anadolu Efes Istanbul",
+      "teamId": "anadolu-efes",
+      "shirtNumber": 32,
+      "nameHebrew": "מתיו סטראזל"
+    },
+    {
+      "id": "bruno-fernando-anadolu-efes-istanbul",
+      "name": "Bruno Fernando",
+      "team": "Anadolu Efes Istanbul",
+      "teamId": "anadolu-efes",
+      "shirtNumber": 20,
+      "nameHebrew": "ברונו פרננדו"
+    },
+    {
+      "id": "nathan-reuvers-valencia-basket",
+      "name": "Nathan Reuvers",
+      "team": "Valencia Basket",
+      "teamId": "valencia",
+      "shirtNumber": 3,
+      "nameHebrew": "נייט ריברס"
+    },
+    {
+      "id": "jordan-loyd-anadolu-efes-istanbul",
+      "name": "Jordan Loyd",
+      "team": "Anadolu Efes Istanbul",
+      "teamId": "anadolu-efes",
+      "shirtNumber": 3,
+      "nameHebrew": "ג'ורדן לויד"
+    },
+    {
+      "id": "andreas-obst-fc-bayern-munich",
+      "name": "Andreas Obst",
+      "team": "FC Bayern Munich",
+      "teamId": "bayern-munich",
+      "shirtNumber": 13,
+      "nameHebrew": "אנדראס אובסט"
+    },
+    {
+      "id": "oshae-brissett-maccabi-rapyd-tel-aviv",
+      "name": "Oshae Brissett",
+      "team": "Maccabi Rapyd Tel Aviv",
+      "teamId": "maccabi-tel-aviv",
+      "shirtNumber": 10,
+      "nameHebrew": "אושיי בריסט"
+    },
+    {
+      "id": "umoja-gibson-fc-barcelona",
+      "name": "Umoja Gibson",
+      "team": "FC Barcelona",
+      "teamId": "barcelona",
+      "shirtNumber": 2,
+      "nameHebrew": "חואני מרקוס"
+    },
+    {
+      "id": "duane-washington-fc-bayern-munich",
+      "name": "Duane Washington",
+      "team": "FC Bayern Munich",
+      "teamId": "bayern-munich",
+      "shirtNumber": 4
+    },
+    {
+      "id": "kyle-allman-partizan-mozzart-bet-belgrade",
+      "name": "Kyle Allman",
+      "team": "Partizan Mozzart Bet Belgrade",
+      "teamId": "partizan"
+    },
+    {
+      "id": "mamadi-diakite-dubai-basketball",
+      "name": "Mamadi Diakite",
+      "team": "Dubai Basketball",
+      "teamId": "dubai",
+      "shirtNumber": 1,
+      "nameHebrew": "נייט מייסון"
+    },
+    {
+      "id": "jared-butler-crvena-zvezda-meridianbet-belgrade",
+      "name": "Jared Butler",
+      "team": "Crvena Zvezda Meridianbet Belgrade",
+      "teamId": "crvena-zvezda",
+      "shirtNumber": 6,
+      "nameHebrew": "ג'ארד באטלר"
+    },
+    {
+      "id": "ethan-thompson-partizan-mozzart-bet-belgrade",
+      "name": "Ethan Thompson",
+      "team": "Partizan Mozzart Bet Belgrade",
+      "teamId": "partizan",
+      "shirtNumber": 5
+    },
+    {
+      "id": "zeljko-obradovic-panathinaikos-aktor-athens",
+      "name": "Zeljko Obradovic",
+      "team": "Panathinaikos AKTOR Athens",
+      "teamId": "panathinaikos"
+    },
+    {
+      "id": "georgios-bartzokas-olympiacos-piraeus",
+      "name": "Georgios Bartzokas",
+      "team": "Olympiacos Piraeus",
+      "teamId": "olympiacos"
+    },
+    {
+      "id": "nick-weiler-babb-crvena-zvezda-meridianbet-belgrade",
+      "name": "Nick Weiler-Babb",
+      "team": "Crvena Zvezda Meridianbet Belgrade",
+      "teamId": "crvena-zvezda",
+      "shirtNumber": 3
+    },
+    {
+      "id": "kessler-edwards-virtus-bologna",
+      "name": "Kessler Edwards",
+      "team": "Virtus Bologna",
+      "teamId": "virtus-bologna",
+      "shirtNumber": 9
+    },
+    {
+      "id": "johnny-juzang-fenerbahce-tarfin-istanbul",
+      "name": "Johnny Juzang",
+      "team": "Fenerbahce Tarfin Istanbul",
+      "teamId": "fenerbahce",
+      "shirtNumber": 9
+    },
+    {
+      "id": "chris-duarte-kosner-baskonia-vitoria-gasteiz",
+      "name": "Chris Duarte",
+      "team": "Kosner Baskonia Vitoria-Gasteiz",
+      "teamId": "baskonia",
+      "shirtNumber": 27
+    },
+    {
+      "id": "devon-dotson-besiktas-istanbul",
+      "name": "Devon Dotson",
+      "team": "Besiktas Istanbul",
+      "teamId": "besiktas",
+      "shirtNumber": 1
+    },
+    {
+      "id": "david-dejulius-besiktas-istanbul",
+      "name": "David Dejulius",
+      "team": "Besiktas Istanbul",
+      "teamId": "besiktas",
+      "shirtNumber": 5
+    },
+    {
+      "id": "tremont-waters-ldlc-asvel-villeurbanne",
+      "name": "Tremont Waters",
+      "team": "LDLC ASVEL Villeurbanne",
+      "teamId": "villeurbanne",
+      "shirtNumber": 51
+    },
+    {
+      "id": "marcus-carr-virtus-bologna",
+      "name": "Marcus Carr",
+      "team": "Virtus Bologna",
+      "teamId": "virtus-bologna",
+      "shirtNumber": 2
+    },
+    {
+      "id": "bobi-klintman-virtus-bologna",
+      "name": "Bobi Klintman",
+      "team": "Virtus Bologna",
+      "teamId": "virtus-bologna",
+      "shirtNumber": 34,
+      "nameHebrew": "קארים יאלו"
+    },
+    {
+      "id": "theo-maledon-real-madrid",
+      "name": "Theo Maledon",
+      "team": "Real Madrid",
+      "teamId": "real-madrid",
+      "shirtNumber": 12,
+      "nameHebrew": "תאו מאלדון"
+    },
+    {
+      "id": "jacob-toppin-hapoel-ibi-tel-aviv",
+      "name": "Jacob Toppin",
+      "team": "Hapoel IBI Tel Aviv",
+      "teamId": "hapoel-tel-aviv"
+    },
+    {
+      "id": "alize-johnson-paris-basketball",
+      "name": "Alize Johnson",
+      "team": "Paris Basketball",
+      "teamId": "paris-basketball",
+      "shirtNumber": 24
+    },
+    {
+      "id": "devin-booker-armani-olimpia-milan",
+      "name": "Devin Booker",
+      "team": "Armani Olimpia Milan",
+      "teamId": "milan",
+      "shirtNumber": 31,
+      "nameHebrew": "דווין בוקר"
+    },
+    {
+      "id": "nigel-williams-goss-zalgiris-kaunas",
+      "name": "Nigel Williams-Goss",
+      "team": "Zalgiris Kaunas",
+      "teamId": "zalgiris",
+      "shirtNumber": 1,
+      "nameHebrew": "נייג'ל וויליאמס-גוס"
+    },
+    {
+      "id": "anthony-brown-besiktas-istanbul",
+      "name": "Anthony Brown",
+      "team": "Besiktas Istanbul",
+      "teamId": "besiktas",
+      "shirtNumber": 21
+    },
+    {
+      "id": "jaylen-nowell-besiktas-istanbul",
+      "name": "Jaylen Nowell",
+      "team": "Besiktas Istanbul",
+      "teamId": "besiktas",
+      "shirtNumber": 24
+    },
+    {
+      "id": "tomas-satoransky-hapoel-ibi-tel-aviv",
+      "name": "Tomas Satoransky",
+      "team": "Hapoel IBI Tel Aviv",
+      "teamId": "hapoel-tel-aviv",
+      "shirtNumber": 13,
+      "nameHebrew": "תומאס סטורנסקי"
+    },
+    {
+      "id": "marko-guduric-armani-olimpia-milan",
+      "name": "Marko Guduric",
+      "team": "Armani Olimpia Milan",
+      "teamId": "milan",
+      "shirtNumber": 23,
+      "nameHebrew": "מרקו גודוריץ'"
+    },
+    {
+      "id": "antonio-blakeney-hapoel-ibi-tel-aviv",
+      "name": "Antonio Blakeney",
+      "team": "Hapoel IBI Tel Aviv",
+      "teamId": "hapoel-tel-aviv",
+      "shirtNumber": 2,
+      "nameHebrew": "אנטוניו בלייקני"
+    },
+    {
+      "id": "ercan-osmani-anadolu-efes-istanbul",
+      "name": "Ercan Osmani",
+      "team": "Anadolu Efes Istanbul",
+      "teamId": "anadolu-efes",
+      "shirtNumber": 24,
+      "nameHebrew": "ארצ'ן אוסמני"
+    },
+    {
+      "id": "kobi-simmons-kosner-baskonia-vitoria-gasteiz",
+      "name": "Kobi Simmons",
+      "team": "Kosner Baskonia Vitoria-Gasteiz",
+      "teamId": "baskonia",
+      "shirtNumber": 2,
+      "nameHebrew": "קובי סימונס"
+    },
+    {
+      "id": "marek-blazevic-zalgiris-kaunas",
+      "name": "Marek Blazevic",
+      "team": "Zalgiris Kaunas",
+      "teamId": "zalgiris",
+      "shirtNumber": 22
+    },
+    {
+      "id": "jimmy-clark-iii-maccabi-rapyd-tel-aviv",
+      "name": "Jimmy Clark III",
+      "team": "Maccabi Rapyd Tel Aviv",
+      "teamId": "maccabi-tel-aviv",
+      "shirtNumber": 2,
+      "nameHebrew": "ג'ימי קלארק"
+    },
+    {
+      "id": "kenneth-faried-kosner-baskonia-vitoria-gasteiz",
+      "name": "Kenneth Faried",
+      "team": "Kosner Baskonia Vitoria-Gasteiz",
+      "teamId": "baskonia",
+      "shirtNumber": 35
+    },
+    {
+      "id": "jae-crowder-ldlc-asvel-villeurbanne",
+      "name": "Jae Crowder",
+      "team": "LDLC ASVEL Villeurbanne",
+      "teamId": "villeurbanne",
+      "shirtNumber": 99
+    },
+    {
+      "id": "jaron-blossomgame-dubai-basketball",
+      "name": "Jaron Blossomgame",
+      "team": "Dubai Basketball",
+      "teamId": "dubai",
+      "shirtNumber": 4,
+      "nameHebrew": "אלכסה אברמוביץ'"
+    },
+    {
+      "id": "evan-fournier-olympiacos-piraeus",
+      "name": "Evan Fournier",
+      "team": "Olympiacos Piraeus",
+      "teamId": "olympiacos",
+      "shirtNumber": 94,
+      "nameHebrew": "אוון פורנייה"
+    },
+    {
+      "id": "ebuka-izundu-crvena-zvezda-meridianbet-belgrade",
+      "name": "Ebuka Izundu",
+      "team": "Crvena Zvezda Meridianbet Belgrade",
+      "teamId": "crvena-zvezda",
+      "shirtNumber": 15,
+      "nameHebrew": "אבוקה איזונדו"
+    },
+    {
+      "id": "tosan-evbuomwan-fc-barcelona",
+      "name": "Tosan Evbuomwan",
+      "team": "FC Barcelona",
+      "teamId": "barcelona",
+      "shirtNumber": 20,
+      "nameHebrew": "ניקולס לאפרוביטולה"
+    },
+    {
+      "id": "mathis-dossou-yovo-ldlc-asvel-villeurbanne",
+      "name": "Mathis Dossou-yovo",
+      "team": "LDLC ASVEL Villeurbanne",
+      "teamId": "villeurbanne",
+      "shirtNumber": 12
+    },
+    {
+      "id": "mouhamet-diouf-virtus-bologna",
+      "name": "Mouhamet Diouf",
+      "team": "Virtus Bologna",
+      "teamId": "virtus-bologna",
+      "shirtNumber": 35,
+      "nameHebrew": "מוחמט דיוף"
+    },
+    {
+      "id": "tyty-washington-ldlc-asvel-villeurbanne",
+      "name": "Tyty Washington",
+      "team": "LDLC ASVEL Villeurbanne",
+      "teamId": "villeurbanne",
+      "shirtNumber": 3,
+      "nameHebrew": "שאקיל האריסון"
+    },
+    {
+      "id": "maozinha-pereira-paris-basketball",
+      "name": "Maozinha Pereira",
+      "team": "Paris Basketball",
+      "teamId": "paris-basketball",
+      "shirtNumber": 45
+    },
+    {
+      "id": "jason-burnell-armani-olimpia-milan",
+      "name": "Jason Burnell",
+      "team": "Armani Olimpia Milan",
+      "teamId": "milan"
+    },
+    {
+      "id": "joffrey-lauvergne-partizan-mozzart-bet-belgrade",
+      "name": "Joffrey Lauvergne",
+      "team": "Partizan Mozzart Bet Belgrade",
+      "teamId": "partizan",
+      "shirtNumber": 77
+    },
+    {
+      "id": "isaia-cordinier-anadolu-efes-istanbul",
+      "name": "Isaia Cordinier",
+      "team": "Anadolu Efes Istanbul",
+      "teamId": "anadolu-efes",
+      "shirtNumber": 10,
+      "nameHebrew": "אייזאה קורדינייה"
+    },
+    {
+      "id": "stanley-umude-fc-barcelona",
+      "name": "Stanley Umude",
+      "team": "FC Barcelona",
+      "teamId": "barcelona",
+      "shirtNumber": 17
+    },
+    {
+      "id": "olivier-sarr-real-madrid",
+      "name": "Olivier Sarr",
+      "team": "Real Madrid",
+      "teamId": "real-madrid",
+      "shirtNumber": 33,
+      "nameHebrew": "גונארס גרינוולדס"
+    },
+    {
+      "id": "damian-jones-real-madrid",
+      "name": "Damian Jones",
+      "team": "Real Madrid",
+      "teamId": "real-madrid",
+      "shirtNumber": 30
+    },
+    {
+      "id": "gabriel-deck-real-madrid",
+      "name": "Gabriel Deck",
+      "team": "Real Madrid",
+      "teamId": "real-madrid",
+      "shirtNumber": 14,
+      "nameHebrew": "גבריאל דק"
+    },
+    {
+      "id": "vladimir-lucic-fc-bayern-munich",
+      "name": "Vladimir Lucic",
+      "team": "FC Bayern Munich",
+      "teamId": "bayern-munich",
+      "shirtNumber": 11,
+      "nameHebrew": "ולדימיר לוצ'יץ'"
+    },
+    {
+      "id": "pedro-martinez-real-madrid",
+      "name": "Pedro Martinez",
+      "team": "Real Madrid",
+      "teamId": "real-madrid"
+    },
+    {
+      "id": "saras-jasikevicius-fenerbahce-tarfin-istanbul",
+      "name": "Saras Jasikevicius",
+      "team": "Fenerbahce Tarfin Istanbul",
+      "teamId": "fenerbahce"
+    },
+    {
+      "id": "chuma-okeke-real-madrid",
+      "name": "Chuma Okeke",
+      "team": "Real Madrid",
+      "teamId": "real-madrid",
+      "shirtNumber": 8,
+      "nameHebrew": "צ'ומה אוקיקי"
+    },
+    {
+      "id": "jared-rhoden-paris-basketball",
+      "name": "Jared Rhoden",
+      "team": "Paris Basketball",
+      "teamId": "paris-basketball",
+      "shirtNumber": 8,
+      "nameHebrew": "ג'ארד רודן"
+    },
+    {
+      "id": "garrison-mathews-armani-olimpia-milan",
+      "name": "Garrison Mathews",
+      "team": "Armani Olimpia Milan",
+      "teamId": "milan",
+      "shirtNumber": 24
+    },
+    {
+      "id": "gonzalo-corbalan-valencia-basket",
+      "name": "Gonzalo Corbalan",
+      "team": "Valencia Basket",
+      "teamId": "valencia",
+      "shirtNumber": 15
+    },
+    {
+      "id": "kevin-kokila-virtus-bologna",
+      "name": "Kevin Kokila",
+      "team": "Virtus Bologna",
+      "teamId": "virtus-bologna",
+      "shirtNumber": 3
+    },
+    {
+      "id": "miles-norris-fc-bayern-munich",
+      "name": "Miles Norris",
+      "team": "FC Bayern Munich",
+      "teamId": "bayern-munich"
+    },
+    {
+      "id": "jerian-grant-panathinaikos-aktor-athens",
+      "name": "Jerian Grant",
+      "team": "Panathinaikos AKTOR Athens",
+      "teamId": "panathinaikos",
+      "shirtNumber": 22,
+      "nameHebrew": "ג'ריאן גרנט"
+    },
+    {
+      "id": "neal-sako-valencia-basket",
+      "name": "Neal Sako",
+      "team": "Valencia Basket",
+      "teamId": "valencia",
+      "shirtNumber": 12,
+      "nameHebrew": "ארמוני ברוקס"
+    },
+    {
+      "id": "yam-madar-maccabi-rapyd-tel-aviv",
+      "name": "Yam Madar",
+      "team": "Maccabi Rapyd Tel Aviv",
+      "teamId": "maccabi-tel-aviv",
+      "shirtNumber": 26,
+      "nameHebrew": "ים מדר"
+    },
+    {
+      "id": "dj-stewart-kosner-baskonia-vitoria-gasteiz",
+      "name": "Dj Stewart",
+      "team": "Kosner Baskonia Vitoria-Gasteiz",
+      "teamId": "baskonia",
+      "shirtNumber": 1
+    },
+    {
+      "id": "kai-jones-anadolu-efes-istanbul",
+      "name": "Kai Jones",
+      "team": "Anadolu Efes Istanbul",
+      "teamId": "anadolu-efes",
+      "shirtNumber": 88,
+      "nameHebrew": "קאי ג'ונס"
+    },
+    {
+      "id": "tyrese-martin-fc-barcelona",
+      "name": "Tyrese Martin",
+      "team": "FC Barcelona",
+      "teamId": "barcelona",
+      "shirtNumber": 4
+    },
+    {
+      "id": "aj-lawson-kosner-baskonia-vitoria-gasteiz",
+      "name": "Aj Lawson",
+      "team": "Kosner Baskonia Vitoria-Gasteiz",
+      "teamId": "baskonia"
+    },
+    {
+      "id": "hugo-besson-ldlc-asvel-villeurbanne",
+      "name": "Hugo Besson",
+      "team": "LDLC ASVEL Villeurbanne",
+      "teamId": "villeurbanne",
+      "shirtNumber": 25
+    },
+    {
+      "id": "darius-thompson-armani-olimpia-milan",
+      "name": "Darius Thompson",
+      "team": "Armani Olimpia Milan",
+      "teamId": "milan",
+      "shirtNumber": 13,
+      "nameHebrew": "דריוס תומפסון"
+    },
+    {
+      "id": "leandro-bolmaro-armani-olimpia-milan",
+      "name": "Leandro Bolmaro",
+      "team": "Armani Olimpia Milan",
+      "teamId": "milan",
+      "shirtNumber": 10,
+      "nameHebrew": "ליאנדרו בולמארו"
+    },
+    {
+      "id": "jaime-pradilla-real-madrid",
+      "name": "Jaime Pradilla",
+      "team": "Real Madrid",
+      "teamId": "real-madrid",
+      "shirtNumber": 4,
+      "nameHebrew": "חיימה פרדייה"
+    },
+    {
+      "id": "both-gach-ldlc-asvel-villeurbanne",
+      "name": "Both Gach",
+      "team": "LDLC ASVEL Villeurbanne",
+      "teamId": "villeurbanne",
+      "shirtNumber": 14
+    },
+    {
+      "id": "santi-yusta-anadolu-efes-istanbul",
+      "name": "Santi Yusta",
+      "team": "Anadolu Efes Istanbul",
+      "teamId": "anadolu-efes",
+      "shirtNumber": 4
+    },
+    {
+      "id": "mo-gueye-valencia-basket",
+      "name": "Mo Gueye",
+      "team": "Valencia Basket",
+      "teamId": "valencia",
+      "shirtNumber": 18,
+      "nameHebrew": "אייק אירייבו"
+    },
+    {
+      "id": "wendell-moore-jr-virtus-bologna",
+      "name": "Wendell Moore Jr",
+      "team": "Virtus Bologna",
+      "teamId": "virtus-bologna",
+      "shirtNumber": 8,
+      "nameHebrew": "מתאו אקורסי"
+    },
+    {
+      "id": "rokas-jokubaitis-fc-bayern-munich",
+      "name": "Rokas Jokubaitis",
+      "team": "FC Bayern Munich",
+      "teamId": "bayern-munich",
+      "shirtNumber": 31,
+      "nameHebrew": "רוקאס יוקובאיטיס"
+    },
+    {
+      "id": "saben-lee-zalgiris-kaunas",
+      "name": "Saben Lee",
+      "team": "Zalgiris Kaunas",
+      "teamId": "zalgiris",
+      "shirtNumber": 7,
+      "nameHebrew": "סייבן לי"
+    },
+    {
+      "id": "mady-sissoko-besiktas-istanbul",
+      "name": "Mady Sissoko",
+      "team": "Besiktas Istanbul",
+      "teamId": "besiktas",
+      "shirtNumber": 44
+    },
+    {
+      "id": "conor-morgan-besiktas-istanbul",
+      "name": "Conor Morgan",
+      "team": "Besiktas Istanbul",
+      "teamId": "besiktas",
+      "shirtNumber": 9
+    },
+    {
+      "id": "dimitris-itoudis-hapoel-ibi-tel-aviv",
+      "name": "Dimitris Itoudis",
+      "team": "Hapoel IBI Tel Aviv",
+      "teamId": "hapoel-tel-aviv"
+    },
+    {
+      "id": "omari-moore-valencia-basket",
+      "name": "Omari Moore",
+      "team": "Valencia Basket",
+      "teamId": "valencia",
+      "shirtNumber": 10,
+      "nameHebrew": "עומארי מור"
+    },
+    {
+      "id": "rj-cole-armani-olimpia-milan",
+      "name": "Rj Cole",
+      "team": "Armani Olimpia Milan",
+      "teamId": "milan",
+      "shirtNumber": 2,
+      "nameHebrew": "לורנזו בראון"
+    },
+    {
+      "id": "wenyen-gabriel-besiktas-istanbul",
+      "name": "Wenyen Gabriel",
+      "team": "Besiktas Istanbul",
+      "teamId": "besiktas",
+      "shirtNumber": 32,
+      "nameHebrew": "ווניין גבריאל"
+    },
+    {
+      "id": "derrick-alston-jr-virtus-bologna",
+      "name": "Derrick Alston Jr.",
+      "team": "Virtus Bologna",
+      "teamId": "virtus-bologna",
+      "shirtNumber": 21,
+      "nameHebrew": "דריק אלסטון ג'וניור"
+    },
+    {
+      "id": "damion-baugh-kosner-baskonia-vitoria-gasteiz",
+      "name": "Damion Baugh",
+      "team": "Kosner Baskonia Vitoria-Gasteiz",
+      "teamId": "baskonia",
+      "shirtNumber": 29
+    },
+    {
+      "id": "furkan-korkmaz-besiktas-istanbul",
+      "name": "Furkan Korkmaz",
+      "team": "Besiktas Istanbul",
+      "teamId": "besiktas",
+      "shirtNumber": 30
+    },
+    {
+      "id": "markus-howard-kosner-baskonia-vitoria-gasteiz",
+      "name": "Markus Howard",
+      "team": "Kosner Baskonia Vitoria-Gasteiz",
+      "teamId": "baskonia"
+    },
+    {
+      "id": "iffe-lundberg-maccabi-rapyd-tel-aviv",
+      "name": "Iffe Lundberg",
+      "team": "Maccabi Rapyd Tel Aviv",
+      "teamId": "maccabi-tel-aviv"
+    },
+    {
+      "id": "brancou-badio-panathinaikos-aktor-athens",
+      "name": "Brancou Badio",
+      "team": "Panathinaikos AKTOR Athens",
+      "teamId": "panathinaikos"
+    },
+    {
+      "id": "tonye-jekiri-partizan-mozzart-bet-belgrade",
+      "name": "Tonye Jekiri",
+      "team": "Partizan Mozzart Bet Belgrade",
+      "teamId": "partizan",
+      "shirtNumber": 23,
+      "nameHebrew": "טוניה ג'קירי"
+    },
+    {
+      "id": "moustapha-fall-panathinaikos-aktor-athens",
+      "name": "Moustapha Fall",
+      "team": "Panathinaikos AKTOR Athens",
+      "teamId": "panathinaikos",
+      "shirtNumber": 10,
+      "nameHebrew": "קוסטס סלוקאס"
+    },
+    {
+      "id": "nicolo-melli-fenerbahce-tarfin-istanbul",
+      "name": "Nicolo Melli",
+      "team": "Fenerbahce Tarfin Istanbul",
+      "teamId": "fenerbahce",
+      "shirtNumber": 4,
+      "nameHebrew": "ניקולו מלי"
+    },
+    {
+      "id": "thomas-walkup-olympiacos-piraeus",
+      "name": "Thomas Walkup",
+      "team": "Olympiacos Piraeus",
+      "teamId": "olympiacos"
+    },
+    {
+      "id": "devon-hall-armani-olimpia-milan",
+      "name": "HALL, DEVON",
+      "team": "Armani Olimpia Milan",
+      "teamId": "milan",
+      "shirtNumber": 22
+    },
+    {
+      "id": "collin-malcolm-anadolu-efes-istanbul",
+      "name": "Collin Malcolm",
+      "team": "Anadolu Efes Istanbul",
+      "teamId": "anadolu-efes",
+      "shirtNumber": 17
+    },
+    {
+      "id": "derek-willis-partizan-mozzart-bet-belgrade",
+      "name": "Derek  Willis",
+      "team": "Partizan Mozzart Bet Belgrade",
+      "teamId": "partizan",
+      "shirtNumber": 35,
+      "nameHebrew": "דרק וויליס"
+    },
+    {
+      "id": "aleksander-sekulic-fc-barcelona",
+      "name": "Aleksander Sekulic",
+      "team": "FC Barcelona",
+      "teamId": "barcelona"
+    },
+    {
+      "id": "aleksander-balcerowski-fc-barcelona",
+      "name": "Aleksander Balcerowski",
+      "team": "FC Barcelona",
+      "teamId": "barcelona",
+      "shirtNumber": 8
+    },
+    {
+      "id": "lamar-stevens-partizan-mozzart-bet-belgrade",
+      "name": "Lamar Stevens",
+      "team": "Partizan Mozzart Bet Belgrade",
+      "teamId": "partizan",
+      "shirtNumber": 8
+    },
+    {
+      "id": "dylan-osetkowski-valencia-basket",
+      "name": "Dylan Osetkowski",
+      "team": "Valencia Basket",
+      "teamId": "valencia",
+      "shirtNumber": 21,
+      "nameHebrew": "תומאס טאלקיס"
+    },
+    {
+      "id": "allan-dokossi-paris-basketball",
+      "name": "Allan Dokossi",
+      "team": "Paris Basketball",
+      "teamId": "paris-basketball",
+      "shirtNumber": 13,
+      "nameHebrew": "אלן דוקוסי"
+    },
+    {
+      "id": "xavi-pascual-dubai-basketball",
+      "name": "Xavi Pascual",
+      "team": "Dubai Basketball",
+      "teamId": "dubai"
+    },
+    {
+      "id": "braxton-key-fenerbahce-tarfin-istanbul",
+      "name": "Braxton Key",
+      "team": "Fenerbahce Tarfin Istanbul",
+      "teamId": "fenerbahce",
+      "shirtNumber": 7
+    },
+    {
+      "id": "eugene-german-hapoel-ibi-tel-aviv",
+      "name": "Eugene German",
+      "team": "Hapoel IBI Tel Aviv",
+      "teamId": "hapoel-tel-aviv",
+      "shirtNumber": 1
+    },
+    {
+      "id": "max-shulga-real-madrid",
+      "name": "Max Shulga",
+      "team": "Real Madrid",
+      "teamId": "real-madrid",
+      "shirtNumber": 2
+    },
+    {
+      "id": "nathan-sestina-ldlc-asvel-villeurbanne",
+      "name": "Nathan Sestina",
+      "team": "LDLC ASVEL Villeurbanne",
+      "teamId": "villeurbanne",
+      "shirtNumber": 77,
+      "nameHebrew": "נייט ססטינה"
+    },
+    {
+      "id": "chris-silva-fenerbahce-tarfin-istanbul",
+      "name": "Chris Silva",
+      "team": "Fenerbahce Tarfin Istanbul",
+      "teamId": "fenerbahce",
+      "shirtNumber": 30,
+      "nameHebrew": "כריס סילבה"
+    },
+    {
+      "id": "frank-ntilikina-paris-basketball",
+      "name": "Frank Ntilikina",
+      "team": "Paris Basketball",
+      "teamId": "paris-basketball",
+      "shirtNumber": 3
+    },
+    {
+      "id": "nikola-tanaskovic-partizan-mozzart-bet-belgrade",
+      "name": "Nikola Tanaskovic",
+      "team": "Partizan Mozzart Bet Belgrade",
+      "teamId": "partizan",
+      "shirtNumber": 10
+    },
+    {
+      "id": "olivier-nkamboua-fc-barcelona",
+      "name": "Olivier Nkamboua",
+      "team": "FC Barcelona",
+      "teamId": "barcelona",
+      "shirtNumber": 13
+    },
+    {
+      "id": "luca-vildoza-partizan-mozzart-bet-belgrade",
+      "name": "Luca Vildoza",
+      "team": "Partizan Mozzart Bet Belgrade",
+      "teamId": "partizan",
+      "shirtNumber": 1,
+      "nameHebrew": "קרליק ג'ונס"
+    },
+    {
+      "id": "tamir-blatt-hapoel-ibi-tel-aviv",
+      "name": "Tamir Blatt",
+      "team": "Hapoel IBI Tel Aviv",
+      "teamId": "hapoel-tel-aviv",
+      "shirtNumber": 45,
+      "nameHebrew": "תמיר בלאט"
+    },
+    {
+      "id": "justinian-jessup-fc-bayern-munich",
+      "name": "Justinian Jessup",
+      "team": "FC Bayern Munich",
+      "teamId": "bayern-munich",
+      "shirtNumber": 10,
+      "nameHebrew": "ג'סטיניאן ג'סופ"
+    },
+    {
+      "id": "perry-dozier-anadolu-efes-istanbul",
+      "name": "Perry Dozier",
+      "team": "Anadolu Efes Istanbul",
+      "teamId": "anadolu-efes",
+      "shirtNumber": 15,
+      "nameHebrew": "פי ג'יי דוזייר"
+    },
+    {
+      "id": "georgios-papagiannis-anadolu-efes-istanbul",
+      "name": "Georgios Papagiannis",
+      "team": "Anadolu Efes Istanbul",
+      "teamId": "anadolu-efes",
+      "shirtNumber": 9,
+      "nameHebrew": "גאורגיוס פאפאיאניס"
+    },
+    {
+      "id": "scottie-wilbekin-besiktas-istanbul",
+      "name": "Scottie Wilbekin",
+      "team": "Besiktas Istanbul",
+      "teamId": "besiktas",
+      "shirtNumber": 12,
+      "nameHebrew": "סקוטי ווילבקין"
+    },
+    {
+      "id": "tyson-ward-olympiacos-piraeus",
+      "name": "Tyson Ward",
+      "team": "Olympiacos Piraeus",
+      "teamId": "olympiacos",
+      "shirtNumber": 3,
+      "nameHebrew": "טייסון וורד"
+    },
+    {
+      "id": "johannes-voigtmann-fc-bayern-munich",
+      "name": "Johannes Voigtmann",
+      "team": "FC Bayern Munich",
+      "teamId": "bayern-munich",
+      "shirtNumber": 7,
+      "nameHebrew": "יוהאנס פוקטמן"
+    },
+    {
+      "id": "pablo-laso-anadolu-efes-istanbul",
+      "name": "Pablo Laso",
+      "team": "Anadolu Efes Istanbul",
+      "teamId": "anadolu-efes"
+    },
+    {
+      "id": "mbaye-ndiaye-olympiacos-piraeus",
+      "name": "Mbaye Ndiaye",
+      "team": "Olympiacos Piraeus",
+      "teamId": "olympiacos",
+      "shirtNumber": 24
+    },
+    {
+      "id": "tomas-masiulis-zalgiris-kaunas",
+      "name": "Tomas Masiulis",
+      "team": "Zalgiris Kaunas",
+      "teamId": "zalgiris"
+    },
+    {
+      "id": "khadeen-carrington-hapoel-ibi-tel-aviv",
+      "name": "Khadeen Carrington",
+      "team": "Hapoel IBI Tel Aviv",
+      "teamId": "hapoel-tel-aviv",
+      "shirtNumber": 5,
+      "nameHebrew": "סנדי כהן"
+    },
+    {
+      "id": "semi-ojeleye-crvena-zvezda-meridianbet-belgrade",
+      "name": "Semi Ojeleye",
+      "team": "Crvena Zvezda Meridianbet Belgrade",
+      "teamId": "crvena-zvezda",
+      "shirtNumber": 37,
+      "nameHebrew": "סמי אוג'יליי"
+    },
+    {
+      "id": "yves-pons-ldlc-asvel-villeurbanne",
+      "name": "Yves Pons",
+      "team": "LDLC ASVEL Villeurbanne",
+      "teamId": "villeurbanne",
+      "shirtNumber": 35
+    },
+    {
+      "id": "justin-minaya-fc-barcelona",
+      "name": "Justin Minaya",
+      "team": "FC Barcelona",
+      "teamId": "barcelona",
+      "shirtNumber": 15
+    },
+    {
+      "id": "kevarrius-hayes-partizan-mozzart-bet-belgrade",
+      "name": "Kevarrius Hayes",
+      "team": "Partizan Mozzart Bet Belgrade",
+      "teamId": "partizan",
+      "shirtNumber": 13
+    },
+    {
+      "id": "oscar-da-silva-fc-bayern-munich",
+      "name": "Oscar Da Silva",
+      "team": "FC Bayern Munich",
+      "teamId": "bayern-munich",
+      "shirtNumber": 1,
+      "nameHebrew": "אוסקר דה סילבה"
+    },
+    {
+      "id": "alessandro-pajola-partizan-mozzart-bet-belgrade",
+      "name": "Alessandro Pajola",
+      "team": "Partizan Mozzart Bet Belgrade",
+      "teamId": "partizan",
+      "shirtNumber": 6,
+      "nameHebrew": "אלסנדרו פאיולה"
+    },
+    {
+      "id": "maodo-lo-zalgiris-kaunas",
+      "name": "Maodo Lo",
+      "team": "Zalgiris Kaunas",
+      "teamId": "zalgiris",
+      "shirtNumber": 12,
+      "nameHebrew": "מאודו לו"
+    },
+    {
+      "id": "armando-bacot-maccabi-rapyd-tel-aviv",
+      "name": "Armando Bacot",
+      "team": "Maccabi Rapyd Tel Aviv",
+      "teamId": "maccabi-tel-aviv",
+      "shirtNumber": 5,
+      "nameHebrew": "ארמנדו בייקוט ג'וניור"
+    },
+    {
+      "id": "elias-valtonen-valencia-basket",
+      "name": "Elias Valtonen",
+      "team": "Valencia Basket",
+      "teamId": "valencia",
+      "shirtNumber": 19
+    },
+    {
+      "id": "kamar-baldwin-fc-bayern-munich",
+      "name": "Kamar Baldwin",
+      "team": "FC Bayern Munich",
+      "teamId": "bayern-munich",
+      "shirtNumber": 44,
+      "nameHebrew": "קמאר בולדווין"
+    },
+    {
+      "id": "myles-cale-ldlc-asvel-villeurbanne",
+      "name": "Myles Cale",
+      "team": "LDLC ASVEL Villeurbanne",
+      "teamId": "villeurbanne"
+    },
+    {
+      "id": "vitto-brown-besiktas-istanbul",
+      "name": "Vitto Brown",
+      "team": "Besiktas Istanbul",
+      "teamId": "besiktas",
+      "shirtNumber": 33
+    },
+    {
+      "id": "giuseppe-poeta-armani-olimpia-milan",
+      "name": "Giuseppe Poeta",
+      "team": "Armani Olimpia Milan",
+      "teamId": "milan"
+    },
+    {
+      "id": "ibon-navarro-crvena-zvezda-meridianbet-belgrade",
+      "name": "Ibon Navarro",
+      "team": "Crvena Zvezda Meridianbet Belgrade",
+      "teamId": "crvena-zvezda"
+    },
+    {
+      "id": "joel-parra-fc-barcelona",
+      "name": "Joel Parra",
+      "team": "FC Barcelona",
+      "teamId": "barcelona",
+      "shirtNumber": 44,
+      "nameHebrew": "ג'ואל פארה"
+    },
+    {
+      "id": "terry-tarpey-paris-basketball",
+      "name": "Terry Tarpey",
+      "team": "Paris Basketball",
+      "teamId": "paris-basketball",
+      "shirtNumber": 3,
+      "nameHebrew": "טרי טארפיי"
+    },
+    {
+      "id": "yoan-makoundou-fc-barcelona",
+      "name": "Yoan Makoundou",
+      "team": "FC Barcelona",
+      "teamId": "barcelona",
+      "shirtNumber": 55
+    },
+    {
+      "id": "xavier-albert-valencia-basket",
+      "name": "Xavier Albert",
+      "team": "Valencia Basket",
+      "teamId": "valencia"
+    },
+    {
+      "id": "arnas-butkevicius-zalgiris-kaunas",
+      "name": "Arnas Butkevicius",
+      "team": "Zalgiris Kaunas",
+      "teamId": "zalgiris",
+      "shirtNumber": 51,
+      "nameHebrew": "ארנס בוטקביצ'יוס"
+    },
+    {
+      "id": "mouhamed-faye-paris-basketball",
+      "name": "Mouhamed Faye",
+      "team": "Paris Basketball",
+      "teamId": "paris-basketball",
+      "shirtNumber": 15,
+      "nameHebrew": "מוחמד פאייה "
+    },
+    {
+      "id": "cory-joseph-olympiacos-piraeus",
+      "name": "Cory Joseph",
+      "team": "Olympiacos Piraeus",
+      "teamId": "olympiacos",
+      "shirtNumber": 34,
+      "nameHebrew": "קורי ג'וזף"
+    },
+    {
+      "id": "mam-jaiteh-dubai-basketball",
+      "name": "Mam Jaiteh",
+      "team": "Dubai Basketball",
+      "teamId": "dubai",
+      "shirtNumber": 14,
+      "nameHebrew": "מאם ג'אייטה"
+    },
+    {
+      "id": "tyson-carter-crvena-zvezda-meridianbet-belgrade",
+      "name": "Tyson Carter",
+      "team": "Crvena Zvezda Meridianbet Belgrade",
+      "teamId": "crvena-zvezda",
+      "shirtNumber": 11,
+      "nameHebrew": "טייסון קרטר"
+    },
+    {
+      "id": "tobias-jensen-fc-bayern-munich",
+      "name": "Tobias Jensen",
+      "team": "FC Bayern Munich",
+      "teamId": "bayern-munich",
+      "shirtNumber": 8,
+      "nameHebrew": "לאון קראצר"
+    },
+    {
+      "id": "kaodirichi-akobundu-ehiogu-zalgiris-kaunas",
+      "name": "Kaodirichi Akobundu-Ehiogu",
+      "team": "Zalgiris Kaunas",
+      "teamId": "zalgiris",
+      "shirtNumber": 2
+    },
+    {
+      "id": "davion-mintz-dubai-basketball",
+      "name": "Davion Mintz",
+      "team": "Dubai Basketball",
+      "teamId": "dubai",
+      "shirtNumber": 12
+    },
+    {
+      "id": "justin-anderson-dubai-basketball",
+      "name": "Justin Anderson",
+      "team": "Dubai Basketball",
+      "teamId": "dubai",
+      "shirtNumber": 10,
+      "nameHebrew": "ג'סטין אנדרסון"
+    },
+    {
+      "id": "joan-penarroya-partizan-mozzart-bet-belgrade",
+      "name": "Joan Penarroya",
+      "team": "Partizan Mozzart Bet Belgrade",
+      "teamId": "partizan"
+    },
+    {
+      "id": "oded-kattash-maccabi-rapyd-tel-aviv",
+      "name": "Oded Kattash",
+      "team": "Maccabi Rapyd Tel Aviv",
+      "teamId": "maccabi-tel-aviv"
+    },
+    {
+      "id": "ish-wainright-hapoel-ibi-tel-aviv",
+      "name": "Ish Wainright",
+      "team": "Hapoel IBI Tel Aviv",
+      "teamId": "hapoel-tel-aviv",
+      "shirtNumber": 24,
+      "nameHebrew": "איש וויינרייט"
+    },
+    {
+      "id": "david-kramer-crvena-zvezda-meridianbet-belgrade",
+      "name": "David Kramer",
+      "team": "Crvena Zvezda Meridianbet Belgrade",
+      "teamId": "crvena-zvezda",
+      "shirtNumber": 44
+    },
+    {
+      "id": "yankuba-sima-valencia-basket",
+      "name": "Yankuba Sima",
+      "team": "Valencia Basket",
+      "teamId": "valencia",
+      "shirtNumber": 77,
+      "nameHebrew": "יאנקובה סימה"
+    },
+    {
+      "id": "rodions-kurucs-kosner-baskonia-vitoria-gasteiz",
+      "name": "Rodions Kurucs",
+      "team": "Kosner Baskonia Vitoria-Gasteiz",
+      "teamId": "baskonia",
+      "shirtNumber": 7,
+      "nameHebrew": "רודיונס קורוקס"
+    },
+    {
+      "id": "aliou-diarra-virtus-bologna",
+      "name": "Aliou Diarra",
+      "team": "Virtus Bologna",
+      "teamId": "virtus-bologna",
+      "shirtNumber": 31,
+      "nameHebrew": "אליו דיארה"
+    },
+    {
+      "id": "antonis-karagiannidis-olympiacos-piraeus",
+      "name": "Antonis Karagiannidis",
+      "team": "Olympiacos Piraeus",
+      "teamId": "olympiacos",
+      "shirtNumber": 29
+    },
+    {
+      "id": "edgaras-ulanovas-zalgiris-kaunas",
+      "name": "Edgaras Ulanovas",
+      "team": "Zalgiris Kaunas",
+      "teamId": "zalgiris",
+      "shirtNumber": 92,
+      "nameHebrew": "אדגרס אולנובאס"
+    },
+    {
+      "id": "matteo-spagnolo-kosner-baskonia-vitoria-gasteiz",
+      "name": "Matteo Spagnolo",
+      "team": "Kosner Baskonia Vitoria-Gasteiz",
+      "teamId": "baskonia",
+      "shirtNumber": 10,
+      "nameHebrew": "מתאו ספאניולו"
+    },
+    {
+      "id": "dario-brizuela-fc-barcelona",
+      "name": "Dario Brizuela",
+      "team": "FC Barcelona",
+      "teamId": "barcelona",
+      "shirtNumber": 8,
+      "nameHebrew": "דריו בריזואלה"
+    },
+    {
+      "id": "amath-m-baye-paris-basketball",
+      "name": "Amath M'baye",
+      "team": "Paris Basketball",
+      "teamId": "paris-basketball",
+      "shirtNumber": 22,
+      "nameHebrew": "אמאת' אמבייה"
+    },
+    {
+      "id": "marius-grigonis-zalgiris-kaunas",
+      "name": "Marius Grigonis",
+      "team": "Zalgiris Kaunas",
+      "teamId": "zalgiris",
+      "shirtNumber": 40,
+      "nameHebrew": "מריוס גריגוניס"
+    },
+    {
+      "id": "tai-odiase-hapoel-ibi-tel-aviv",
+      "name": "Tai Odiase",
+      "team": "Hapoel IBI Tel Aviv",
+      "teamId": "hapoel-tel-aviv",
+      "shirtNumber": 21,
+      "nameHebrew": "טאי אודיאסה"
+    },
+    {
+      "id": "dustin-sleva-zalgiris-kaunas",
+      "name": "Dustin Sleva",
+      "team": "Zalgiris Kaunas",
+      "teamId": "zalgiris",
+      "shirtNumber": 14,
+      "nameHebrew": "דסטין סלבה"
+    },
+    {
+      "id": "jeremy-morgan-paris-basketball",
+      "name": "Jeremy Morgan",
+      "team": "Paris Basketball",
+      "teamId": "paris-basketball",
+      "shirtNumber": 20,
+      "nameHebrew": "ג'רמי מורגן"
+    },
+    {
+      "id": "bodian-massa-ldlc-asvel-villeurbanne",
+      "name": "Bodian Massa",
+      "team": "LDLC ASVEL Villeurbanne",
+      "teamId": "villeurbanne",
+      "shirtNumber": 10,
+      "nameHebrew": "בודיאן מאסה"
+    },
+    {
+      "id": "ignas-sargiunas-fenerbahce-tarfin-istanbul",
+      "name": "Ignas Sargiunas",
+      "team": "Fenerbahce Tarfin Istanbul",
+      "teamId": "fenerbahce",
+      "shirtNumber": 43
+    },
+    {
+      "id": "andres-feliz-real-madrid",
+      "name": "Andres Feliz",
+      "team": "Real Madrid",
+      "teamId": "real-madrid",
+      "shirtNumber": 24,
+      "nameHebrew": "אנדרס פליס"
+    },
+    {
+      "id": "daulton-hommes-paris-basketball",
+      "name": "Daulton Hommes",
+      "team": "Paris Basketball",
+      "teamId": "paris-basketball",
+      "shirtNumber": 34,
+      "nameHebrew": "דאלטון הומס"
+    },
+    {
+      "id": "usman-garuba-real-madrid",
+      "name": "Usman Garuba",
+      "team": "Real Madrid",
+      "teamId": "real-madrid",
+      "shirtNumber": 16,
+      "nameHebrew": "אוסמן גארובה"
+    },
+    {
+      "id": "agustin-ubal-fc-barcelona",
+      "name": "Agustin Ubal",
+      "team": "FC Barcelona",
+      "teamId": "barcelona",
+      "shirtNumber": 11
+    },
+    {
+      "id": "mikael-jantunen-real-madrid",
+      "name": "Mikael Jantunen",
+      "team": "Real Madrid",
+      "teamId": "real-madrid",
+      "shirtNumber": 20,
+      "nameHebrew": "מיקאל יאנטונן"
+    },
+    {
+      "id": "tony-parker-ldlc-asvel-villeurbanne",
+      "name": "Tony Parker",
+      "team": "LDLC ASVEL Villeurbanne",
+      "teamId": "villeurbanne"
+    },
+    {
+      "id": "dusan-alimpijevic-besiktas-istanbul",
+      "name": "Dusan Alimpijevic",
+      "team": "Besiktas Istanbul",
+      "teamId": "besiktas"
+    },
+    {
+      "id": "kenan-kamenjas-dubai-basketball",
+      "name": "Kenan Kamenjas",
+      "team": "Dubai Basketball",
+      "teamId": "dubai",
+      "shirtNumber": 34,
+      "nameHebrew": "קנאן קמניאס"
+    },
+    {
+      "id": "shane-hunter-maccabi-rapyd-tel-aviv",
+      "name": "Shane Hunter",
+      "team": "Maccabi Rapyd Tel Aviv",
+      "teamId": "maccabi-tel-aviv",
+      "shirtNumber": 40
+    },
+    {
+      "id": "khalifa-diop-kosner-baskonia-vitoria-gasteiz",
+      "name": "Khalifa Diop",
+      "team": "Kosner Baskonia Vitoria-Gasteiz",
+      "teamId": "baskonia",
+      "shirtNumber": 18,
+      "nameHebrew": "חליפה דיופ"
+    },
+    {
+      "id": "tyler-ennis-hapoel-ibi-tel-aviv",
+      "name": "Tyler Ennis",
+      "team": "Hapoel IBI Tel Aviv",
+      "teamId": "hapoel-tel-aviv",
+      "shirtNumber": 11,
+      "nameHebrew": "טיילר אניס"
+    },
+    {
+      "id": "nobel-boungou-colo-paris-basketball",
+      "name": "Nobel Boungou-colo",
+      "team": "Paris Basketball",
+      "teamId": "paris-basketball",
+      "shirtNumber": 16
+    },
+    {
+      "id": "konstantinos-mitoglou-panathinaikos-aktor-athens",
+      "name": "Konstantinos Mitoglou",
+      "team": "Panathinaikos AKTOR Athens",
+      "teamId": "panathinaikos",
+      "shirtNumber": 44,
+      "nameHebrew": "קונסטנטינוס מיטוגלו"
+    },
+    {
+      "id": "mario-nakic-partizan-mozzart-bet-belgrade",
+      "name": "Mario Nakic",
+      "team": "Partizan Mozzart Bet Belgrade",
+      "teamId": "partizan",
+      "shirtNumber": 7,
+      "nameHebrew": "מריו נאקיץ'"
+    },
+    {
+      "id": "metecan-birsen-besiktas-istanbul",
+      "name": "Metecan Birsen",
+      "team": "Besiktas Istanbul",
+      "teamId": "besiktas",
+      "shirtNumber": 11,
+      "nameHebrew": "מטצ'אן בירסן"
+    },
+    {
+      "id": "davide-casarin-virtus-bologna",
+      "name": "Davide Casarin",
+      "team": "Virtus Bologna",
+      "teamId": "virtus-bologna",
+      "shirtNumber": 7,
+      "nameHebrew": "סאליו ניאנג"
+    },
+    {
+      "id": "josep-puerto-valencia-basket",
+      "name": "Josep Puerto",
+      "team": "Valencia Basket",
+      "teamId": "valencia",
+      "shirtNumber": 2,
+      "nameHebrew": "ג'וסף פוארטו"
+    },
+    {
+      "id": "davis-bertans-dubai-basketball",
+      "name": "Davis Bertans",
+      "team": "Dubai Basketball",
+      "teamId": "dubai",
+      "shirtNumber": 8,
+      "nameHebrew": "דאוויס ברטאנס"
+    },
+    {
+      "id": "brice-dessert-anadolu-efes-istanbul",
+      "name": "Brice Dessert",
+      "team": "Anadolu Efes Istanbul",
+      "teamId": "anadolu-efes",
+      "shirtNumber": 13,
+      "nameHebrew": "ברייס דסר"
+    },
+    {
+      "id": "francesco-ferrari-virtus-bologna",
+      "name": "Francesco Ferrari",
+      "team": "Virtus Bologna",
+      "teamId": "virtus-bologna",
+      "shirtNumber": 24
+    },
+    {
+      "id": "justus-hollatz-fc-bayern-munich",
+      "name": "Justus Hollatz",
+      "team": "FC Bayern Munich",
+      "teamId": "bayern-munich",
+      "shirtNumber": 21,
+      "nameHebrew": "יוסטוס הולאץ"
+    },
+    {
+      "id": "clement-frisch-kosner-baskonia-vitoria-gasteiz",
+      "name": "Clement Frisch",
+      "team": "Kosner Baskonia Vitoria-Gasteiz",
+      "teamId": "baskonia",
+      "shirtNumber": 25,
+      "nameHebrew": "קלמנט פריש"
+    },
+    {
+      "id": "deividas-sirvydis-zalgiris-kaunas",
+      "name": "Deividas Sirvydis",
+      "team": "Zalgiris Kaunas",
+      "teamId": "zalgiris",
+      "shirtNumber": 91,
+      "nameHebrew": "דייווידאס סירווידיס"
+    },
+    {
+      "id": "ognjen-dobric-crvena-zvezda-meridianbet-belgrade",
+      "name": "Ognjen Dobric",
+      "team": "Crvena Zvezda Meridianbet Belgrade",
+      "teamId": "crvena-zvezda",
+      "shirtNumber": 13,
+      "nameHebrew": "אוגניין דובריץ'"
+    },
+    {
+      "id": "paolo-galbiati-kosner-baskonia-vitoria-gasteiz",
+      "name": "Paolo Galbiati",
+      "team": "Kosner Baskonia Vitoria-Gasteiz",
+      "teamId": "baskonia"
+    },
+    {
+      "id": "alex-mumbru-virtus-bologna",
+      "name": "Alex Mumbru",
+      "team": "Virtus Bologna",
+      "teamId": "virtus-bologna"
+    },
+    {
+      "id": "vanja-marinkovic-partizan-mozzart-bet-belgrade",
+      "name": "Vanja Marinkovic",
+      "team": "Partizan Mozzart Bet Belgrade",
+      "teamId": "partizan",
+      "shirtNumber": 9,
+      "nameHebrew": "ואניה מרינקוביץ'"
+    },
+    {
+      "id": "anton-gavel-fc-bayern-munich",
+      "name": "Anton Gavel",
+      "team": "FC Bayern Munich",
+      "teamId": "bayern-munich"
+    },
+    {
+      "id": "sebastian-herrera-paris-basketball",
+      "name": "Sebastian Herrera",
+      "team": "Paris Basketball",
+      "teamId": "paris-basketball",
+      "shirtNumber": 7,
+      "nameHebrew": "סבסטיאן הררה"
+    },
+    {
+      "id": "eli-ndiaye-real-madrid",
+      "name": "Eli Ndiaye",
+      "team": "Real Madrid",
+      "teamId": "real-madrid",
+      "shirtNumber": 44
+    },
+    {
+      "id": "maxime-lefevre-paris-basketball",
+      "name": "Maxime Lefevre",
+      "team": "Paris Basketball",
+      "teamId": "paris-basketball"
+    },
+    {
+      "id": "joel-ayayi-paris-basketball",
+      "name": "Joel Ayayi",
+      "team": "Paris Basketball",
+      "teamId": "paris-basketball",
+      "shirtNumber": 11,
+      "nameHebrew": "ג'ואל אייאיי"
+    },
+    {
+      "id": "onuralp-bitim-fenerbahce-tarfin-istanbul",
+      "name": "Onuralp Bitim",
+      "team": "Fenerbahce Tarfin Istanbul",
+      "teamId": "fenerbahce",
+      "shirtNumber": 17,
+      "nameHebrew": "אונוראלפ ביטים"
+    },
+    {
+      "id": "frederic-bourdillon-hapoel-ibi-tel-aviv",
+      "name": "Frederic Bourdillon",
+      "team": "Hapoel IBI Tel Aviv",
+      "teamId": "hapoel-tel-aviv",
+      "shirtNumber": 8
+    },
+    {
+      "id": "daniel-hackett-virtus-bologna",
+      "name": "Daniel Hackett",
+      "team": "Virtus Bologna",
+      "teamId": "virtus-bologna",
+      "shirtNumber": 23,
+      "nameHebrew": "דניאל האקט"
+    },
+    {
+      "id": "leopold-cavaliere-paris-basketball",
+      "name": "Leopold Cavaliere",
+      "team": "Paris Basketball",
+      "teamId": "paris-basketball",
+      "shirtNumber": 4,
+      "nameHebrew": "לאו קבאלייה"
+    },
+    {
+      "id": "david-lighty-ldlc-asvel-villeurbanne",
+      "name": "David Lighty",
+      "team": "LDLC ASVEL Villeurbanne",
+      "teamId": "villeurbanne",
+      "shirtNumber": 23,
+      "nameHebrew": "דיוויד לייטי"
+    },
+    {
+      "id": "yakuba-ouattara-paris-basketball",
+      "name": "Yakuba Ouattara",
+      "team": "Paris Basketball",
+      "teamId": "paris-basketball",
+      "shirtNumber": 24,
+      "nameHebrew": "יאקובה אוואטרה"
+    },
+    {
+      "id": "nikola-djurisic-crvena-zvezda-meridianbet-belgrade",
+      "name": "Nikola Djurisic",
+      "team": "Crvena Zvezda Meridianbet Belgrade",
+      "teamId": "crvena-zvezda",
+      "shirtNumber": 23
+    },
+    {
+      "id": "marc-owen-fodzo-dada-ldlc-asvel-villeurbanne",
+      "name": "Marc-owen Fodzo Dada",
+      "team": "LDLC ASVEL Villeurbanne",
+      "teamId": "villeurbanne",
+      "shirtNumber": 1,
+      "nameHebrew": "זאק סליאס"
+    },
+    {
+      "id": "mario-saint-supery-valencia-basket",
+      "name": "Mario Saint-supery",
+      "team": "Valencia Basket",
+      "teamId": "valencia",
+      "shirtNumber": 17
+    },
+    {
+      "id": "juan-nunez-fc-barcelona",
+      "name": "Juan Nunez",
+      "team": "FC Barcelona",
+      "teamId": "barcelona",
+      "shirtNumber": 17,
+      "nameHebrew": "חואן נונייס"
+    },
+    {
+      "id": "giannoulis-larentzakis-olympiacos-piraeus",
+      "name": "Giannoulis Larentzakis",
+      "team": "Olympiacos Piraeus",
+      "teamId": "olympiacos",
+      "shirtNumber": 5
+    },
+    {
+      "id": "edwin-jackson-ldlc-asvel-villeurbanne",
+      "name": "Edwin Jackson",
+      "team": "LDLC ASVEL Villeurbanne",
+      "teamId": "villeurbanne",
+      "shirtNumber": 11,
+      "nameHebrew": "אדווין ג'קסון"
+    },
+    {
+      "id": "nikos-rogkavopoulos-panathinaikos-aktor-athens",
+      "name": "Nikos Rogkavopoulos",
+      "team": "Panathinaikos AKTOR Athens",
+      "teamId": "panathinaikos",
+      "shirtNumber": 17,
+      "nameHebrew": "ניקוס רוגקבופולוס"
+    },
+    {
+      "id": "sergio-llull-real-madrid",
+      "name": "Sergio Llull",
+      "team": "Real Madrid",
+      "teamId": "real-madrid",
+      "shirtNumber": 23,
+      "nameHebrew": "סרחיו יוי"
+    },
+    {
+      "id": "sertac-sanli-fenerbahce-tarfin-istanbul",
+      "name": "Sertac Sanli",
+      "team": "Fenerbahce Tarfin Istanbul",
+      "teamId": "fenerbahce",
+      "shirtNumber": 21
+    },
+    {
+      "id": "john-dibartolomeo-maccabi-rapyd-tel-aviv",
+      "name": "John Dibartolomeo",
+      "team": "Maccabi Rapyd Tel Aviv",
+      "teamId": "maccabi-tel-aviv",
+      "shirtNumber": 12,
+      "nameHebrew": "ג'ון דיברתולומיאו"
+    },
+    {
+      "id": "alberto-abalde-real-madrid",
+      "name": "Alberto Abalde",
+      "team": "Real Madrid",
+      "teamId": "real-madrid",
+      "shirtNumber": 6,
+      "nameHebrew": "אלברטו אבלדה"
+    },
+    {
+      "id": "dovydas-giedraitis-zalgiris-kaunas",
+      "name": "Dovydas Giedraitis",
+      "team": "Zalgiris Kaunas",
+      "teamId": "zalgiris",
+      "shirtNumber": 9,
+      "nameHebrew": "דובידס גידרייטיס"
+    },
+    {
+      "id": "giampaolo-ricci-armani-olimpia-milan",
+      "name": "Giampaolo Ricci",
+      "team": "Armani Olimpia Milan",
+      "teamId": "milan",
+      "shirtNumber": 17,
+      "nameHebrew": "ג'יאמפאולו ריצ'י"
+    },
+    {
+      "id": "eleftherios-mantzoukas-panathinaikos-aktor-athens",
+      "name": "Eleftherios Mantzoukas",
+      "team": "Panathinaikos AKTOR Athens",
+      "teamId": "panathinaikos",
+      "shirtNumber": 72
+    },
+    {
+      "id": "tomer-ginat-hapoel-ibi-tel-aviv",
+      "name": "Tomer Ginat",
+      "team": "Hapoel IBI Tel Aviv",
+      "teamId": "hapoel-tel-aviv",
+      "shirtNumber": 41,
+      "nameHebrew": "תומר גינת"
+    },
+    {
+      "id": "klemen-prepelic-dubai-basketball",
+      "name": "Klemen Prepelic",
+      "team": "Dubai Basketball",
+      "teamId": "dubai",
+      "shirtNumber": 7,
+      "nameHebrew": "קלמן פרפליץ'"
+    },
+    {
+      "id": "izan-almansa-real-madrid",
+      "name": "Izan Almansa",
+      "team": "Real Madrid",
+      "teamId": "real-madrid",
+      "shirtNumber": 13,
+      "nameHebrew": "איזן אלמנסה"
+    },
+    {
+      "id": "gur-lavy-maccabi-rapyd-tel-aviv",
+      "name": "Gur Lavy",
+      "team": "Maccabi Rapyd Tel Aviv",
+      "teamId": "maccabi-tel-aviv",
+      "shirtNumber": 4,
+      "nameHebrew": "גור לביא"
+    },
+    {
+      "id": "amit-ebo-maccabi-rapyd-tel-aviv",
+      "name": "Amit Ebo",
+      "team": "Maccabi Rapyd Tel Aviv",
+      "teamId": "maccabi-tel-aviv",
+      "shirtNumber": 3
+    },
+    {
+      "id": "alvaro-cardenas-valencia-basket",
+      "name": "Alvaro Cardenas",
+      "team": "Valencia Basket",
+      "teamId": "valencia",
+      "shirtNumber": 23,
+      "nameHebrew": "ג'ורג' קארוט"
+    },
+    {
+      "id": "dejan-davidovac-crvena-zvezda-meridianbet-belgrade",
+      "name": "Dejan Davidovac",
+      "team": "Crvena Zvezda Meridianbet Belgrade",
+      "teamId": "crvena-zvezda",
+      "shirtNumber": 7,
+      "nameHebrew": "דיאן דבידובאץ'"
+    },
+    {
+      "id": "niels-giffey-fc-bayern-munich",
+      "name": "Niels Giffey",
+      "team": "FC Bayern Munich",
+      "teamId": "bayern-munich",
+      "shirtNumber": 5,
+      "nameHebrew": "נילס גיפי"
+    },
+    {
+      "id": "erkan-yilmaz-anadolu-efes-istanbul",
+      "name": "Erkan Yilmaz",
+      "team": "Anadolu Efes Istanbul",
+      "teamId": "anadolu-efes",
+      "shirtNumber": 33,
+      "nameHebrew": "ארקן אילמז"
+    },
+    {
+      "id": "berk-ugurlu-besiktas-istanbul",
+      "name": "Berk Ugurlu",
+      "team": "Besiktas Istanbul",
+      "teamId": "besiktas",
+      "shirtNumber": 6
+    },
+    {
+      "id": "nikolaos-plotas-olympiacos-piraeus",
+      "name": "Nikolaos Plotas",
+      "team": "Olympiacos Piraeus",
+      "teamId": "olympiacos",
+      "shirtNumber": 5,
+      "nameHebrew": "יאנוליס לארנצקיס"
+    },
+    {
+      "id": "tommaso-baldasso-virtus-bologna",
+      "name": "Tommaso Baldasso",
+      "team": "Virtus Bologna",
+      "teamId": "virtus-bologna",
+      "shirtNumber": 11,
+      "nameHebrew": "ברנדון טיילור"
+    },
+    {
+      "id": "kostas-papanikolaou-olympiacos-piraeus",
+      "name": "Kostas Papanikolaou",
+      "team": "Olympiacos Piraeus",
+      "teamId": "olympiacos",
+      "shirtNumber": 16,
+      "nameHebrew": "קוסטס פאפאניקולאו"
+    },
+    {
+      "id": "william-rayman-maccabi-rapyd-tel-aviv",
+      "name": "William Rayman",
+      "team": "Maccabi Rapyd Tel Aviv",
+      "teamId": "maccabi-tel-aviv",
+      "shirtNumber": 11,
+      "nameHebrew": "וויל ריימן"
+    },
+    {
+      "id": "stefano-tonut-armani-olimpia-milan",
+      "name": "Stefano Tonut",
+      "team": "Armani Olimpia Milan",
+      "teamId": "milan",
+      "shirtNumber": 7,
+      "nameHebrew": "סטפנו טונוט"
+    },
+    {
+      "id": "dimitris-moraitis-panathinaikos-aktor-athens",
+      "name": "Dimitris Moraitis",
+      "team": "Panathinaikos AKTOR Athens",
+      "teamId": "panathinaikos",
+      "shirtNumber": 6,
+      "nameHebrew": "ג'די אוסמן"
+    },
+    {
+      "id": "awudu-abass-dubai-basketball",
+      "name": "Awudu Abass",
+      "team": "Dubai Basketball",
+      "teamId": "dubai",
+      "shirtNumber": 5,
+      "nameHebrew": "אוודו עבאס"
+    },
+    {
+      "id": "kosta-kondic-dubai-basketball",
+      "name": "Kosta Kondic",
+      "team": "Dubai Basketball",
+      "teamId": "dubai",
+      "shirtNumber": 11,
+      "nameHebrew": "קוסטה קונדיץ'"
+    },
+    {
+      "id": "lucas-mari-valencia-basket",
+      "name": "Lucas Mari",
+      "team": "Valencia Basket",
+      "teamId": "valencia",
+      "shirtNumber": 6,
+      "nameHebrew": "צ'אבי לופס-ארוסטגי"
+    },
+    {
+      "id": "gabriele-procida-real-madrid",
+      "name": "Gabriele Procida",
+      "team": "Real Madrid",
+      "teamId": "real-madrid",
+      "shirtNumber": 9,
+      "nameHebrew": "גבריאלה פרוצ'ידה"
+    },
+    {
+      "id": "arijan-lakic-partizan-mozzart-bet-belgrade",
+      "name": "Arijan Lakic",
+      "team": "Partizan Mozzart Bet Belgrade",
+      "teamId": "partizan",
+      "shirtNumber": 19,
+      "nameHebrew": "אריאן לאקיץ'"
+    },
+    {
+      "id": "melih-mahmutoglu-fenerbahce-tarfin-istanbul",
+      "name": "Melih Mahmutoglu",
+      "team": "Fenerbahce Tarfin Istanbul",
+      "teamId": "fenerbahce",
+      "shirtNumber": 10,
+      "nameHebrew": "מליח מהמוטוגלו"
+    },
+    {
+      "id": "enzo-shahrvin-paris-basketball",
+      "name": "Enzo Shahrvin",
+      "team": "Paris Basketball",
+      "teamId": "paris-basketball",
+      "shirtNumber": 18,
+      "nameHebrew": "אנזו שארבן"
+    },
+    {
+      "id": "ousmane-diop-armani-olimpia-milan",
+      "name": "Ousmane Diop",
+      "team": "Armani Olimpia Milan",
+      "teamId": "milan",
+      "shirtNumber": 6,
+      "nameHebrew": "אוסמן דיופ"
+    },
+    {
+      "id": "diego-flaccadori-armani-olimpia-milan",
+      "name": "Diego Flaccadori",
+      "team": "Armani Olimpia Milan",
+      "teamId": "milan",
+      "shirtNumber": 21,
+      "nameHebrew": "דייגו פלקדורי"
+    },
+    {
+      "id": "nicola-akele-armani-olimpia-milan",
+      "name": "Nicola Akele",
+      "team": "Armani Olimpia Milan",
+      "teamId": "milan",
+      "shirtNumber": 45,
+      "nameHebrew": "ניקולה אקלה"
+    },
+    {
+      "id": "mitar-bosnjakovic-partizan-mozzart-bet-belgrade",
+      "name": "Mitar Bosnjakovic",
+      "team": "Partizan Mozzart Bet Belgrade",
+      "teamId": "partizan",
+      "shirtNumber": 8,
+      "nameHebrew": "מיטר בוסנייקוביץ'"
+    },
+    {
+      "id": "burakcan-yildizli-anadolu-efes-istanbul",
+      "name": "Burakcan Yildizli",
+      "team": "Anadolu Efes Istanbul",
+      "teamId": "anadolu-efes",
+      "shirtNumber": 19,
+      "nameHebrew": "בורק אילדיזלי"
+    },
+    {
+      "id": "mert-eksioglu-fenerbahce-tarfin-istanbul",
+      "name": "Mert Eksioglu",
+      "team": "Fenerbahce Tarfin Istanbul",
+      "teamId": "fenerbahce",
+      "shirtNumber": 5,
+      "nameHebrew": "מרט אקסיוגלו"
+    },
+    {
+      "id": "georgios-kalaitzakis-panathinaikos-aktor-athens",
+      "name": "Georgios Kalaitzakis",
+      "team": "Panathinaikos AKTOR Athens",
+      "teamId": "panathinaikos",
+      "shirtNumber": 5,
+      "nameHebrew": "פנגיוטיס קלאיצקיס"
+    },
+    {
+      "id": "guy-palatin-hapoel-ibi-tel-aviv",
+      "name": "Guy Palatin",
+      "team": "Hapoel IBI Tel Aviv",
+      "teamId": "hapoel-tel-aviv",
+      "shirtNumber": 9,
+      "nameHebrew": "גיא פלטין"
+    },
+    {
+      "id": "oz-blayzer-hapoel-ibi-tel-aviv",
+      "name": "Oz Blayzer",
+      "team": "Hapoel IBI Tel Aviv",
+      "teamId": "hapoel-tel-aviv",
+      "shirtNumber": 14,
+      "nameHebrew": "עוז בלייזר"
+    },
+    {
+      "id": "bar-timor-hapoel-ibi-tel-aviv",
+      "name": "Bar Timor",
+      "team": "Hapoel IBI Tel Aviv",
+      "teamId": "hapoel-tel-aviv",
+      "shirtNumber": 10,
+      "nameHebrew": "בר טימור"
+    },
+    {
+      "id": "david-mutaf-anadolu-efes-istanbul",
+      "name": "David Mutaf",
+      "team": "Anadolu Efes Istanbul",
+      "teamId": "anadolu-efes",
+      "shirtNumber": 23,
+      "nameHebrew": "דייויד מוטאף"
+    },
+    {
+      "id": "stefan-miljenovic-crvena-zvezda-meridianbet-belgrade",
+      "name": "Stefan Miljenovic",
+      "team": "Crvena Zvezda Meridianbet Belgrade",
+      "teamId": "crvena-zvezda",
+      "shirtNumber": 2,
+      "nameHebrew": "סטפן מיליינוביץ'"
+    },
+    {
+      "id": "nemanja-dangubic-dubai-basketball",
+      "name": "Nemanja Dangubic",
+      "team": "Dubai Basketball",
+      "teamId": "dubai",
+      "shirtNumber": 2,
+      "nameHebrew": "נמנייה דנגוביץ'"
+    },
+    {
+      "id": "ioannis-kouzeloglou-panathinaikos-aktor-athens",
+      "name": "Ioannis Kouzeloglou",
+      "team": "Panathinaikos AKTOR Athens",
+      "teamId": "panathinaikos",
+      "shirtNumber": 24,
+      "nameHebrew": "יאניס קוזלוגלו"
+    },
+    {
+      "id": "itay-segev-hapoel-ibi-tel-aviv",
+      "name": "Itay Segev",
+      "team": "Hapoel IBI Tel Aviv",
+      "teamId": "hapoel-tel-aviv",
+      "shirtNumber": 6,
+      "nameHebrew": "איתי שגב"
+    },
+    {
+      "id": "omiros-netzipoglou-olympiacos-piraeus",
+      "name": "Omiros Netzipoglou",
+      "team": "Olympiacos Piraeus",
+      "teamId": "olympiacos",
+      "shirtNumber": 21,
+      "nameHebrew": "אומירוס נציפוגלו"
+    },
+    {
+      "id": "stefan-joksimovic-kosner-baskonia-vitoria-gasteiz",
+      "name": "Stefan Joksimovic",
+      "team": "Kosner Baskonia Vitoria-Gasteiz",
+      "teamId": "baskonia",
+      "shirtNumber": 77,
+      "nameHebrew": "סטפן יוקסימוביץ'"
+    },
+    {
+      "id": "aleksej-nedeljkovic-crvena-zvezda-meridianbet-belgrade",
+      "name": "Aleksej Nedeljkovic",
+      "team": "Crvena Zvezda Meridianbet Belgrade",
+      "teamId": "crvena-zvezda",
+      "shirtNumber": 5,
+      "nameHebrew": "אלכסיי נדלייקוביץ'"
+    },
+    {
+      "id": "ruzgar-fenemen-anadolu-efes-istanbul",
+      "name": "Ruzgar Fenemen",
+      "team": "Anadolu Efes Istanbul",
+      "teamId": "anadolu-efes",
+      "shirtNumber": 6
+    },
+    {
+      "id": "matteo-baiocchi-virtus-bologna",
+      "name": "Matteo Baiocchi",
+      "team": "Virtus Bologna",
+      "teamId": "virtus-bologna",
+      "shirtNumber": 13,
+      "nameHebrew": "מתאו באיוצ'י"
+    },
+    {
+      "id": "kilian-fischer-fc-bayern-munich",
+      "name": "Kilian Fischer",
+      "team": "FC Bayern Munich",
+      "teamId": "bayern-munich",
+      "shirtNumber": 17
+    },
+    {
+      "id": "andrej-bjelic-crvena-zvezda-meridianbet-belgrade",
+      "name": "Andrej Bjelic",
+      "team": "Crvena Zvezda Meridianbet Belgrade",
+      "teamId": "crvena-zvezda",
+      "shirtNumber": 30
+    },
+    {
+      "id": "vojin-medarevic-crvena-zvezda-meridianbet-belgrade",
+      "name": "Vojin Medarevic",
+      "team": "Crvena Zvezda Meridianbet Belgrade",
+      "teamId": "crvena-zvezda",
+      "shirtNumber": 25
+    },
+    {
+      "id": "uros-mijailovic-partizan-mozzart-bet-belgrade",
+      "name": "Uros Mijailovic",
+      "team": "Partizan Mozzart Bet Belgrade",
+      "teamId": "partizan",
+      "shirtNumber": 10
+    },
+    {
+      "id": "sport5-3750",
+      "name": "רודריג בובואה",
+      "team": "Anadolu Efes Istanbul",
+      "nameHebrew": "רודריג בובואה",
+      "teamId": "anadolu-efes",
+      "shirtNumber": 1
+    },
+    {
+      "id": "sport5-3754",
+      "name": "שיימוס האזר",
+      "team": "Anadolu Efes Istanbul",
+      "nameHebrew": "שיימוס האזר",
+      "teamId": "anadolu-efes",
+      "shirtNumber": 2
+    },
+    {
+      "id": "sport5-3755",
+      "name": "איגור קוקושקוב",
+      "team": "Anadolu Efes Istanbul",
+      "nameHebrew": "איגור קוקושקוב",
+      "teamId": "anadolu-efes"
+    },
+    {
+      "id": "sport5-3760",
+      "name": "ואנסן פוארייה",
+      "team": "Anadolu Efes Istanbul",
+      "nameHebrew": "ואנסן פוארייה",
+      "teamId": "anadolu-efes",
+      "shirtNumber": 17
+    },
+    {
+      "id": "sport5-3899",
+      "name": "קולין מלקולם",
+      "team": "Anadolu Efes Istanbul",
+      "nameHebrew": "קולין מלקולם",
+      "teamId": "anadolu-efes",
+      "shirtNumber": 17
+    },
+    {
+      "id": "sport5-4639",
+      "name": "קול סווידר",
+      "team": "Anadolu Efes Istanbul",
+      "nameHebrew": "קול סווידר",
+      "teamId": "anadolu-efes",
+      "shirtNumber": 21
+    },
+    {
+      "id": "sport5-4813",
+      "name": "רדובן טריפונוביץ'",
+      "team": "Anadolu Efes Istanbul",
+      "nameHebrew": "רדובן טריפונוביץ'",
+      "teamId": "anadolu-efes"
+    },
+    {
+      "id": "sport5-4832",
+      "name": "פבלו לאסו",
+      "team": "Anadolu Efes Istanbul",
+      "nameHebrew": "פבלו לאסו",
+      "teamId": "anadolu-efes"
+    },
+    {
+      "id": "sport5-3782",
+      "name": "פאולו גלבייטי",
+      "team": "Kosner Baskonia Vitoria-Gasteiz",
+      "nameHebrew": "פאולו גלבייטי",
+      "teamId": "baskonia"
+    },
+    {
+      "id": "sport5-3783",
+      "name": "מרקוס הווארד",
+      "team": "Kosner Baskonia Vitoria-Gasteiz",
+      "nameHebrew": "מרקוס הווארד",
+      "teamId": "baskonia"
+    },
+    {
+      "id": "sport5-3786",
+      "name": "לוקה שמאניץ'",
+      "team": "Kosner Baskonia Vitoria-Gasteiz",
+      "nameHebrew": "לוקה שמאניץ'",
+      "teamId": "baskonia",
+      "shirtNumber": 99
+    },
+    {
+      "id": "sport5-3789",
+      "name": "ראפה וילאר",
+      "team": "Kosner Baskonia Vitoria-Gasteiz",
+      "nameHebrew": "ראפה וילאר",
+      "teamId": "baskonia",
+      "shirtNumber": 4
+    },
+    {
+      "id": "sport5-4641",
+      "name": "האמידו דיאלו",
+      "team": "Kosner Baskonia Vitoria-Gasteiz",
+      "nameHebrew": "האמידו דיאלו",
+      "teamId": "baskonia",
+      "shirtNumber": 6
+    },
+    {
+      "id": "sport5-4714",
+      "name": "מרקיז נוואל",
+      "team": "Kosner Baskonia Vitoria-Gasteiz",
+      "nameHebrew": "מרקיז נוואל",
+      "teamId": "baskonia",
+      "shirtNumber": 3
+    },
+    {
+      "id": "sport5-4721",
+      "name": "ז'ום בול",
+      "team": "Kosner Baskonia Vitoria-Gasteiz",
+      "nameHebrew": "ז'ום בול",
+      "teamId": "baskonia",
+      "shirtNumber": 21
+    },
+    {
+      "id": "sport5-4722",
+      "name": "צ'יק דיאלו",
+      "team": "Kosner Baskonia Vitoria-Gasteiz",
+      "nameHebrew": "צ'יק דיאלו",
+      "teamId": "baskonia",
+      "shirtNumber": 19
+    },
+    {
+      "id": "sport5-4723",
+      "name": "מאטה קאטיאשווילי",
+      "team": "Kosner Baskonia Vitoria-Gasteiz",
+      "nameHebrew": "מאטה קאטיאשווילי",
+      "teamId": "baskonia",
+      "shirtNumber": 30
+    },
+    {
+      "id": "sport5-4724",
+      "name": "חוסבה קרחטה",
+      "team": "Kosner Baskonia Vitoria-Gasteiz",
+      "nameHebrew": "חוסבה קרחטה",
+      "teamId": "baskonia",
+      "shirtNumber": 14
+    },
+    {
+      "id": "sport5-4725",
+      "name": "פדרו סוזה",
+      "team": "Kosner Baskonia Vitoria-Gasteiz",
+      "nameHebrew": "פדרו סוזה",
+      "teamId": "baskonia",
+      "shirtNumber": 22
+    },
+    {
+      "id": "sport5-4732",
+      "name": "ויט הרבר",
+      "team": "Kosner Baskonia Vitoria-Gasteiz",
+      "nameHebrew": "ויט הרבר",
+      "teamId": "baskonia",
+      "shirtNumber": 33
+    },
+    {
+      "id": "sport5-4795",
+      "name": "קנת' פאריד",
+      "team": "Kosner Baskonia Vitoria-Gasteiz",
+      "nameHebrew": "קנת' פאריד",
+      "teamId": "baskonia"
+    },
+    {
+      "id": "sport5-4815",
+      "name": "גיטיס רדזביצ'יוס",
+      "team": "Kosner Baskonia Vitoria-Gasteiz",
+      "nameHebrew": "גיטיס רדזביצ'יוס",
+      "teamId": "baskonia",
+      "shirtNumber": 17
+    },
+    {
+      "id": "sport5-3762",
+      "name": "ניק וויילר-באב",
+      "team": "Crvena Zvezda Meridianbet Belgrade",
+      "nameHebrew": "ניק וויילר-באב",
+      "teamId": "crvena-zvezda",
+      "shirtNumber": 3
+    },
+    {
+      "id": "sport5-3774",
+      "name": "דונאטס מוטיונאס",
+      "team": "Crvena Zvezda Meridianbet Belgrade",
+      "nameHebrew": "דונאטס מוטיונאס",
+      "teamId": "crvena-zvezda",
+      "shirtNumber": 20
+    },
+    {
+      "id": "sport5-3791",
+      "name": "אייזאה קנאן",
+      "team": "Crvena Zvezda Meridianbet Belgrade",
+      "nameHebrew": "אייזאה קנאן",
+      "teamId": "crvena-zvezda",
+      "shirtNumber": 3
+    },
+    {
+      "id": "sport5-3797",
+      "name": "ניקולה קאליניץ'",
+      "team": "Crvena Zvezda Meridianbet Belgrade",
+      "nameHebrew": "ניקולה קאליניץ'",
+      "teamId": "crvena-zvezda",
+      "shirtNumber": 12
+    },
+    {
+      "id": "sport5-3803",
+      "name": "אורוש פלאבסיץ'",
+      "team": "Crvena Zvezda Meridianbet Belgrade",
+      "nameHebrew": "אורוש פלאבסיץ'",
+      "teamId": "crvena-zvezda",
+      "shirtNumber": 1
+    },
+    {
+      "id": "sport5-3804",
+      "name": "אוגניין רדוסיץ'",
+      "team": "Crvena Zvezda Meridianbet Belgrade",
+      "nameHebrew": "אוגניין רדוסיץ'",
+      "teamId": "crvena-zvezda",
+      "shirtNumber": 44
+    },
+    {
+      "id": "sport5-3805",
+      "name": "חסיאל ריברו",
+      "team": "Crvena Zvezda Meridianbet Belgrade",
+      "nameHebrew": "חסיאל ריברו",
+      "teamId": "crvena-zvezda",
+      "shirtNumber": 14
+    },
+    {
+      "id": "sport5-3806",
+      "name": "יאניס ספרופולוס",
+      "team": "Crvena Zvezda Meridianbet Belgrade",
+      "nameHebrew": "יאניס ספרופולוס",
+      "teamId": "crvena-zvezda"
+    },
+    {
+      "id": "sport5-3808",
+      "name": "לאזר סטוייקוביץ'",
+      "team": "Crvena Zvezda Meridianbet Belgrade",
+      "nameHebrew": "לאזר סטוייקוביץ'",
+      "teamId": "crvena-zvezda",
+      "shirtNumber": 17
+    },
+    {
+      "id": "sport5-3897",
+      "name": "כריס ג'ונס",
+      "team": "Crvena Zvezda Meridianbet Belgrade",
+      "nameHebrew": "כריס ג'ונס",
+      "teamId": "crvena-zvezda",
+      "shirtNumber": 1
+    },
+    {
+      "id": "sport5-3901",
+      "name": "ג'ונתן מוטלי",
+      "team": "Crvena Zvezda Meridianbet Belgrade",
+      "nameHebrew": "ג'ונתן מוטלי",
+      "teamId": "crvena-zvezda"
+    },
+    {
+      "id": "sport5-3999",
+      "name": "דיוויד קרמר",
+      "team": "Crvena Zvezda Meridianbet Belgrade",
+      "nameHebrew": "דיוויד קרמר",
+      "teamId": "crvena-zvezda",
+      "shirtNumber": 44
+    },
+    {
+      "id": "sport5-4691",
+      "name": "דבונטה גרהאם",
+      "team": "Crvena Zvezda Meridianbet Belgrade",
+      "nameHebrew": "דבונטה גרהאם",
+      "teamId": "crvena-zvezda",
+      "shirtNumber": 4
+    },
+    {
+      "id": "sport5-4766",
+      "name": "יאגו דוס סנטוס",
+      "team": "Crvena Zvezda Meridianbet Belgrade",
+      "nameHebrew": "יאגו דוס סנטוס",
+      "teamId": "crvena-zvezda",
+      "shirtNumber": 99
+    },
+    {
+      "id": "sport5-4770",
+      "name": "סשה אוברדוביץ'",
+      "team": "Crvena Zvezda Meridianbet Belgrade",
+      "nameHebrew": "סשה אוברדוביץ'",
+      "teamId": "crvena-zvezda"
+    },
+    {
+      "id": "sport5-3766",
+      "name": "ג'רון בלוסומגיים",
+      "team": "Dubai Basketball",
+      "nameHebrew": "ג'רון בלוסומגיים",
+      "teamId": "dubai"
+    },
+    {
+      "id": "sport5-3775",
+      "name": "אלי אוקובו",
+      "team": "Dubai Basketball",
+      "nameHebrew": "אלי אוקובו",
+      "teamId": "dubai"
+    },
+    {
+      "id": "sport5-3811",
+      "name": "דנילו אנדוסיץ'",
+      "team": "Dubai Basketball",
+      "nameHebrew": "דנילו אנדוסיץ'",
+      "teamId": "dubai",
+      "shirtNumber": 33
+    },
+    {
+      "id": "sport5-3816",
+      "name": "יוריצה גולמאץ",
+      "team": "Dubai Basketball",
+      "nameHebrew": "יוריצה גולמאץ",
+      "teamId": "dubai"
+    },
+    {
+      "id": "sport5-3854",
+      "name": "טוקו שנגליה",
+      "team": "Dubai Basketball",
+      "nameHebrew": "טוקו שנגליה",
+      "teamId": "dubai"
+    },
+    {
+      "id": "sport5-3892",
+      "name": "ברונו קאבוקלו",
+      "team": "Dubai Basketball",
+      "nameHebrew": "ברונו קאבוקלו",
+      "teamId": "dubai",
+      "shirtNumber": 51
+    },
+    {
+      "id": "sport5-4640",
+      "name": "מהמדי דיאקיטה",
+      "team": "Dubai Basketball",
+      "nameHebrew": "מהמדי דיאקיטה",
+      "teamId": "dubai"
+    },
+    {
+      "id": "ravena-thirdy-dubai-basketball",
+      "name": "RAVENA, THIRDY",
+      "team": "Dubai Basketball",
+      "teamId": "dubai"
+    },
+    {
+      "id": "sport5-4769",
+      "name": "טראן ארמסטרונג",
+      "team": "Dubai Basketball",
+      "nameHebrew": "טראן ארמסטרונג",
+      "teamId": "dubai",
+      "shirtNumber": 22
+    },
+    {
+      "id": "sport5-4780",
+      "name": "בוגי אליס",
+      "team": "Dubai Basketball",
+      "nameHebrew": "בוגי אליס",
+      "teamId": "dubai",
+      "shirtNumber": 9
+    },
+    {
+      "id": "sport5-4799",
+      "name": "מאט ראיין",
+      "team": "Dubai Basketball",
+      "nameHebrew": "מאט ראיין",
+      "teamId": "dubai",
+      "shirtNumber": 32
+    },
+    {
+      "id": "sport5-4800",
+      "name": "צ'אבי פסקואל",
+      "team": "Dubai Basketball",
+      "nameHebrew": "צ'אבי פסקואל",
+      "teamId": "dubai"
+    },
+    {
+      "id": "sport5-3828",
+      "name": "ולטקו צ'אנצ'ר",
+      "team": "Armani Olimpia Milan",
+      "nameHebrew": "ולטקו צ'אנצ'ר",
+      "teamId": "milan"
+    },
+    {
+      "id": "sport5-3831",
+      "name": "בראיינט דאנסטון",
+      "team": "Armani Olimpia Milan",
+      "nameHebrew": "בראיינט דאנסטון",
+      "teamId": "milan",
+      "shirtNumber": 42
+    },
+    {
+      "id": "sport5-3832",
+      "name": "קווין אליס",
+      "team": "Armani Olimpia Milan",
+      "nameHebrew": "קווין אליס",
+      "teamId": "milan",
+      "shirtNumber": 3
+    },
+    {
+      "id": "sport5-3836",
+      "name": "ניקו מאניון",
+      "team": "Armani Olimpia Milan",
+      "nameHebrew": "ניקו מאניון",
+      "teamId": "milan",
+      "shirtNumber": 1
+    },
+    {
+      "id": "sport5-3837",
+      "name": "אטורה מסינה",
+      "team": "Armani Olimpia Milan",
+      "nameHebrew": "אטורה מסינה",
+      "teamId": "milan"
+    },
+    {
+      "id": "sport5-4716",
+      "name": "לאונרדו טוטה",
+      "team": "Armani Olimpia Milan",
+      "nameHebrew": "לאונרדו טוטה",
+      "teamId": "milan",
+      "shirtNumber": 35
+    },
+    {
+      "id": "sport5-4804",
+      "name": "ג'וזפה פואטה",
+      "team": "Armani Olimpia Milan",
+      "nameHebrew": "ג'וזפה פואטה",
+      "teamId": "milan"
+    },
+    {
+      "id": "sport5-3772",
+      "name": "יואן מאקונדו",
+      "team": "FC Barcelona",
+      "nameHebrew": "יואן מאקונדו",
+      "teamId": "barcelona"
+    },
+    {
+      "id": "sport5-3838",
+      "name": "ג'וש ניבו",
+      "team": "FC Barcelona",
+      "nameHebrew": "ג'וש ניבו",
+      "teamId": "barcelona"
+    },
+    {
+      "id": "sport5-3845",
+      "name": "יוסופה פאל",
+      "team": "FC Barcelona",
+      "nameHebrew": "יוסופה פאל",
+      "teamId": "barcelona",
+      "shirtNumber": 19
+    },
+    {
+      "id": "sport5-3846",
+      "name": "ווילי הרננגומס",
+      "team": "FC Barcelona",
+      "nameHebrew": "ווילי הרננגומס",
+      "teamId": "barcelona",
+      "shirtNumber": 14
+    },
+    {
+      "id": "sport5-3852",
+      "name": "קווין פאנטר",
+      "team": "FC Barcelona",
+      "nameHebrew": "קווין פאנטר",
+      "teamId": "barcelona"
+    },
+    {
+      "id": "sport5-3855",
+      "name": "יאן וסלי",
+      "team": "FC Barcelona",
+      "nameHebrew": "יאן וסלי",
+      "teamId": "barcelona",
+      "shirtNumber": 6
+    },
+    {
+      "id": "sport5-4664",
+      "name": "ג'סטין רובינסון",
+      "team": "FC Barcelona",
+      "nameHebrew": "ג'סטין רובינסון",
+      "teamId": "barcelona"
+    },
+    {
+      "id": "sport5-4746",
+      "name": "דניאל גונסאלס",
+      "team": "FC Barcelona",
+      "nameHebrew": "דניאל גונסאלס",
+      "teamId": "barcelona",
+      "shirtNumber": 47
+    },
+    {
+      "id": "sport5-4747",
+      "name": "חואקין ברטרנד בומטג'ה",
+      "team": "FC Barcelona",
+      "nameHebrew": "חואקין ברטרנד בומטג'ה",
+      "teamId": "barcelona",
+      "shirtNumber": 46
+    },
+    {
+      "id": "sport5-4748",
+      "name": "דייגו פררס קאמראו",
+      "team": "FC Barcelona",
+      "nameHebrew": "דייגו פררס קאמראו",
+      "teamId": "barcelona",
+      "shirtNumber": 45
+    },
+    {
+      "id": "sport5-4749",
+      "name": "ניקולה קוסטוריצ'ה",
+      "team": "FC Barcelona",
+      "nameHebrew": "ניקולה קוסטוריצ'ה",
+      "teamId": "barcelona",
+      "shirtNumber": 43
+    },
+    {
+      "id": "sport5-4750",
+      "name": "סאיון קייטה",
+      "team": "FC Barcelona",
+      "nameHebrew": "סאיון קייטה",
+      "teamId": "barcelona",
+      "shirtNumber": 41
+    },
+    {
+      "id": "sport5-4751",
+      "name": "מוחמד דאבון",
+      "team": "FC Barcelona",
+      "nameHebrew": "מוחמד דאבון",
+      "teamId": "barcelona",
+      "shirtNumber": 40
+    },
+    {
+      "id": "sport5-4797",
+      "name": "אוסקר אורלנה",
+      "team": "FC Barcelona",
+      "nameHebrew": "אוסקר אורלנה",
+      "teamId": "barcelona"
+    },
+    {
+      "id": "sport5-3860",
+      "name": "אליאס האריס",
+      "team": "FC Bayern Munich",
+      "nameHebrew": "אליאס האריס",
+      "teamId": "bayern-munich",
+      "shirtNumber": 20
+    },
+    {
+      "id": "sport5-3861",
+      "name": "גורדון הרברט",
+      "team": "FC Bayern Munich",
+      "nameHebrew": "גורדון הרברט",
+      "teamId": "bayern-munich"
+    },
+    {
+      "id": "sport5-3867",
+      "name": "אייזיאה מייק",
+      "team": "FC Bayern Munich",
+      "nameHebrew": "אייזיאה מייק",
+      "teamId": "bayern-munich",
+      "shirtNumber": 22
+    },
+    {
+      "id": "sport5-3870",
+      "name": "אקסבייר ראטן-מייז",
+      "team": "FC Bayern Munich",
+      "nameHebrew": "אקסבייר ראטן-מייז",
+      "teamId": "bayern-munich",
+      "shirtNumber": 4
+    },
+    {
+      "id": "sport5-3990",
+      "name": "דוויין וושינגטון",
+      "team": "FC Bayern Munich",
+      "nameHebrew": "דוויין וושינגטון",
+      "teamId": "bayern-munich",
+      "shirtNumber": 4
+    },
+    {
+      "id": "sport5-4636",
+      "name": "סטפן יוביץ'",
+      "team": "FC Bayern Munich",
+      "nameHebrew": "סטפן יוביץ'",
+      "teamId": "bayern-munich",
+      "shirtNumber": 16
+    },
+    {
+      "id": "sport5-4649",
+      "name": "מיילס נוריס",
+      "team": "FC Bayern Munich",
+      "nameHebrew": "מיילס נוריס",
+      "teamId": "bayern-munich"
+    },
+    {
+      "id": "sport5-4728",
+      "name": "דייויד מקורמק",
+      "team": "FC Bayern Munich",
+      "nameHebrew": "דייויד מקורמק",
+      "teamId": "bayern-munich",
+      "shirtNumber": 33
+    },
+    {
+      "id": "sport5-4788",
+      "name": "ספנסר דינווידי",
+      "team": "FC Bayern Munich",
+      "nameHebrew": "ספנסר דינווידי",
+      "teamId": "bayern-munich",
+      "shirtNumber": 26
+    },
+    {
+      "id": "sport5-4840",
+      "name": "סבטיסלב פשיץ'",
+      "team": "FC Bayern Munich",
+      "nameHebrew": "סבטיסלב פשיץ'",
+      "teamId": "bayern-munich"
+    },
+    {
+      "id": "sport5-4853",
+      "name": "ננו דימיטרייביץ'",
+      "team": "FC Bayern Munich",
+      "nameHebrew": "ננו דימיטרייביץ'",
+      "teamId": "bayern-munich"
+    },
+    {
+      "id": "sport5-3756",
+      "name": "שיין לארקין",
+      "team": "Fenerbahce Tarfin Istanbul",
+      "nameHebrew": "שיין לארקין",
+      "teamId": "fenerbahce"
+    },
+    {
+      "id": "sport5-3781",
+      "name": "טרנט פורסט",
+      "team": "Fenerbahce Tarfin Istanbul",
+      "nameHebrew": "טרנט פורסט",
+      "teamId": "fenerbahce"
+    },
+    {
+      "id": "sport5-3844",
+      "name": "וויל קלייברן",
+      "team": "Fenerbahce Tarfin Istanbul",
+      "nameHebrew": "וויל קלייברן",
+      "teamId": "fenerbahce"
+    },
+    {
+      "id": "sport5-3873",
+      "name": "ג'ילסון באנגו",
+      "team": "Fenerbahce Tarfin Istanbul",
+      "nameHebrew": "ג'ילסון באנגו",
+      "teamId": "fenerbahce",
+      "shirtNumber": 44
+    },
+    {
+      "id": "sport5-3874",
+      "name": "טאריק ביברוביץ'",
+      "team": "Fenerbahce Tarfin Istanbul",
+      "nameHebrew": "טאריק ביברוביץ'",
+      "teamId": "fenerbahce",
+      "shirtNumber": 13
+    },
+    {
+      "id": "sport5-3875",
+      "name": "קם בירץ'",
+      "team": "Fenerbahce Tarfin Istanbul",
+      "nameHebrew": "קם בירץ'",
+      "teamId": "fenerbahce",
+      "shirtNumber": 92
+    },
+    {
+      "id": "sport5-3882",
+      "name": "שאראס",
+      "team": "Fenerbahce Tarfin Istanbul",
+      "nameHebrew": "שאראס",
+      "teamId": "fenerbahce"
+    },
+    {
+      "id": "sport5-3885",
+      "name": "האמזה מסטוגלו",
+      "team": "Fenerbahce Tarfin Istanbul",
+      "nameHebrew": "האמזה מסטוגלו",
+      "teamId": "fenerbahce",
+      "shirtNumber": 22
+    },
+    {
+      "id": "sport5-3886",
+      "name": "סרטאץ' שאנלי",
+      "team": "Fenerbahce Tarfin Istanbul",
+      "nameHebrew": "סרטאץ' שאנלי",
+      "teamId": "fenerbahce"
+    },
+    {
+      "id": "sport5-3888",
+      "name": "ארתורס ז'גארס",
+      "team": "Fenerbahce Tarfin Istanbul",
+      "nameHebrew": "ארתורס ז'גארס",
+      "teamId": "fenerbahce",
+      "shirtNumber": 32
+    },
+    {
+      "id": "sport5-3911",
+      "name": "ננדו דה קולו",
+      "team": "Fenerbahce Tarfin Istanbul",
+      "nameHebrew": "ננדו דה קולו",
+      "teamId": "fenerbahce",
+      "shirtNumber": 12
+    },
+    {
+      "id": "sport5-4793",
+      "name": "ברקסטון קי",
+      "team": "Fenerbahce Tarfin Istanbul",
+      "nameHebrew": "ברקסטון קי",
+      "teamId": "fenerbahce"
+    },
+    {
+      "id": "sport5-3896",
+      "name": "דימיטריס איטודיס",
+      "team": "Hapoel IBI Tel Aviv",
+      "nameHebrew": "דימיטריס איטודיס",
+      "teamId": "hapoel-tel-aviv"
+    },
+    {
+      "id": "sport5-3908",
+      "name": "יפתח זיו",
+      "team": "Hapoel IBI Tel Aviv",
+      "nameHebrew": "יפתח זיו",
+      "teamId": "hapoel-tel-aviv",
+      "shirtNumber": 99
+    },
+    {
+      "id": "mladenov-borislav-hapoel-ibi-tel-aviv",
+      "name": "MLADENOV, BORISLAV",
+      "team": "Hapoel IBI Tel Aviv",
+      "teamId": "hapoel-tel-aviv",
+      "shirtNumber": 12
+    },
+    {
+      "id": "sport5-4935",
+      "name": "ליוואי רנדולף",
+      "team": "Hapoel IBI Tel Aviv",
+      "nameHebrew": "ליוואי רנדולף",
+      "teamId": "hapoel-tel-aviv",
+      "shirtNumber": 20
+    },
+    {
+      "id": "sport5-3843",
+      "name": "מיילס קייל",
+      "team": "LDLC ASVEL Villeurbanne",
+      "nameHebrew": "מיילס קייל",
+      "teamId": "villeurbanne"
+    },
+    {
+      "id": "sport5-3910",
+      "name": "אדם אטמנה",
+      "team": "LDLC ASVEL Villeurbanne",
+      "nameHebrew": "אדם אטמנה",
+      "teamId": "villeurbanne",
+      "shirtNumber": 2
+    },
+    {
+      "id": "sport5-3913",
+      "name": "תומא הרטל",
+      "team": "LDLC ASVEL Villeurbanne",
+      "nameHebrew": "תומא הרטל",
+      "teamId": "villeurbanne",
+      "shirtNumber": 7
+    },
+    {
+      "id": "sport5-3918",
+      "name": "פייריק פופה",
+      "team": "LDLC ASVEL Villeurbanne",
+      "nameHebrew": "פייריק פופה",
+      "teamId": "villeurbanne"
+    },
+    {
+      "id": "sport5-3919",
+      "name": "ארמל טראורה",
+      "team": "LDLC ASVEL Villeurbanne",
+      "nameHebrew": "ארמל טראורה",
+      "teamId": "villeurbanne",
+      "shirtNumber": 94
+    },
+    {
+      "id": "sport5-4654",
+      "name": "בסטיאן ווטיה",
+      "team": "LDLC ASVEL Villeurbanne",
+      "nameHebrew": "בסטיאן ווטיה",
+      "teamId": "villeurbanne",
+      "shirtNumber": 32
+    },
+    {
+      "id": "sport5-4655",
+      "name": "גלין ווטסון",
+      "team": "LDLC ASVEL Villeurbanne",
+      "nameHebrew": "גלין ווטסון",
+      "teamId": "villeurbanne",
+      "shirtNumber": 30
+    },
+    {
+      "id": "sport5-4733",
+      "name": "מרווין ווייד",
+      "team": "LDLC ASVEL Villeurbanne",
+      "nameHebrew": "מרווין ווייד",
+      "teamId": "villeurbanne",
+      "shirtNumber": 88
+    },
+    {
+      "id": "sport5-4765",
+      "name": "מהדי אנגואמה",
+      "team": "LDLC ASVEL Villeurbanne",
+      "nameHebrew": "מהדי אנגואמה",
+      "teamId": "villeurbanne",
+      "shirtNumber": 16
+    },
+    {
+      "id": "sport5-4854",
+      "name": "פול אבואה",
+      "team": "LDLC ASVEL Villeurbanne",
+      "nameHebrew": "פול אבואה",
+      "teamId": "villeurbanne"
+    },
+    {
+      "id": "sport5-4876",
+      "name": "בריאן אנגולה",
+      "team": "LDLC ASVEL Villeurbanne",
+      "nameHebrew": "בריאן אנגולה",
+      "teamId": "villeurbanne",
+      "shirtNumber": 6
+    },
+    {
+      "id": "sport5-3924",
+      "name": "עודד קטש",
+      "team": "Maccabi Rapyd Tel Aviv",
+      "nameHebrew": "עודד קטש",
+      "teamId": "maccabi-tel-aviv"
+    },
+    {
+      "id": "sport5-3926",
+      "name": "מרסיו סנטוס",
+      "team": "Maccabi Rapyd Tel Aviv",
+      "nameHebrew": "מרסיו סנטוס",
+      "teamId": "maccabi-tel-aviv",
+      "shirtNumber": 3
+    },
+    {
+      "id": "sport5-3928",
+      "name": "אורוש טריפונוביץ'",
+      "team": "Maccabi Rapyd Tel Aviv",
+      "nameHebrew": "אורוש טריפונוביץ'",
+      "teamId": "maccabi-tel-aviv",
+      "shirtNumber": 6
+    },
+    {
+      "id": "sport5-3929",
+      "name": "לוני ווקר",
+      "team": "Maccabi Rapyd Tel Aviv",
+      "nameHebrew": "לוני ווקר",
+      "teamId": "maccabi-tel-aviv",
+      "shirtNumber": 8
+    },
+    {
+      "id": "sport5-3981",
+      "name": "איפה לונדברג",
+      "team": "Maccabi Rapyd Tel Aviv",
+      "nameHebrew": "איפה לונדברג",
+      "teamId": "maccabi-tel-aviv"
+    },
+    {
+      "id": "sport5-4589",
+      "name": "תמיר גולד",
+      "team": "Maccabi Rapyd Tel Aviv",
+      "nameHebrew": "תמיר גולד",
+      "teamId": "maccabi-tel-aviv",
+      "shirtNumber": 13
+    },
+    {
+      "id": "sport5-4590",
+      "name": "אורן סהר",
+      "team": "Maccabi Rapyd Tel Aviv",
+      "nameHebrew": "אורן סהר",
+      "teamId": "maccabi-tel-aviv",
+      "shirtNumber": 7
+    },
+    {
+      "id": "sport5-4660",
+      "name": "קליפורד אומורי",
+      "team": "Maccabi Rapyd Tel Aviv",
+      "nameHebrew": "קליפורד אומורי",
+      "teamId": "maccabi-tel-aviv",
+      "shirtNumber": 14
+    },
+    {
+      "id": "sport5-4744",
+      "name": "ג'ף דאוטין ג'וניור",
+      "team": "Maccabi Rapyd Tel Aviv",
+      "nameHebrew": "ג'ף דאוטין ג'וניור",
+      "teamId": "maccabi-tel-aviv",
+      "shirtNumber": 21
+    },
+    {
+      "id": "sport5-4827",
+      "name": "זאק הנקינס",
+      "team": "Maccabi Rapyd Tel Aviv",
+      "nameHebrew": "זאק הנקינס",
+      "teamId": "maccabi-tel-aviv",
+      "shirtNumber": 35
+    },
+    {
+      "id": "sport5-4831",
+      "name": "זאק הנקינס",
+      "team": "Maccabi Rapyd Tel Aviv",
+      "nameHebrew": "זאק הנקינס",
+      "teamId": "maccabi-tel-aviv",
+      "shirtNumber": 35
+    },
+    {
+      "id": "sport5-4939",
+      "name": "עמית עבו",
+      "team": "Maccabi Rapyd Tel Aviv",
+      "nameHebrew": "עמית עבו",
+      "teamId": "maccabi-tel-aviv",
+      "shirtNumber": 3
+    },
+    {
+      "id": "sport5-3799",
+      "name": "קודי מילר-מקינטייר",
+      "team": "Olympiacos Piraeus",
+      "nameHebrew": "קודי מילר-מקינטייר",
+      "teamId": "olympiacos"
+    },
+    {
+      "id": "sport5-3917",
+      "name": "אמביי אנדיאיי",
+      "team": "Olympiacos Piraeus",
+      "nameHebrew": "אמביי אנדיאיי",
+      "teamId": "olympiacos"
+    },
+    {
+      "id": "sport5-3930",
+      "name": "קוסטס אנטטוקומפו",
+      "team": "Olympiacos Piraeus",
+      "nameHebrew": "קוסטס אנטטוקומפו",
+      "teamId": "olympiacos",
+      "shirtNumber": 37
+    },
+    {
+      "id": "sport5-3931",
+      "name": "גאורגיוס ברצוקאס",
+      "team": "Olympiacos Piraeus",
+      "nameHebrew": "גאורגיוס ברצוקאס",
+      "teamId": "olympiacos"
+    },
+    {
+      "id": "sport5-3933",
+      "name": "קינן אוואנס",
+      "team": "Olympiacos Piraeus",
+      "nameHebrew": "קינן אוואנס",
+      "teamId": "olympiacos",
+      "shirtNumber": 2
+    },
+    {
+      "id": "sport5-3939",
+      "name": "שאקיל מקיסיק",
+      "team": "Olympiacos Piraeus",
+      "nameHebrew": "שאקיל מקיסיק",
+      "teamId": "olympiacos",
+      "shirtNumber": 77
+    },
+    {
+      "id": "sport5-3945",
+      "name": "תומאס ווקאפ",
+      "team": "Olympiacos Piraeus",
+      "nameHebrew": "תומאס ווקאפ",
+      "teamId": "olympiacos"
+    },
+    {
+      "id": "sport5-3934",
+      "name": "מוסטאפה פאל",
+      "team": "Panathinaikos AKTOR Athens",
+      "nameHebrew": "מוסטאפה פאל",
+      "teamId": "panathinaikos"
+    },
+    {
+      "id": "sport5-3947",
+      "name": "ארגין עתמאן",
+      "team": "Panathinaikos AKTOR Athens",
+      "nameHebrew": "ארגין עתמאן",
+      "teamId": "panathinaikos"
+    },
+    {
+      "id": "sport5-3959",
+      "name": "אלכסנדרוס סמדורוב",
+      "team": "Panathinaikos AKTOR Athens",
+      "nameHebrew": "אלכסנדרוס סמדורוב",
+      "teamId": "panathinaikos",
+      "shirtNumber": 20
+    },
+    {
+      "id": "sport5-3962",
+      "name": "ואסיליס טוליופולוס",
+      "team": "Panathinaikos AKTOR Athens",
+      "nameHebrew": "ואסיליס טוליופולוס",
+      "teamId": "panathinaikos",
+      "shirtNumber": 27
+    },
+    {
+      "id": "sport5-3963",
+      "name": "עומר יורטסבן",
+      "team": "Panathinaikos AKTOR Athens",
+      "nameHebrew": "עומר יורטסבן",
+      "teamId": "panathinaikos",
+      "shirtNumber": 77
+    },
+    {
+      "id": "sport5-3975",
+      "name": "אייזק בונגה",
+      "team": "Panathinaikos AKTOR Athens",
+      "nameHebrew": "אייזק בונגה",
+      "teamId": "panathinaikos"
+    },
+    {
+      "id": "sport5-3985",
+      "name": "ז'לקו אוברדוביץ'",
+      "team": "Panathinaikos AKTOR Athens",
+      "nameHebrew": "ז'לקו אוברדוביץ'",
+      "teamId": "panathinaikos"
+    },
+    {
+      "id": "sport5-4005",
+      "name": "ברנקו באדיו",
+      "team": "Panathinaikos AKTOR Athens",
+      "nameHebrew": "ברנקו באדיו",
+      "teamId": "panathinaikos"
+    },
+    {
+      "id": "sport5-4038",
+      "name": "סילביין פרנסיסקו",
+      "team": "Panathinaikos AKTOR Athens",
+      "nameHebrew": "סילביין פרנסיסקו",
+      "teamId": "panathinaikos"
+    },
+    {
+      "id": "sport5-4662",
+      "name": "רישון הולמס",
+      "team": "Panathinaikos AKTOR Athens",
+      "nameHebrew": "רישון הולמס",
+      "teamId": "panathinaikos",
+      "shirtNumber": 8
+    },
+    {
+      "id": "sport5-3965",
+      "name": "איסמאל באקו ",
+      "team": "Paris Basketball",
+      "nameHebrew": "איסמאל באקו ",
+      "teamId": "paris-basketball",
+      "shirtNumber": 21
+    },
+    {
+      "id": "sport5-3973",
+      "name": "איליאן מונגלה",
+      "team": "Paris Basketball",
+      "nameHebrew": "איליאן מונגלה",
+      "teamId": "paris-basketball",
+      "shirtNumber": 10
+    },
+    {
+      "id": "sport5-3984",
+      "name": "פרנק ניליקינה",
+      "team": "Paris Basketball",
+      "nameHebrew": "פרנק ניליקינה",
+      "teamId": "paris-basketball"
+    },
+    {
+      "id": "sport5-4666",
+      "name": "פרנצ'סקו טאבליני",
+      "team": "Paris Basketball",
+      "nameHebrew": "פרנצ'סקו טאבליני",
+      "teamId": "paris-basketball"
+    },
+    {
+      "id": "sport5-4962",
+      "name": "יוליוס תומאס",
+      "team": "Paris Basketball",
+      "nameHebrew": "יוליוס תומאס",
+      "teamId": "paris-basketball"
+    },
+    {
+      "id": "calathes-nick-partizan-mozzart-bet-belgrade",
+      "name": "CALATHES, NICK",
+      "team": "Partizan Mozzart Bet Belgrade",
+      "teamId": "partizan",
+      "shirtNumber": 33
+    },
+    {
+      "id": "sport5-3769",
+      "name": "קבריוס הייז",
+      "team": "Partizan Mozzart Bet Belgrade",
+      "nameHebrew": "קבריוס הייז",
+      "teamId": "partizan",
+      "shirtNumber": 13
+    },
+    {
+      "id": "sport5-3851",
+      "name": "ז'ואן פניירויה",
+      "team": "Partizan Mozzart Bet Belgrade",
+      "nameHebrew": "ז'ואן פניירויה",
+      "teamId": "partizan"
+    },
+    {
+      "id": "sport5-3987",
+      "name": "ג'בארי פארקר",
+      "team": "Partizan Mozzart Bet Belgrade",
+      "nameHebrew": "ג'בארי פארקר",
+      "teamId": "partizan",
+      "shirtNumber": 22
+    },
+    {
+      "id": "sport5-3988",
+      "name": "אלכסיי פוקושבסקי",
+      "team": "Partizan Mozzart Bet Belgrade",
+      "nameHebrew": "אלכסיי פוקושבסקי",
+      "teamId": "partizan",
+      "shirtNumber": 11
+    },
+    {
+      "id": "sport5-3989",
+      "name": "ג'ורג'ה סקולרץ'",
+      "team": "Partizan Mozzart Bet Belgrade",
+      "nameHebrew": "ג'ורג'ה סקולרץ'",
+      "teamId": "partizan",
+      "shirtNumber": 44
+    },
+    {
+      "id": "sport5-4033",
+      "name": "לוקה וילדוסה",
+      "team": "Partizan Mozzart Bet Belgrade",
+      "nameHebrew": "לוקה וילדוסה",
+      "teamId": "partizan"
+    },
+    {
+      "id": "sport5-4665",
+      "name": "למאר סטיבנס",
+      "team": "Partizan Mozzart Bet Belgrade",
+      "nameHebrew": "למאר סטיבנס",
+      "teamId": "partizan"
+    },
+    {
+      "id": "sport5-4698",
+      "name": "שייק מילטון",
+      "team": "Partizan Mozzart Bet Belgrade",
+      "nameHebrew": "שייק מילטון",
+      "teamId": "partizan",
+      "shirtNumber": 2
+    },
+    {
+      "id": "sport5-4729",
+      "name": "אלכסה ראדנוב",
+      "team": "Partizan Mozzart Bet Belgrade",
+      "nameHebrew": "אלכסה ראדנוב",
+      "teamId": "partizan",
+      "shirtNumber": 13
+    },
+    {
+      "id": "sport5-4736",
+      "name": "מיקה מורינן",
+      "team": "Partizan Mozzart Bet Belgrade",
+      "nameHebrew": "מיקה מורינן",
+      "teamId": "partizan",
+      "shirtNumber": 3
+    },
+    {
+      "id": "sport5-4814",
+      "name": "מירקו אוקוקוליץ'",
+      "team": "Partizan Mozzart Bet Belgrade",
+      "nameHebrew": "מירקו אוקוקוליץ'",
+      "teamId": "partizan"
+    },
+    {
+      "id": "sport5-4839",
+      "name": "קמרון פיין",
+      "team": "Partizan Mozzart Bet Belgrade",
+      "nameHebrew": "קמרון פיין",
+      "teamId": "partizan",
+      "shirtNumber": 15
+    },
+    {
+      "id": "sport5-3998",
+      "name": "מריו הזוניה",
+      "team": "Real Madrid",
+      "nameHebrew": "מריו הזוניה",
+      "teamId": "real-madrid",
+      "shirtNumber": 11
+    },
+    {
+      "id": "sport5-4003",
+      "name": "סרג'יו סקאריולו",
+      "team": "Real Madrid",
+      "nameHebrew": "סרג'יו סקאריולו",
+      "teamId": "real-madrid"
+    },
+    {
+      "id": "sport5-4010",
+      "name": "פדרו מרטינס",
+      "team": "Real Madrid",
+      "nameHebrew": "פדרו מרטינס",
+      "teamId": "real-madrid"
+    },
+    {
+      "id": "sport5-4668",
+      "name": "טריי ליילס",
+      "team": "Real Madrid",
+      "nameHebrew": "טריי ליילס",
+      "teamId": "real-madrid"
+    },
+    {
+      "id": "sport5-4730",
+      "name": "איגור אמוסוב",
+      "team": "Real Madrid",
+      "nameHebrew": "איגור אמוסוב",
+      "teamId": "real-madrid",
+      "shirtNumber": 17
+    },
+    {
+      "id": "sport5-4794",
+      "name": "אלכס לן",
+      "team": "Real Madrid",
+      "nameHebrew": "אלכס לן",
+      "teamId": "real-madrid",
+      "shirtNumber": 25
+    },
+    {
+      "id": "sport5-3960",
+      "name": "טי ג'יי שורטס",
+      "team": "Valencia Basket",
+      "nameHebrew": "טי ג'יי שורטס",
+      "teamId": "valencia"
+    },
+    {
+      "id": "sport5-3986",
+      "name": "דילן אוסטקובסקי",
+      "team": "Valencia Basket",
+      "nameHebrew": "דילן אוסטקובסקי",
+      "teamId": "valencia",
+      "shirtNumber": 8
+    },
+    {
+      "id": "sport5-4006",
+      "name": "מאט קוסטלו",
+      "team": "Valencia Basket",
+      "nameHebrew": "מאט קוסטלו",
+      "teamId": "valencia",
+      "shirtNumber": 24
+    },
+    {
+      "id": "sport5-4007",
+      "name": "סרחיו דה לראה",
+      "team": "Valencia Basket",
+      "nameHebrew": "סרחיו דה לראה",
+      "teamId": "valencia",
+      "shirtNumber": 5
+    },
+    {
+      "id": "sport5-4008",
+      "name": "אית'ן האפ",
+      "team": "Valencia Basket",
+      "nameHebrew": "אית'ן האפ",
+      "teamId": "valencia",
+      "shirtNumber": 22
+    },
+    {
+      "id": "sport5-4012",
+      "name": "אייזק נוגס",
+      "team": "Valencia Basket",
+      "nameHebrew": "אייזק נוגס",
+      "teamId": "valencia",
+      "shirtNumber": 32
+    },
+    {
+      "id": "sport5-4016",
+      "name": "ניל סאקו",
+      "team": "Valencia Basket",
+      "nameHebrew": "ניל סאקו",
+      "teamId": "valencia",
+      "shirtNumber": 13
+    },
+    {
+      "id": "sport5-4752",
+      "name": "אלכס בלאנקו",
+      "team": "Valencia Basket",
+      "nameHebrew": "אלכס בלאנקו",
+      "teamId": "valencia",
+      "shirtNumber": 35
+    },
+    {
+      "id": "sport5-4753",
+      "name": "ניקולה דזפינה",
+      "team": "Valencia Basket",
+      "nameHebrew": "ניקולה דזפינה",
+      "teamId": "valencia",
+      "shirtNumber": 33
+    },
+    {
+      "id": "sport5-4023",
+      "name": "אבראמו קאנקה ",
+      "team": "Virtus Bologna",
+      "nameHebrew": "אבראמו קאנקה ",
+      "teamId": "virtus-bologna",
+      "shirtNumber": 22
+    },
+    {
+      "id": "sport5-4027",
+      "name": "דושקו איבנוביץ'",
+      "team": "Virtus Bologna",
+      "nameHebrew": "דושקו איבנוביץ'",
+      "teamId": "virtus-bologna"
+    },
+    {
+      "id": "sport5-4029",
+      "name": "מאט מורגן",
+      "team": "Virtus Bologna",
+      "nameHebrew": "מאט מורגן",
+      "teamId": "virtus-bologna",
+      "shirtNumber": 30
+    },
+    {
+      "id": "sport5-4032",
+      "name": "אלן סמהילגיץ'",
+      "team": "Virtus Bologna",
+      "nameHebrew": "אלן סמהילגיץ'",
+      "teamId": "virtus-bologna",
+      "shirtNumber": 9
+    },
+    {
+      "id": "sport5-4594",
+      "name": "לאו מנאלו",
+      "team": "Virtus Bologna",
+      "nameHebrew": "לאו מנאלו",
+      "teamId": "virtus-bologna",
+      "shirtNumber": 24
+    },
+    {
+      "id": "sport5-4852",
+      "name": "פרנצ'סקו פרארי",
+      "team": "Virtus Bologna",
+      "nameHebrew": "פרנצ'סקו פרארי",
+      "teamId": "virtus-bologna",
+      "shirtNumber": 24
+    },
+    {
+      "id": "sport5-4936",
+      "name": "קסלר אדוארדס",
+      "team": "Virtus Bologna",
+      "nameHebrew": "קסלר אדוארדס",
+      "teamId": "virtus-bologna",
+      "shirtNumber": 9
+    },
+    {
+      "id": "sport5-4963",
+      "name": "ננאד יאקובלביץ'",
+      "team": "Virtus Bologna",
+      "nameHebrew": "ננאד יאקובלביץ'",
+      "teamId": "virtus-bologna"
+    },
+    {
+      "id": "sport5-3977",
+      "name": "סטרלינג בראון",
+      "team": "Zalgiris Kaunas",
+      "nameHebrew": "סטרלינג בראון",
+      "teamId": "zalgiris"
+    },
+    {
+      "id": "sport5-4034",
+      "name": "לאוריינס בירוטיס",
+      "team": "Zalgiris Kaunas",
+      "nameHebrew": "לאוריינס בירוטיס",
+      "teamId": "zalgiris",
+      "shirtNumber": 15
+    },
+    {
+      "id": "sport5-4035",
+      "name": "איגנס ברזדייקיס",
+      "team": "Zalgiris Kaunas",
+      "nameHebrew": "איגנס ברזדייקיס",
+      "teamId": "zalgiris",
+      "shirtNumber": 8
+    },
+    {
+      "id": "sport5-4036",
+      "name": "דובידאס בויקה",
+      "team": "Zalgiris Kaunas",
+      "nameHebrew": "דובידאס בויקה",
+      "teamId": "zalgiris",
+      "shirtNumber": 24
+    },
+    {
+      "id": "sport5-4041",
+      "name": "תומאס מאסיוליס",
+      "team": "Zalgiris Kaunas",
+      "nameHebrew": "תומאס מאסיוליס",
+      "teamId": "zalgiris"
+    },
+    {
+      "id": "sport5-4692",
+      "name": "איגנאס סטומברגס",
+      "team": "Zalgiris Kaunas",
+      "nameHebrew": "איגנאס סטומברגס",
+      "teamId": "zalgiris",
+      "shirtNumber": 16
+    }
+  ]
 }

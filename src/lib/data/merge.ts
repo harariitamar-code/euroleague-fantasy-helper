@@ -1,9 +1,10 @@
 import { readLeaguePrices, readPlayersDb } from "./store";
-import { LEAGUES, type League, type Player } from "./types";
+import { LEAGUES, type League, type LeaguePlayerEntry, type Player } from "./types";
 
 export interface MergedPlayerRow {
   id: string;
   name: string;
+  nameHebrew?: string;
   team: string;
   nationality?: string;
   byLeague: Partial<
@@ -33,10 +34,14 @@ export function getMergedPlayers(): MergedData {
     ReturnType<typeof readLeaguePrices>
   >;
 
+  const entriesByLeagueAndPlayer = Object.fromEntries(
+    LEAGUES.map((l) => [l, new Map(sheets[l].players.map((e) => [e.playerId, e]))])
+  ) as Record<League, Map<string, LeaguePlayerEntry>>;
+
   const rows: MergedPlayerRow[] = db.players.map((p: Player) => {
     const byLeague: MergedPlayerRow["byLeague"] = {};
     for (const league of LEAGUES) {
-      const entry = sheets[league].players.find((e) => e.playerId === p.id);
+      const entry = entriesByLeagueAndPlayer[league].get(p.id);
       if (entry) {
         byLeague[league] = {
           price: entry.price,
@@ -51,6 +56,7 @@ export function getMergedPlayers(): MergedData {
     return {
       id: p.id,
       name: p.name,
+      nameHebrew: p.nameHebrew,
       team: p.team,
       nationality: p.nationality,
       byLeague,

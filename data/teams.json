@@ -1,0 +1,25 @@
+{
+  "note": "Canonical Euroleague club list for the current season, with each club's id in both fantasy games' own APIs. Used to line up team identity across leagues (and, combined with shirt number, to detect the same player across leagues even when one source lists the name in Hebrew).",
+  "teams": [
+    { "id": "anadolu-efes", "name": "Anadolu Efes Istanbul", "abbreviation": "EFS", "sport5TeamId": 216, "euroleagueTeamId": 146 },
+    { "id": "baskonia", "name": "Kosner Baskonia Vitoria-Gasteiz", "abbreviation": "KBA", "sport5TeamId": 218, "euroleagueTeamId": 143 },
+    { "id": "crvena-zvezda", "name": "Crvena Zvezda Meridianbet Belgrade", "abbreviation": "CZV", "sport5TeamId": 219, "euroleagueTeamId": 144 },
+    { "id": "dubai", "name": "Dubai Basketball", "abbreviation": "DUB", "sport5TeamId": 220, "euroleagueTeamId": 311 },
+    { "id": "milan", "name": "Armani Olimpia Milan", "abbreviation": "MIL", "sport5TeamId": 221, "euroleagueTeamId": 145 },
+    { "id": "barcelona", "name": "FC Barcelona", "abbreviation": "BAR", "sport5TeamId": 222, "euroleagueTeamId": 140 },
+    { "id": "bayern-munich", "name": "FC Bayern Munich", "abbreviation": "BAY", "sport5TeamId": 223, "euroleagueTeamId": 141 },
+    { "id": "fenerbahce", "name": "Fenerbahce Tarfin Istanbul", "abbreviation": "FBT", "sport5TeamId": 224, "euroleagueTeamId": 147 },
+    { "id": "hapoel-tel-aviv", "name": "Hapoel IBI Tel Aviv", "abbreviation": "HTA", "sport5TeamId": 225, "euroleagueTeamId": 165 },
+    { "id": "villeurbanne", "name": "LDLC ASVEL Villeurbanne", "abbreviation": "ASV", "sport5TeamId": 226, "euroleagueTeamId": 139 },
+    { "id": "maccabi-tel-aviv", "name": "Maccabi Rapyd Tel Aviv", "abbreviation": "MTA", "sport5TeamId": 227, "euroleagueTeamId": 148 },
+    { "id": "olympiacos", "name": "Olympiacos Piraeus", "abbreviation": "OLY", "sport5TeamId": 228, "euroleagueTeamId": 149 },
+    { "id": "panathinaikos", "name": "Panathinaikos AKTOR Athens", "abbreviation": "PAO", "sport5TeamId": 229, "euroleagueTeamId": 151 },
+    { "id": "paris-basketball", "name": "Paris Basketball", "abbreviation": "PBB", "sport5TeamId": 230, "euroleagueTeamId": 150 },
+    { "id": "partizan", "name": "Partizan Mozzart Bet Belgrade", "abbreviation": "PAR", "sport5TeamId": 231, "euroleagueTeamId": 152 },
+    { "id": "real-madrid", "name": "Real Madrid", "abbreviation": "RMB", "sport5TeamId": 232, "euroleagueTeamId": 153 },
+    { "id": "valencia", "name": "Valencia Basket", "abbreviation": "VBC", "sport5TeamId": 233, "euroleagueTeamId": 174 },
+    { "id": "virtus-bologna", "name": "Virtus Bologna", "abbreviation": "VIR", "sport5TeamId": 234, "euroleagueTeamId": 154 },
+    { "id": "zalgiris", "name": "Zalgiris Kaunas", "abbreviation": "ZAL", "sport5TeamId": 235, "euroleagueTeamId": 155 },
+    { "id": "besiktas", "name": "Besiktas Istanbul", "abbreviation": "BJK", "sport5TeamId": 295, "euroleagueTeamId": 158 }
+  ]
+}

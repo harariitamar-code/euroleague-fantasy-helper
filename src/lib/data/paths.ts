@@ -4,6 +4,8 @@ import type { League } from "./types";
 export const DATA_ROOT = path.join(process.cwd(), "data");
 
 export const PLAYERS_FILE = path.join(DATA_ROOT, "players.json");
+export const TEAMS_FILE = path.join(DATA_ROOT, "teams.json");
+export const PLAYER_ALIASES_FILE = path.join(DATA_ROOT, "player-aliases.json");
 
 export function leagueDir(league: League): string {
   const dirName = league === "euroleague" ? "euroleague-fantasy" : "sport5-fantasy";
