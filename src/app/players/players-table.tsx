@@ -2,40 +2,54 @@
 
 import { useMemo, useState } from "react";
 import type { MergedPlayerRow } from "@/lib/data/merge";
-import type { League } from "@/lib/data/types";
 
-type SortKey = "name" | "team" | "priceEuroleague" | "priceSport5";
+type SortKey = "name" | "team" | "el" | "s5";
+type FilterKey = "all" | "linked" | "el" | "s5";
+
+const FILTERS: { key: FilterKey; label: string }[] = [
+  { key: "all", label: "All" },
+  { key: "linked", label: "Linked" },
+  { key: "el", label: "Euroleague" },
+  { key: "s5", label: "Sport5" },
+];
 
 export default function PlayersTable({ rows }: { rows: MergedPlayerRow[] }) {
   const [query, setQuery] = useState("");
+  const [filter, setFilter] = useState<FilterKey>("all");
   const [sortKey, setSortKey] = useState<SortKey>("name");
   const [sortDir, setSortDir] = useState<"asc" | "desc">("asc");
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
     let result = rows;
+
+    if (filter === "linked") {
+      result = result.filter((r) => r.byLeague.euroleague && r.byLeague.sport5);
+    } else if (filter === "el") {
+      result = result.filter((r) => r.byLeague.euroleague);
+    } else if (filter === "s5") {
+      result = result.filter((r) => r.byLeague.sport5);
+    }
+
     if (q) {
-      result = rows.filter(
-        (r) => r.name.toLowerCase().includes(q) || r.team.toLowerCase().includes(q)
+      result = result.filter(
+        (r) =>
+          r.name.toLowerCase().includes(q) ||
+          r.team.toLowerCase().includes(q) ||
+          (r.nameHebrew && r.nameHebrew.includes(query.trim()))
       );
     }
+
+    const dir = sortDir === "asc" ? 1 : -1;
     const sorted = [...result].sort((a, b) => {
-      const dir = sortDir === "asc" ? 1 : -1;
-      switch (sortKey) {
-        case "name":
-          return a.name.localeCompare(b.name) * dir;
-        case "team":
-          return a.team.localeCompare(b.team) * dir;
-        case "priceEuroleague":
-          return ((a.byLeague.euroleague?.price ?? -1) - (b.byLeague.euroleague?.price ?? -1)) * dir;
-        case "priceSport5":
-          return ((a.byLeague.sport5?.price ?? -1) - (b.byLeague.sport5?.price ?? -1)) * dir;
-        default:
-          return 0;
-      }
+      const av = sortValue(a, sortKey);
+      const bv = sortValue(b, sortKey);
+      if (av < bv) return -1 * dir;
+      if (av > bv) return 1 * dir;
+      return 0;
     });
     return sorted;
-  }, [rows, query, sortKey, sortDir]);
+  }, [rows, query, filter, sortKey, sortDir]);
 
   function toggleSort(key: SortKey) {
     if (sortKey === key) {
@@ -47,67 +61,182 @@ export default function PlayersTable({ rows }: { rows: MergedPlayerRow[] }) {
   }
 
   return (
-    <div className="mt-6">
-      <input
-        type="text"
-        placeholder="Search player or team..."
-        value={query}
-        onChange={(e) => setQuery(e.target.value)}
-        className="w-full max-w-sm rounded border border-neutral-700 bg-neutral-900 px-3 py-2 text-sm outline-none focus:border-neutral-500"
-      />
+    <div>
+      <div className="mb-4 flex flex-wrap items-center gap-3">
+        <label className="relative min-w-[200px] flex-1 basis-[240px]">
+          <svg
+            width="14"
+            height="14"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            className="pointer-events-none absolute left-[11px] top-1/2 -translate-y-1/2 text-[var(--text-faint)]"
+          >
+            <circle cx="11" cy="11" r="7" />
+            <line x1="21" y1="21" x2="16.65" y2="16.65" />
+          </svg>
+          <input
+            type="text"
+            placeholder="Search player or club…"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            className="w-full rounded-lg border border-[var(--border)] bg-[var(--surface)] py-2.5 pl-[34px] pr-3.5 text-sm text-[var(--text)] outline-none focus:outline-2 focus:outline-[var(--accent-s5)] focus:-outline-offset-1"
+          />
+        </label>
 
-      <div className="mt-4 overflow-x-auto rounded-lg border border-neutral-800">
-        <table className="w-full min-w-[720px] text-sm">
-          <thead className="bg-neutral-900 text-neutral-400">
+        <div className="flex gap-1.5 rounded-lg border border-[var(--border)] bg-[var(--surface-2)] p-[3px]">
+          {FILTERS.map((f) => (
+            <button
+              key={f.key}
+              onClick={() => setFilter(f.key)}
+              className={`rounded-md px-[13px] py-[7px] text-[0.8rem] font-medium transition-colors ${
+                filter === f.key
+                  ? "bg-[var(--surface)] text-[var(--text)] shadow-[var(--shadow)]"
+                  : "text-[var(--text-dim)] hover:text-[var(--text)]"
+              }`}
+            >
+              {f.label}
+            </button>
+          ))}
+        </div>
+
+        <span className="whitespace-nowrap font-[family-name:var(--font-mono)] text-[0.78rem] text-[var(--text-faint)]">
+          {filtered.length} of {rows.length} players
+        </span>
+      </div>
+
+      <div className="max-h-[68vh] overflow-auto rounded-[10px] border border-[var(--border)] bg-[var(--surface)] shadow-[var(--shadow)]">
+        <table className="w-full min-w-[760px] border-collapse text-[0.87rem]">
+          <thead>
             <tr>
-              <Th label="Player" onClick={() => toggleSort("name")} />
-              <Th label="Team" onClick={() => toggleSort("team")} />
-              <Th label="Euroleague Price" onClick={() => toggleSort("priceEuroleague")} />
-              <Th label="Sport5 Price" onClick={() => toggleSort("priceSport5")} />
-              <th className="px-3 py-2 text-left font-medium">EL Pos</th>
-              <th className="px-3 py-2 text-left font-medium">S5 Pos</th>
-              <th className="px-3 py-2 text-left font-medium">Status</th>
+              <Th label="Player" sortKey="name" active={sortKey === "name"} dir={sortDir} onClick={toggleSort} />
+              <Th label="Club" sortKey="team" active={sortKey === "team"} dir={sortDir} onClick={toggleSort} />
+              <Th label="EL Credits" sortKey="el" active={sortKey === "el"} dir={sortDir} onClick={toggleSort} />
+              <th className="sticky top-0 whitespace-nowrap border-b border-[var(--border)] bg-[var(--surface-2)] px-3.5 py-[11px] text-left text-[0.7rem] uppercase tracking-[0.05em] text-[var(--text-faint)]">
+                EL Pos
+              </th>
+              <Th label="S5 Credits" sortKey="s5" active={sortKey === "s5"} dir={sortDir} onClick={toggleSort} />
+              <th className="sticky top-0 whitespace-nowrap border-b border-[var(--border)] bg-[var(--surface-2)] px-3.5 py-[11px] text-left text-[0.7rem] uppercase tracking-[0.05em] text-[var(--text-faint)]">
+                S5 Pos
+              </th>
+              <th className="sticky top-0 whitespace-nowrap border-b border-[var(--border)] bg-[var(--surface-2)] px-3.5 py-[11px] text-left text-[0.7rem] uppercase tracking-[0.05em] text-[var(--text-faint)]">
+                Status
+              </th>
             </tr>
           </thead>
           <tbody>
-            {filtered.map((r) => (
-              <tr key={r.id} className="border-t border-neutral-800 hover:bg-neutral-900/60">
-                <td className="px-3 py-2">
-                  {r.name}
-                  {r.nameHebrew && <span className="ml-2 text-neutral-500">{r.nameHebrew}</span>}
-                </td>
-                <td className="px-3 py-2 text-neutral-400">{r.team}</td>
-                <PriceCell league="euroleague" entry={r.byLeague.euroleague} />
-                <PriceCell league="sport5" entry={r.byLeague.sport5} />
-                <td className="px-3 py-2 text-neutral-400">{r.byLeague.euroleague?.position ?? "-"}</td>
-                <td className="px-3 py-2 text-neutral-400">{r.byLeague.sport5?.position ?? "-"}</td>
-                <td className="px-3 py-2 text-neutral-400">
-                  {r.byLeague.euroleague?.status ?? r.byLeague.sport5?.status ?? "-"}
-                </td>
-              </tr>
-            ))}
+            {filtered.map((r) => {
+              const el = r.byLeague.euroleague;
+              const s5 = r.byLeague.sport5;
+              const status = el?.status ?? s5?.status ?? null;
+              return (
+                <tr key={r.id} className="[&>td]:border-b [&>td]:border-[var(--border-soft)] last:[&>td]:border-b-0 hover:[&>td]:bg-[var(--surface-2)]">
+                  <td className="px-3.5 py-[9px]">
+                    <span className="font-semibold">{r.name}</span>
+                    {r.nameHebrew && (
+                      <span dir="rtl" className="ml-2 text-[0.85em] text-[var(--text-faint)]">
+                        {r.nameHebrew}
+                      </span>
+                    )}
+                  </td>
+                  <td className="px-3.5 py-[9px] text-[0.86em] text-[var(--text-dim)]">{r.team}</td>
+                  <PriceCell price={el?.price} tone="el" />
+                  <PosCell position={el?.position} tone="el" />
+                  <PriceCell price={s5?.price} tone="s5" />
+                  <PosCell position={s5?.position} tone="s5" />
+                  <td className="whitespace-nowrap px-3.5 py-[9px] text-[0.82rem] text-[var(--text-dim)]">
+                    <span
+                      className={`mr-1.5 inline-block h-[7px] w-[7px] rounded-full ${statusDotClass(status)}`}
+                    />
+                    {status ?? "no data"}
+                  </td>
+                </tr>
+              );
+            })}
           </tbody>
         </table>
+        {filtered.length === 0 && (
+          <div className="p-12 text-center text-sm text-[var(--text-faint)]">No players match that search.</div>
+        )}
       </div>
-      <p className="mt-2 text-xs text-neutral-500">{filtered.length} players shown</p>
     </div>
   );
 }
 
-function Th({ label, onClick }: { label: string; onClick: () => void }) {
+function sortValue(r: MergedPlayerRow, key: SortKey): string | number {
+  if (key === "name") return r.name.toLowerCase();
+  if (key === "team") return r.team.toLowerCase();
+  if (key === "el") return r.byLeague.euroleague ? r.byLeague.euroleague.price : -1;
+  return r.byLeague.sport5 ? r.byLeague.sport5.price : -1;
+}
+
+function statusDotClass(status: string | null) {
+  if (status === "active") return "bg-[var(--good)]";
+  if (status === "doubtful") return "bg-[var(--warn)]";
+  if (status === "injured" || status === "out") return "bg-[var(--bad)]";
+  return "bg-[var(--text-faint)]";
+}
+
+function Th({
+  label,
+  sortKey,
+  active,
+  dir,
+  onClick,
+}: {
+  label: string;
+  sortKey: SortKey;
+  active: boolean;
+  dir: "asc" | "desc";
+  onClick: (key: SortKey) => void;
+}) {
   return (
-    <th className="cursor-pointer select-none px-3 py-2 text-left font-medium hover:text-neutral-200" onClick={onClick}>
+    <th
+      onClick={() => onClick(sortKey)}
+      className={`sticky top-0 cursor-pointer select-none whitespace-nowrap border-b border-[var(--border)] bg-[var(--surface-2)] px-3.5 py-[11px] text-left text-[0.7rem] uppercase tracking-[0.05em] hover:text-[var(--text)] ${
+        active ? "text-[var(--text)]" : "text-[var(--text-faint)]"
+      }`}
+    >
       {label}
+      {active && <span className="ml-[3px] text-[0.65rem] opacity-70">{dir === "asc" ? "▲" : "▼"}</span>}
     </th>
   );
 }
 
-function PriceCell({
-  entry,
-}: {
-  league: League;
-  entry?: MergedPlayerRow["byLeague"][League];
-}) {
-  if (!entry) return <td className="px-3 py-2 text-neutral-600">-</td>;
-  return <td className="px-3 py-2">{entry.price}</td>;
+function PriceCell({ price, tone }: { price: number | undefined; tone: "el" | "s5" }) {
+  if (price === undefined) {
+    return <td className="px-3.5 py-[9px] font-[family-name:var(--font-mono)] tabular-nums text-[var(--text-faint)]">—</td>;
+  }
+  const color = tone === "el" ? "text-[var(--accent-el)]" : "text-[var(--accent-s5)]";
+  return (
+    <td className={`px-3.5 py-[9px] font-[family-name:var(--font-mono)] font-semibold tabular-nums ${color}`}>
+      {price.toFixed(1)}
+    </td>
+  );
+}
+
+function PosCell({ position, tone }: { position: string | undefined; tone: "el" | "s5" }) {
+  if (!position) {
+    return (
+      <td className="px-3.5 py-[9px]">
+        <span className="inline-block rounded-full border border-[var(--border)] px-[7px] py-px text-[0.72rem] font-semibold text-[var(--text-dim)] opacity-35">
+          —
+        </span>
+      </td>
+    );
+  }
+  const cls =
+    tone === "el"
+      ? "border-[var(--accent-el)] text-[var(--accent-el)] bg-[var(--accent-el-bg)]"
+      : "border-[var(--accent-s5)] text-[var(--accent-s5)] bg-[var(--accent-s5-bg)]";
+  return (
+    <td className="px-3.5 py-[9px]">
+      <span
+        className={`inline-block rounded-full border px-[7px] py-px font-[family-name:var(--font-mono)] text-[0.72rem] font-semibold ${cls}`}
+      >
+        {position}
+      </span>
+    </td>
+  );
 }
