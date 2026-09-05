@@ -11,7 +11,12 @@ export default function PlayersPage() {
   return (
     <main className="min-h-screen bg-neutral-950 text-neutral-100 px-4 py-8 sm:px-8">
       <div className="mx-auto max-w-6xl">
-        <h1 className="text-2xl font-semibold">Euroleague Fantasy Players</h1>
+        <div className="flex flex-wrap items-baseline justify-between gap-2">
+          <h1 className="text-2xl font-semibold">Euroleague Fantasy Players</h1>
+          <a href="/price-diff" className="text-sm text-neutral-400 underline hover:text-neutral-200">
+            Price gaps between games →
+          </a>
+        </div>
         <p className="mt-1 text-sm text-neutral-400">
           {LEAGUE_LABELS.euroleague} last updated:{" "}
           {formatDate(data.updatedAt.euroleague)} · {LEAGUE_LABELS.sport5} last updated:{" "}
