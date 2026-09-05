@@ -21,6 +21,12 @@ export default function PriceDiffTable({ rows }: { rows: PriceDiffRow[] }) {
   const [sortKey, setSortKey] = useState<SortKey>("gap");
   const [sortDir, setSortDir] = useState<"asc" | "desc">("desc");
   const [cheaperIn, setCheaperIn] = useState<"any" | "euroleague" | "sport5">("any");
+  const [minPrice, setMinPrice] = useState(0);
+
+  const maxPrice = useMemo(
+    () => rows.reduce((m, r) => Math.max(m, r.priceEuroleague, r.priceSport5), 0),
+    [rows]
+  );
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -34,6 +40,13 @@ export default function PriceDiffTable({ rows }: { rows: PriceDiffRow[] }) {
       result = result.filter((r) => r.diff < 0); // cheaper in euroleague
     } else if (cheaperIn === "sport5") {
       result = result.filter((r) => r.diff > 0); // cheaper in sport5
+    }
+    if (minPrice > 0) {
+      // Keep a player only if they're not a scrub in *either* game -
+      // a big gap where one side is a bench-warmer isn't a useful "deal".
+      result = result.filter(
+        (r) => r.priceEuroleague >= minPrice && r.priceSport5 >= minPrice
+      );
     }
     const sorted = [...result].sort((a, b) => {
       const dir = sortDir === "asc" ? 1 : -1;
@@ -53,7 +66,7 @@ export default function PriceDiffTable({ rows }: { rows: PriceDiffRow[] }) {
       }
     });
     return sorted;
-  }, [rows, query, sortKey, sortDir, cheaperIn]);
+  }, [rows, query, sortKey, sortDir, cheaperIn, minPrice]);
 
   function toggleSort(key: SortKey) {
     if (sortKey === key) {
@@ -91,6 +104,19 @@ export default function PriceDiffTable({ rows }: { rows: PriceDiffRow[] }) {
             onClick={() => setCheaperIn("sport5")}
           />
         </div>
+        <label className="flex items-center gap-2 text-sm text-neutral-400">
+          Min price
+          <input
+            type="range"
+            min={0}
+            max={maxPrice}
+            step={1}
+            value={minPrice}
+            onChange={(e) => setMinPrice(Number(e.target.value))}
+            className="w-32 accent-neutral-100"
+          />
+          <span className="w-6 text-right tabular-nums text-neutral-200">{minPrice}</span>
+        </label>
       </div>
 
       <div className="mt-4 overflow-x-auto rounded-lg border border-neutral-800">

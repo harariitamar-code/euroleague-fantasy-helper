@@ -19,7 +19,9 @@ export default function PriceDiffPage() {
         team: r.team,
         priceEuroleague: el,
         priceSport5: s5,
-        diff: el - s5,
+        // Round to avoid floating-point noise (e.g. 5.300000000000001) from
+        // subtracting decimal prices.
+        diff: Math.round((el - s5) * 10) / 10,
       };
     });
 
