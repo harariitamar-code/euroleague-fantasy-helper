@@ -4,7 +4,7 @@
   "source": "sport5-2026-09-05.json",
   "players": [
     {
-      "playerId": "anadolu-efes-istanbul",
+      "playerId": "sport5-3750",
       "sourceName": "רודריג בובואה",
       "sourceId": "3750",
       "team": "Anadolu Efes Istanbul",
@@ -48,7 +48,7 @@
       "status": "active"
     },
     {
-      "playerId": "anadolu-efes-istanbul",
+      "playerId": "sport5-3754",
       "sourceName": "שיימוס האזר",
       "sourceId": "3754",
       "team": "Anadolu Efes Istanbul",
@@ -59,7 +59,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "anadolu-efes-istanbul",
+      "playerId": "sport5-3755",
       "sourceName": "איגור קוקושקוב",
       "sourceId": "3755",
       "team": "Anadolu Efes Istanbul",
@@ -103,7 +103,7 @@
       "status": "injured"
     },
     {
-      "playerId": "anadolu-efes-istanbul",
+      "playerId": "sport5-3760",
       "sourceName": "ואנסן פוארייה",
       "sourceId": "3760",
       "team": "Anadolu Efes Istanbul",
@@ -114,7 +114,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "anadolu-efes-istanbul",
+      "playerId": "sport5-3761",
       "sourceName": "רולנדס שמיתס",
       "sourceId": "3761",
       "team": "Anadolu Efes Istanbul",
@@ -202,7 +202,7 @@
       "status": "active"
     },
     {
-      "playerId": "anadolu-efes-istanbul",
+      "playerId": "sport5-4639",
       "sourceName": "קול סווידר",
       "sourceId": "4639",
       "team": "Anadolu Efes Istanbul",
@@ -224,7 +224,7 @@
       "status": "active"
     },
     {
-      "playerId": "anadolu-efes-istanbul",
+      "playerId": "sport5-4813",
       "sourceName": "רדובן טריפונוביץ'",
       "sourceId": "4813",
       "team": "Anadolu Efes Istanbul",
@@ -290,7 +290,7 @@
       "status": "active"
     },
     {
-      "playerId": "kosner-baskonia-vitoria-gasteiz",
+      "playerId": "sport5-3786",
       "sourceName": "לוקה שמאניץ'",
       "sourceId": "3786",
       "team": "Kosner Baskonia Vitoria-Gasteiz",
@@ -323,7 +323,7 @@
       "status": "active"
     },
     {
-      "playerId": "kosner-baskonia-vitoria-gasteiz",
+      "playerId": "sport5-3789",
       "sourceName": "ראפה וילאר",
       "sourceId": "3789",
       "team": "Kosner Baskonia Vitoria-Gasteiz",
@@ -334,7 +334,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "kosner-baskonia-vitoria-gasteiz",
+      "playerId": "sport5-4641",
       "sourceName": "האמידו דיאלו",
       "sourceId": "4641",
       "team": "Kosner Baskonia Vitoria-Gasteiz",
@@ -356,7 +356,7 @@
       "status": "active"
     },
     {
-      "playerId": "kosner-baskonia-vitoria-gasteiz",
+      "playerId": "sport5-4714",
       "sourceName": "מרקיז נוואל",
       "sourceId": "4714",
       "team": "Kosner Baskonia Vitoria-Gasteiz",
@@ -367,7 +367,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "kosner-baskonia-vitoria-gasteiz",
+      "playerId": "sport5-4721",
       "sourceName": "ז'ום בול",
       "sourceId": "4721",
       "team": "Kosner Baskonia Vitoria-Gasteiz",
@@ -378,7 +378,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "kosner-baskonia-vitoria-gasteiz",
+      "playerId": "sport5-4722",
       "sourceName": "צ'יק דיאלו",
       "sourceId": "4722",
       "team": "Kosner Baskonia Vitoria-Gasteiz",
@@ -389,7 +389,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "kosner-baskonia-vitoria-gasteiz",
+      "playerId": "sport5-4723",
       "sourceName": "מאטה קאטיאשווילי",
       "sourceId": "4723",
       "team": "Kosner Baskonia Vitoria-Gasteiz",
@@ -400,7 +400,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "kosner-baskonia-vitoria-gasteiz",
+      "playerId": "sport5-4724",
       "sourceName": "חוסבה קרחטה",
       "sourceId": "4724",
       "team": "Kosner Baskonia Vitoria-Gasteiz",
@@ -411,7 +411,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "kosner-baskonia-vitoria-gasteiz",
+      "playerId": "sport5-4725",
       "sourceName": "פדרו סוזה",
       "sourceId": "4725",
       "team": "Kosner Baskonia Vitoria-Gasteiz",
@@ -422,7 +422,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "kosner-baskonia-vitoria-gasteiz",
+      "playerId": "sport5-4732",
       "sourceName": "ויט הרבר",
       "sourceId": "4732",
       "team": "Kosner Baskonia Vitoria-Gasteiz",
@@ -466,7 +466,7 @@
       "status": "active"
     },
     {
-      "playerId": "kosner-baskonia-vitoria-gasteiz",
+      "playerId": "sport5-4815",
       "sourceName": "גיטיס רדזביצ'יוס",
       "sourceId": "4815",
       "team": "Kosner Baskonia Vitoria-Gasteiz",
@@ -488,7 +488,7 @@
       "status": "active"
     },
     {
-      "playerId": "crvena-zvezda-meridianbet-belgrade",
+      "playerId": "sport5-3774",
       "sourceName": "דונאטס מוטיונאס",
       "sourceId": "3774",
       "team": "Crvena Zvezda Meridianbet Belgrade",
@@ -499,7 +499,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "crvena-zvezda-meridianbet-belgrade",
+      "playerId": "sport5-3791",
       "sourceName": "אייזאה קנאן",
       "sourceId": "3791",
       "team": "Crvena Zvezda Meridianbet Belgrade",
@@ -543,7 +543,7 @@
       "status": "active"
     },
     {
-      "playerId": "crvena-zvezda-meridianbet-belgrade",
+      "playerId": "sport5-3797",
       "sourceName": "ניקולה קאליניץ'",
       "sourceId": "3797",
       "team": "Crvena Zvezda Meridianbet Belgrade",
@@ -587,7 +587,7 @@
       "status": "active"
     },
     {
-      "playerId": "crvena-zvezda-meridianbet-belgrade",
+      "playerId": "sport5-3803",
       "sourceName": "אורוש פלאבסיץ'",
       "sourceId": "3803",
       "team": "Crvena Zvezda Meridianbet Belgrade",
@@ -598,7 +598,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "crvena-zvezda-meridianbet-belgrade",
+      "playerId": "sport5-3804",
       "sourceName": "אוגניין רדוסיץ'",
       "sourceId": "3804",
       "team": "Crvena Zvezda Meridianbet Belgrade",
@@ -609,7 +609,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "crvena-zvezda-meridianbet-belgrade",
+      "playerId": "sport5-3805",
       "sourceName": "חסיאל ריברו",
       "sourceId": "3805",
       "team": "Crvena Zvezda Meridianbet Belgrade",
@@ -620,7 +620,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "crvena-zvezda-meridianbet-belgrade",
+      "playerId": "sport5-3806",
       "sourceName": "יאניס ספרופולוס",
       "sourceId": "3806",
       "team": "Crvena Zvezda Meridianbet Belgrade",
@@ -631,7 +631,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "crvena-zvezda-meridianbet-belgrade",
+      "playerId": "sport5-3808",
       "sourceName": "לאזר סטוייקוביץ'",
       "sourceId": "3808",
       "team": "Crvena Zvezda Meridianbet Belgrade",
@@ -686,7 +686,7 @@
       "status": "active"
     },
     {
-      "playerId": "crvena-zvezda-meridianbet-belgrade",
+      "playerId": "sport5-4691",
       "sourceName": "דבונטה גרהאם",
       "sourceId": "4691",
       "team": "Crvena Zvezda Meridianbet Belgrade",
@@ -719,7 +719,7 @@
       "status": "active"
     },
     {
-      "playerId": "crvena-zvezda-meridianbet-belgrade",
+      "playerId": "sport5-4766",
       "sourceName": "יאגו דוס סנטוס",
       "sourceId": "4766",
       "team": "Crvena Zvezda Meridianbet Belgrade",
@@ -730,7 +730,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "crvena-zvezda-meridianbet-belgrade",
+      "playerId": "sport5-4770",
       "sourceName": "סשה אוברדוביץ'",
       "sourceId": "4770",
       "team": "Crvena Zvezda Meridianbet Belgrade",
@@ -796,7 +796,7 @@
       "status": "active"
     },
     {
-      "playerId": "dubai-basketball",
+      "playerId": "sport5-3811",
       "sourceName": "דנילו אנדוסיץ'",
       "sourceId": "3811",
       "team": "Dubai Basketball",
@@ -807,7 +807,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "dubai-basketball",
+      "playerId": "sport5-3812",
       "sourceName": "אלכסה אברמוביץ'",
       "sourceId": "3812",
       "team": "Dubai Basketball",
@@ -851,7 +851,7 @@
       "status": "active"
     },
     {
-      "playerId": "dubai-basketball",
+      "playerId": "sport5-3816",
       "sourceName": "יוריצה גולמאץ",
       "sourceId": "3816",
       "team": "Dubai Basketball",
@@ -950,7 +950,7 @@
       "status": "active"
     },
     {
-      "playerId": "dubai-basketball",
+      "playerId": "sport5-3892",
       "sourceName": "ברונו קאבוקלו",
       "sourceId": "3892",
       "team": "Dubai Basketball",
@@ -983,7 +983,7 @@
       "status": "active"
     },
     {
-      "playerId": "dubai-basketball",
+      "playerId": "sport5-4647",
       "sourceName": "נייט מייסון",
       "sourceId": "4647",
       "team": "Dubai Basketball",
@@ -1005,7 +1005,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "dubai-basketball",
+      "playerId": "sport5-4769",
       "sourceName": "טראן ארמסטרונג",
       "sourceId": "4769",
       "team": "Dubai Basketball",
@@ -1016,7 +1016,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "dubai-basketball",
+      "playerId": "sport5-4780",
       "sourceName": "בוגי אליס",
       "sourceId": "4780",
       "team": "Dubai Basketball",
@@ -1027,7 +1027,7 @@
       "status": "injured"
     },
     {
-      "playerId": "dubai-basketball",
+      "playerId": "sport5-4799",
       "sourceName": "מאט ראיין",
       "sourceId": "4799",
       "team": "Dubai Basketball",
@@ -1071,7 +1071,7 @@
       "status": "active"
     },
     {
-      "playerId": "armani-olimpia-milan",
+      "playerId": "sport5-3827",
       "sourceName": "לורנזו בראון",
       "sourceId": "3827",
       "team": "Armani Olimpia Milan",
@@ -1082,7 +1082,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "armani-olimpia-milan",
+      "playerId": "sport5-3828",
       "sourceName": "ולטקו צ'אנצ'ר",
       "sourceId": "3828",
       "team": "Armani Olimpia Milan",
@@ -1104,7 +1104,7 @@
       "status": "active"
     },
     {
-      "playerId": "armani-olimpia-milan",
+      "playerId": "sport5-3831",
       "sourceName": "בראיינט דאנסטון",
       "sourceId": "3831",
       "team": "Armani Olimpia Milan",
@@ -1115,7 +1115,7 @@
       "status": "injured"
     },
     {
-      "playerId": "armani-olimpia-milan",
+      "playerId": "sport5-3832",
       "sourceName": "קווין אליס",
       "sourceId": "3832",
       "team": "Armani Olimpia Milan",
@@ -1148,7 +1148,7 @@
       "status": "active"
     },
     {
-      "playerId": "armani-olimpia-milan",
+      "playerId": "sport5-3836",
       "sourceName": "ניקו מאניון",
       "sourceId": "3836",
       "team": "Armani Olimpia Milan",
@@ -1159,7 +1159,7 @@
       "status": "injured"
     },
     {
-      "playerId": "armani-olimpia-milan",
+      "playerId": "sport5-3837",
       "sourceName": "אטורה מסינה",
       "sourceId": "3837",
       "team": "Armani Olimpia Milan",
@@ -1247,7 +1247,7 @@
       "status": "active"
     },
     {
-      "playerId": "armani-olimpia-milan",
+      "playerId": "sport5-4716",
       "sourceName": "לאונרדו טוטה",
       "sourceId": "4716",
       "team": "Armani Olimpia Milan",
@@ -1302,7 +1302,7 @@
       "status": "active"
     },
     {
-      "playerId": "fc-barcelona",
+      "playerId": "sport5-3845",
       "sourceName": "יוסופה פאל",
       "sourceId": "3845",
       "team": "FC Barcelona",
@@ -1313,7 +1313,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "fc-barcelona",
+      "playerId": "sport5-3846",
       "sourceName": "ווילי הרננגומס",
       "sourceId": "3846",
       "team": "FC Barcelona",
@@ -1324,7 +1324,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "fc-barcelona",
+      "playerId": "sport5-3847",
       "sourceName": "ניקולס לאפרוביטולה",
       "sourceId": "3847",
       "team": "FC Barcelona",
@@ -1335,7 +1335,7 @@
       "status": "injured"
     },
     {
-      "playerId": "fc-barcelona",
+      "playerId": "sport5-3848",
       "sourceName": "חואני מרקוס",
       "sourceId": "3848",
       "team": "FC Barcelona",
@@ -1379,7 +1379,7 @@
       "status": "active"
     },
     {
-      "playerId": "fc-barcelona",
+      "playerId": "sport5-3855",
       "sourceName": "יאן וסלי",
       "sourceId": "3855",
       "team": "FC Barcelona",
@@ -1401,7 +1401,7 @@
       "status": "active"
     },
     {
-      "playerId": "fc-barcelona",
+      "playerId": "sport5-4746",
       "sourceName": "דניאל גונסאלס",
       "sourceId": "4746",
       "team": "FC Barcelona",
@@ -1412,7 +1412,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "fc-barcelona",
+      "playerId": "sport5-4747",
       "sourceName": "חואקין ברטרנד בומטג'ה",
       "sourceId": "4747",
       "team": "FC Barcelona",
@@ -1423,7 +1423,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "fc-barcelona",
+      "playerId": "sport5-4748",
       "sourceName": "דייגו פררס קאמראו",
       "sourceId": "4748",
       "team": "FC Barcelona",
@@ -1434,7 +1434,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "fc-barcelona",
+      "playerId": "sport5-4749",
       "sourceName": "ניקולה קוסטוריצ'ה",
       "sourceId": "4749",
       "team": "FC Barcelona",
@@ -1445,7 +1445,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "fc-barcelona",
+      "playerId": "sport5-4750",
       "sourceName": "סאיון קייטה",
       "sourceId": "4750",
       "team": "FC Barcelona",
@@ -1456,7 +1456,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "fc-barcelona",
+      "playerId": "sport5-4751",
       "sourceName": "מוחמד דאבון",
       "sourceId": "4751",
       "team": "FC Barcelona",
@@ -1467,7 +1467,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "fc-barcelona",
+      "playerId": "sport5-4797",
       "sourceName": "אוסקר אורלנה",
       "sourceId": "4797",
       "team": "FC Barcelona",
@@ -1511,7 +1511,7 @@
       "status": "active"
     },
     {
-      "playerId": "fc-bayern-munich",
+      "playerId": "sport5-3860",
       "sourceName": "אליאס האריס",
       "sourceId": "3860",
       "team": "FC Bayern Munich",
@@ -1522,7 +1522,7 @@
       "status": "injured"
     },
     {
-      "playerId": "fc-bayern-munich",
+      "playerId": "sport5-3861",
       "sourceName": "גורדון הרברט",
       "sourceId": "3861",
       "team": "FC Bayern Munich",
@@ -1566,7 +1566,7 @@
       "status": "injured"
     },
     {
-      "playerId": "fc-bayern-munich",
+      "playerId": "sport5-3865",
       "sourceName": "לאון קראצר",
       "sourceId": "3865",
       "team": "FC Bayern Munich",
@@ -1588,7 +1588,7 @@
       "status": "active"
     },
     {
-      "playerId": "fc-bayern-munich",
+      "playerId": "sport5-3867",
       "sourceName": "אייזיאה מייק",
       "sourceId": "3867",
       "team": "FC Bayern Munich",
@@ -1610,7 +1610,7 @@
       "status": "active"
     },
     {
-      "playerId": "fc-bayern-munich",
+      "playerId": "sport5-3870",
       "sourceName": "אקסבייר ראטן-מייז",
       "sourceId": "3870",
       "team": "FC Bayern Munich",
@@ -1643,7 +1643,7 @@
       "status": "injured"
     },
     {
-      "playerId": "fc-bayern-munich",
+      "playerId": "sport5-4636",
       "sourceName": "סטפן יוביץ'",
       "sourceId": "4636",
       "team": "FC Bayern Munich",
@@ -1665,7 +1665,7 @@
       "status": "active"
     },
     {
-      "playerId": "fc-bayern-munich",
+      "playerId": "sport5-4728",
       "sourceName": "דייויד מקורמק",
       "sourceId": "4728",
       "team": "FC Bayern Munich",
@@ -1676,7 +1676,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "fc-bayern-munich",
+      "playerId": "sport5-4788",
       "sourceName": "ספנסר דינווידי",
       "sourceId": "4788",
       "team": "FC Bayern Munich",
@@ -1687,7 +1687,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "fc-bayern-munich",
+      "playerId": "sport5-4840",
       "sourceName": "סבטיסלב פשיץ'",
       "sourceId": "4840",
       "team": "FC Bayern Munich",
@@ -1698,7 +1698,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "fc-bayern-munich",
+      "playerId": "sport5-4853",
       "sourceName": "ננו דימיטרייביץ'",
       "sourceId": "4853",
       "team": "FC Bayern Munich",
@@ -1764,7 +1764,7 @@
       "status": "active"
     },
     {
-      "playerId": "fenerbahce-tarfin-istanbul",
+      "playerId": "sport5-3873",
       "sourceName": "ג'ילסון באנגו",
       "sourceId": "3873",
       "team": "Fenerbahce Tarfin Istanbul",
@@ -1775,7 +1775,7 @@
       "status": "injured"
     },
     {
-      "playerId": "fenerbahce-tarfin-istanbul",
+      "playerId": "sport5-3874",
       "sourceName": "טאריק ביברוביץ'",
       "sourceId": "3874",
       "team": "Fenerbahce Tarfin Istanbul",
@@ -1786,7 +1786,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "fenerbahce-tarfin-istanbul",
+      "playerId": "sport5-3875",
       "sourceName": "קם בירץ'",
       "sourceId": "3875",
       "team": "Fenerbahce Tarfin Istanbul",
@@ -1852,7 +1852,7 @@
       "status": "active"
     },
     {
-      "playerId": "fenerbahce-tarfin-istanbul",
+      "playerId": "sport5-3885",
       "sourceName": "האמזה מסטוגלו",
       "sourceId": "3885",
       "team": "Fenerbahce Tarfin Istanbul",
@@ -1874,7 +1874,7 @@
       "status": "active"
     },
     {
-      "playerId": "fenerbahce-tarfin-istanbul",
+      "playerId": "sport5-3888",
       "sourceName": "ארתורס ז'גארס",
       "sourceId": "3888",
       "team": "Fenerbahce Tarfin Istanbul",
@@ -1885,7 +1885,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "fenerbahce-tarfin-istanbul",
+      "playerId": "sport5-3911",
       "sourceName": "ננדו דה קולו",
       "sourceId": "3911",
       "team": "Fenerbahce Tarfin Istanbul",
@@ -1896,7 +1896,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "fenerbahce-tarfin-istanbul",
+      "playerId": "sport5-4688",
       "sourceName": "ברנדון בוסטון ג'וניור",
       "sourceId": "4688",
       "team": "Fenerbahce Tarfin Istanbul",
@@ -1995,7 +1995,7 @@
       "status": "active"
     },
     {
-      "playerId": "hapoel-ibi-tel-aviv",
+      "playerId": "sport5-3893",
       "sourceName": "סנדי כהן",
       "sourceId": "3893",
       "team": "Hapoel IBI Tel Aviv",
@@ -2116,7 +2116,7 @@
       "status": "active"
     },
     {
-      "playerId": "hapoel-ibi-tel-aviv",
+      "playerId": "sport5-3908",
       "sourceName": "יפתח זיו",
       "sourceId": "3908",
       "team": "Hapoel IBI Tel Aviv",
@@ -2149,7 +2149,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "hapoel-ibi-tel-aviv",
+      "playerId": "sport5-4935",
       "sourceName": "ליוואי רנדולף",
       "sourceId": "4935",
       "team": "Hapoel IBI Tel Aviv",
@@ -2182,7 +2182,7 @@
       "status": "active"
     },
     {
-      "playerId": "ldlc-asvel-villeurbanne",
+      "playerId": "sport5-3909",
       "sourceName": "מלווין אג'ינסה",
       "sourceId": "3909",
       "team": "LDLC ASVEL Villeurbanne",
@@ -2193,7 +2193,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "ldlc-asvel-villeurbanne",
+      "playerId": "sport5-3910",
       "sourceName": "אדם אטמנה",
       "sourceId": "3910",
       "team": "LDLC ASVEL Villeurbanne",
@@ -2204,7 +2204,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "ldlc-asvel-villeurbanne",
+      "playerId": "sport5-3912",
       "sourceName": "שאקיל האריסון",
       "sourceId": "3912",
       "team": "LDLC ASVEL Villeurbanne",
@@ -2215,7 +2215,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "ldlc-asvel-villeurbanne",
+      "playerId": "sport5-3913",
       "sourceName": "תומא הרטל",
       "sourceId": "3913",
       "team": "LDLC ASVEL Villeurbanne",
@@ -2259,7 +2259,7 @@
       "status": "active"
     },
     {
-      "playerId": "ldlc-asvel-villeurbanne",
+      "playerId": "sport5-3918",
       "sourceName": "פייריק פופה",
       "sourceId": "3918",
       "team": "LDLC ASVEL Villeurbanne",
@@ -2270,7 +2270,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "ldlc-asvel-villeurbanne",
+      "playerId": "sport5-3919",
       "sourceName": "ארמל טראורה",
       "sourceId": "3919",
       "team": "LDLC ASVEL Villeurbanne",
@@ -2292,7 +2292,7 @@
       "status": "injured"
     },
     {
-      "playerId": "ldlc-asvel-villeurbanne",
+      "playerId": "sport5-4654",
       "sourceName": "בסטיאן ווטיה",
       "sourceId": "4654",
       "team": "LDLC ASVEL Villeurbanne",
@@ -2303,7 +2303,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "ldlc-asvel-villeurbanne",
+      "playerId": "sport5-4655",
       "sourceName": "גלין ווטסון",
       "sourceId": "4655",
       "team": "LDLC ASVEL Villeurbanne",
@@ -2314,7 +2314,7 @@
       "status": "injured"
     },
     {
-      "playerId": "ldlc-asvel-villeurbanne",
+      "playerId": "sport5-4710",
       "sourceName": "זאק סליאס",
       "sourceId": "4710",
       "team": "LDLC ASVEL Villeurbanne",
@@ -2325,7 +2325,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "ldlc-asvel-villeurbanne",
+      "playerId": "sport5-4733",
       "sourceName": "מרווין ווייד",
       "sourceId": "4733",
       "team": "LDLC ASVEL Villeurbanne",
@@ -2336,7 +2336,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "ldlc-asvel-villeurbanne",
+      "playerId": "sport5-4765",
       "sourceName": "מהדי אנגואמה",
       "sourceId": "4765",
       "team": "LDLC ASVEL Villeurbanne",
@@ -2347,7 +2347,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "ldlc-asvel-villeurbanne",
+      "playerId": "sport5-4854",
       "sourceName": "פול אבואה",
       "sourceId": "4854",
       "team": "LDLC ASVEL Villeurbanne",
@@ -2358,7 +2358,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "ldlc-asvel-villeurbanne",
+      "playerId": "sport5-4876",
       "sourceName": "בריאן אנגולה",
       "sourceId": "4876",
       "team": "LDLC ASVEL Villeurbanne",
@@ -2457,7 +2457,7 @@
       "status": "active"
     },
     {
-      "playerId": "maccabi-rapyd-tel-aviv",
+      "playerId": "sport5-3926",
       "sourceName": "מרסיו סנטוס",
       "sourceId": "3926",
       "team": "Maccabi Rapyd Tel Aviv",
@@ -2479,7 +2479,7 @@
       "status": "active"
     },
     {
-      "playerId": "maccabi-rapyd-tel-aviv",
+      "playerId": "sport5-3928",
       "sourceName": "אורוש טריפונוביץ'",
       "sourceId": "3928",
       "team": "Maccabi Rapyd Tel Aviv",
@@ -2490,7 +2490,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "maccabi-rapyd-tel-aviv",
+      "playerId": "sport5-3929",
       "sourceName": "לוני ווקר",
       "sourceId": "3929",
       "team": "Maccabi Rapyd Tel Aviv",
@@ -2512,7 +2512,7 @@
       "status": "injured"
     },
     {
-      "playerId": "maccabi-rapyd-tel-aviv",
+      "playerId": "sport5-4589",
       "sourceName": "תמיר גולד",
       "sourceId": "4589",
       "team": "Maccabi Rapyd Tel Aviv",
@@ -2523,7 +2523,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "maccabi-rapyd-tel-aviv",
+      "playerId": "sport5-4590",
       "sourceName": "אורן סהר",
       "sourceId": "4590",
       "team": "Maccabi Rapyd Tel Aviv",
@@ -2545,7 +2545,7 @@
       "status": "injured"
     },
     {
-      "playerId": "maccabi-rapyd-tel-aviv",
+      "playerId": "sport5-4660",
       "sourceName": "קליפורד אומורי",
       "sourceId": "4660",
       "team": "Maccabi Rapyd Tel Aviv",
@@ -2589,7 +2589,7 @@
       "status": "active"
     },
     {
-      "playerId": "maccabi-rapyd-tel-aviv",
+      "playerId": "sport5-4744",
       "sourceName": "ג'ף דאוטין ג'וניור",
       "sourceId": "4744",
       "team": "Maccabi Rapyd Tel Aviv",
@@ -2600,7 +2600,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "maccabi-rapyd-tel-aviv",
+      "playerId": "sport5-4827",
       "sourceName": "זאק הנקינס",
       "sourceId": "4827",
       "team": "Maccabi Rapyd Tel Aviv",
@@ -2611,7 +2611,7 @@
       "status": "doubtful"
     },
     {
-      "playerId": "maccabi-rapyd-tel-aviv",
+      "playerId": "sport5-4831",
       "sourceName": "זאק הנקינס",
       "sourceId": "4831",
       "team": "Maccabi Rapyd Tel Aviv",
@@ -2974,7 +2974,7 @@
       "status": "injured"
     },
     {
-      "playerId": "panathinaikos-aktor-athens",
+      "playerId": "sport5-7192",
       "sourceName": "גאורגיוס קלאיצקיס",
       "sourceId": "7192",
       "team": "Panathinaikos AKTOR Athens",
