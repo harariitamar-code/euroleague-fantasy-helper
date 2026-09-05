@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "import": "tsx scripts/import-data.ts"
+    "import": "tsx scripts/import-data.ts",
+    "reconcile": "tsx scripts/reconcile-cross-league.ts"
   },
   "dependencies": {
     "exceljs": "^4.4.0",
