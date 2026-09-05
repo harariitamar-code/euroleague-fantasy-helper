@@ -203,10 +203,28 @@ async function main() {
   // player leaves, another joins wearing the same number), so matching
   // against rows from the file currently being imported would incorrectly
   // collapse two different real players into one canonical id.
+  // Bug history: building this as `new Map(players.map(p => [key, p]))`
+  // silently let a later player with the same (team, shirt#) overwrite an
+  // earlier one in the Map — e.g. a club's shirt #10 belonging to one
+  // player historically and a different player currently. A later import
+  // would then attach that shirt number's row to whichever player happened
+  // to be last in playersDb.players, regardless of whether it was actually
+  // the same person (this is how "Kostas Sloukas" ended up merged onto
+  // "Moustapha Fall"'s canonical id). Guard against that by tracking every
+  // (team, shirt#) key that maps to more than one *distinct* existing
+  // player id, and excluding those from matching entirely — same principle
+  // as the ambiguousShirtKeys check below, applied to historical data too.
+  const teamShirtToPlayerIds = new Map<string, Set<string>>();
+  for (const p of playersDb.players) {
+    if (!p.teamId || !p.shirtNumber) continue;
+    const key = `${p.teamId}::${p.shirtNumber}`;
+    if (!teamShirtToPlayerIds.has(key)) teamShirtToPlayerIds.set(key, new Set());
+    teamShirtToPlayerIds.get(key)!.add(p.id);
+  }
   const matchByTeamShirt = new Map(
-    playersDb.players
-      .filter((p) => p.teamId && p.shirtNumber)
-      .map((p) => [`${p.teamId}::${p.shirtNumber}`, p])
+    Array.from(teamShirtToPlayerIds.entries())
+      .filter(([, ids]) => ids.size === 1)
+      .map(([key, ids]) => [key, playersById.get(Array.from(ids)[0])!])
   );
   const matchByNameTeam = new Map(
     playersDb.players.map((p) => [`${slugify(p.name)}::${slugify(p.team)}`, p])
