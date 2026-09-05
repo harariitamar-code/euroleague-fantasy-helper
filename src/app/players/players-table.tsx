@@ -4,16 +4,25 @@ import { useMemo, useState } from "react";
 import type { MergedPlayerRow } from "@/lib/data/merge";
 
 type SortKey = "name" | "team" | "el" | "s5";
-type FilterKey = "all" | "linked" | "el" | "s5";
+type FilterKey = "all" | "linked" | "unlinked";
+type ViewKey = "roster" | "unmatched";
 
 const FILTERS: { key: FilterKey; label: string }[] = [
   { key: "all", label: "All" },
   { key: "linked", label: "Linked" },
-  { key: "el", label: "Euroleague" },
-  { key: "s5", label: "Sport5" },
+  { key: "unlinked", label: "Euroleague only" },
 ];
 
-export default function PlayersTable({ rows }: { rows: MergedPlayerRow[] }) {
+export default function PlayersTable({
+  rows,
+  unmatchedSport5,
+}: {
+  /** Euroleague-anchored roster: every Euroleague player, Sport5 price attached where matched. */
+  rows: MergedPlayerRow[];
+  /** Sport5 rows that didn't match any Euroleague player — a review list, not part of the roster. */
+  unmatchedSport5: MergedPlayerRow[];
+}) {
+  const [view, setView] = useState<ViewKey>("roster");
   const [query, setQuery] = useState("");
   const [filter, setFilter] = useState<FilterKey>("all");
   const [sortKey, setSortKey] = useState<SortKey>("name");
@@ -25,10 +34,8 @@ export default function PlayersTable({ rows }: { rows: MergedPlayerRow[] }) {
 
     if (filter === "linked") {
       result = result.filter((r) => r.byLeague.euroleague && r.byLeague.sport5);
-    } else if (filter === "el") {
-      result = result.filter((r) => r.byLeague.euroleague);
-    } else if (filter === "s5") {
-      result = result.filter((r) => r.byLeague.sport5);
+    } else if (filter === "unlinked") {
+      result = result.filter((r) => r.byLeague.euroleague && !r.byLeague.sport5);
     }
 
     if (q) {
@@ -60,6 +67,72 @@ export default function PlayersTable({ rows }: { rows: MergedPlayerRow[] }) {
     }
   }
 
+  return (
+    <div>
+      <div className="mb-4 flex gap-1.5 border-b border-[var(--border)]">
+        <button
+          onClick={() => setView("roster")}
+          className={`-mb-px border-b-2 px-4 py-2 text-sm font-semibold transition-colors ${
+            view === "roster"
+              ? "border-[var(--text)] text-[var(--text)]"
+              : "border-transparent text-[var(--text-faint)] hover:text-[var(--text-dim)]"
+          }`}
+        >
+          Roster
+        </button>
+        <button
+          onClick={() => setView("unmatched")}
+          className={`-mb-px border-b-2 px-4 py-2 text-sm font-semibold transition-colors ${
+            view === "unmatched"
+              ? "border-[var(--accent-s5)] text-[var(--accent-s5)]"
+              : "border-transparent text-[var(--text-faint)] hover:text-[var(--text-dim)]"
+          }`}
+        >
+          Sport5 unmatched ({unmatchedSport5.length})
+        </button>
+      </div>
+
+      {view === "unmatched" ? (
+        <UnmatchedSport5List rows={unmatchedSport5} />
+      ) : (
+        <RosterView
+          rows={filtered}
+          totalRows={rows.length}
+          query={query}
+          setQuery={setQuery}
+          filter={filter}
+          setFilter={setFilter}
+          sortKey={sortKey}
+          sortDir={sortDir}
+          toggleSort={toggleSort}
+        />
+      )}
+    </div>
+  );
+}
+
+function RosterView({
+  rows,
+  totalRows,
+  query,
+  setQuery,
+  filter,
+  setFilter,
+  sortKey,
+  sortDir,
+  toggleSort,
+}: {
+  rows: MergedPlayerRow[];
+  totalRows: number;
+  query: string;
+  setQuery: (q: string) => void;
+  filter: FilterKey;
+  setFilter: (f: FilterKey) => void;
+  sortKey: SortKey;
+  sortDir: "asc" | "desc";
+  toggleSort: (key: SortKey) => void;
+}) {
+  const filtered = rows;
   return (
     <div>
       <div className="mb-4 flex flex-wrap items-center gap-3">
@@ -102,7 +175,7 @@ export default function PlayersTable({ rows }: { rows: MergedPlayerRow[] }) {
         </div>
 
         <span className="whitespace-nowrap font-[family-name:var(--font-mono)] text-[0.78rem] text-[var(--text-faint)]">
-          {filtered.length} of {rows.length} players
+          {filtered.length} of {totalRows} players
         </span>
       </div>
 
@@ -126,14 +199,14 @@ export default function PlayersTable({ rows }: { rows: MergedPlayerRow[] }) {
             </tr>
           </thead>
           <tbody>
-            {filtered.map((r) => {
+            {filtered.map((r: MergedPlayerRow) => {
               const el = r.byLeague.euroleague;
               const s5 = r.byLeague.sport5;
               const status = el?.status ?? s5?.status ?? null;
               return (
                 <tr key={r.id} className="[&>td]:border-b [&>td]:border-[var(--border-soft)] last:[&>td]:border-b-0 hover:[&>td]:bg-[var(--surface-2)]">
                   <td className="px-3.5 py-[9px]">
-                    <span className="font-semibold">{r.name}</span>
+                    <span className="font-semibold" dir="auto">{r.name}</span>
                     {r.nameHebrew && (
                       <span dir="rtl" className="ml-2 text-[0.85em] text-[var(--text-faint)]">
                         {r.nameHebrew}
@@ -158,6 +231,75 @@ export default function PlayersTable({ rows }: { rows: MergedPlayerRow[] }) {
         </table>
         {filtered.length === 0 && (
           <div className="p-12 text-center text-sm text-[var(--text-faint)]">No players match that search.</div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+function UnmatchedSport5List({ rows }: { rows: MergedPlayerRow[] }) {
+  const sorted = useMemo(() => [...rows].sort((a, b) => a.name.localeCompare(b.name)), [rows]);
+  return (
+    <div>
+      <p className="mb-4 max-w-[70ch] rounded-lg border border-[var(--accent-s5)]/30 bg-[var(--accent-s5-bg)] px-4 py-3 text-[0.82rem] leading-[1.6] text-[var(--text-dim)]">
+        Sport5 players that didn&apos;t match any Euroleague roster entry — not part of the
+        roster above. This list should normally be near-empty: a non-empty entry usually means
+        either a name the matcher couldn&apos;t link (worth a manual check via
+        <code className="mx-1 rounded bg-[var(--surface)] px-1 py-px font-[family-name:var(--font-mono)] text-[0.78em]">
+          npm run reconcile
+        </code>
+        ) or a player Sport5 still lists who isn&apos;t actually on the club anymore.
+      </p>
+      <div className="max-h-[68vh] overflow-auto rounded-[10px] border border-[var(--border)] bg-[var(--surface)] shadow-[var(--shadow)]">
+        <table className="w-full min-w-[560px] border-collapse text-[0.87rem]">
+          <thead>
+            <tr>
+              <th className="sticky top-0 whitespace-nowrap border-b border-[var(--border)] bg-[var(--surface-2)] px-3.5 py-[11px] text-left text-[0.7rem] uppercase tracking-[0.05em] text-[var(--text-faint)]">
+                Player
+              </th>
+              <th className="sticky top-0 whitespace-nowrap border-b border-[var(--border)] bg-[var(--surface-2)] px-3.5 py-[11px] text-left text-[0.7rem] uppercase tracking-[0.05em] text-[var(--text-faint)]">
+                Club
+              </th>
+              <th className="sticky top-0 whitespace-nowrap border-b border-[var(--border)] bg-[var(--surface-2)] px-3.5 py-[11px] text-left text-[0.7rem] uppercase tracking-[0.05em] text-[var(--text-faint)]">
+                S5 Credits
+              </th>
+              <th className="sticky top-0 whitespace-nowrap border-b border-[var(--border)] bg-[var(--surface-2)] px-3.5 py-[11px] text-left text-[0.7rem] uppercase tracking-[0.05em] text-[var(--text-faint)]">
+                S5 Pos
+              </th>
+              <th className="sticky top-0 whitespace-nowrap border-b border-[var(--border)] bg-[var(--surface-2)] px-3.5 py-[11px] text-left text-[0.7rem] uppercase tracking-[0.05em] text-[var(--text-faint)]">
+                Status
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            {sorted.map((r) => {
+              const s5 = r.byLeague.sport5;
+              return (
+                <tr key={r.id} className="[&>td]:border-b [&>td]:border-[var(--border-soft)] last:[&>td]:border-b-0 hover:[&>td]:bg-[var(--surface-2)]">
+                  <td className="px-3.5 py-[9px]">
+                    <span className="font-semibold" dir="auto">{r.name}</span>
+                    {r.nameHebrew && r.nameHebrew !== r.name && (
+                      <span dir="rtl" className="ml-2 text-[0.85em] text-[var(--text-faint)]">
+                        {r.nameHebrew}
+                      </span>
+                    )}
+                  </td>
+                  <td className="px-3.5 py-[9px] text-[0.86em] text-[var(--text-dim)]">{r.team}</td>
+                  <PriceCell price={s5?.price} tone="s5" />
+                  <PosCell position={s5?.position} tone="s5" />
+                  <td className="whitespace-nowrap px-3.5 py-[9px] text-[0.82rem] text-[var(--text-dim)]">
+                    <span className={`mr-1.5 inline-block h-[7px] w-[7px] rounded-full ${statusDotClass(s5?.status ?? null)}`} />
+                    {s5?.status ?? "no data"}
+                  </td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+        {sorted.length === 0 && (
+          <div className="p-12 text-center text-sm text-[var(--text-faint)]">
+            Nothing unmatched — every Sport5 player links to a Euroleague roster entry.
+          </div>
         )}
       </div>
     </div>

@@ -11,12 +11,20 @@ function formatDate(iso: string) {
 
 export default function PlayersPage() {
   const data = getMergedPlayers();
-  const rows = data.rows;
+  const allRows = data.rows;
+  // Euroleague is the ground truth for "who is on which roster" — it's the
+  // more reliably current of the two sources. The main table is anchored to
+  // it: every Euroleague player, Sport5 price attached where matched. Pure
+  // Sport5 rows that never matched a Euroleague player are a separate,
+  // clearly-labeled review list (see the "Sport5 unmatched" tab), not part
+  // of the roster — that list should normally be near-empty.
+  const rows = allRows.filter((r) => r.byLeague.euroleague);
+  const unmatchedSport5 = allRows.filter((r) => r.byLeague.sport5 && !r.byLeague.euroleague);
   const total = rows.length;
   const teams = new Set(rows.map((r) => r.team)).size;
-  const linked = rows.filter((r) => r.byLeague.euroleague && r.byLeague.sport5).length;
-  const elOnly = rows.filter((r) => r.byLeague.euroleague && !r.byLeague.sport5).length;
-  const s5Only = rows.filter((r) => r.byLeague.sport5 && !r.byLeague.euroleague).length;
+  const linked = rows.filter((r) => r.byLeague.sport5).length;
+  const elOnly = rows.filter((r) => !r.byLeague.sport5).length;
+  const s5Only = unmatchedSport5.length;
 
   return (
     <main className="min-h-screen bg-[var(--bg)] text-[var(--text)]">
@@ -55,11 +63,11 @@ export default function PlayersPage() {
         </header>
 
         <section className="mb-7 grid grid-cols-2 gap-px overflow-hidden rounded-[10px] border border-[var(--border)] bg-[var(--border)] shadow-[var(--shadow)] sm:grid-cols-5">
-          <StatTile label="Tracked players" value={total} />
+          <StatTile label="Euroleague roster" value={total} />
           <StatTile label="Clubs" value={teams} />
           <StatTile label="Priced in both games" value={linked} />
           <StatTile label="Euroleague only" value={elOnly} tone="el" />
-          <StatTile label="Sport5 only" value={s5Only} tone="s5" />
+          <StatTile label="Sport5 unmatched" value={s5Only} tone="s5" />
         </section>
 
         {total === 0 ? (
@@ -71,12 +79,14 @@ export default function PlayersPage() {
             </pre>
           </div>
         ) : (
-          <PlayersTable rows={rows} />
+          <PlayersTable rows={rows} unmatchedSport5={unmatchedSport5} />
         )}
 
         <p className="mt-4 max-w-[70ch] text-[0.78rem] leading-[1.6] text-[var(--text-faint)]">
-          {linked} players have been matched across both leagues by club + shirt number; the rest
-          are one-league-only until the next cross-referenced import. Positions: G guard, F
+          The roster is anchored to the Euroleague Fantasy Challenge — every player it tracks
+          appears above, with a Sport5 price attached wherever the two could be matched by club +
+          shirt number. Sport5 players that couldn&apos;t be matched sit in a separate
+          &quot;Sport5 unmatched&quot; tab rather than the roster itself. Positions: G guard, F
           forward, C center, HC head coach (Sport5 prices its coaching staff too).
         </p>
       </div>
