@@ -5,7 +5,7 @@ import type { MergedPlayerRow } from "@/lib/data/merge";
 
 type SortKey = "name" | "team" | "el" | "s5";
 type FilterKey = "all" | "linked" | "unlinked";
-type ViewKey = "roster" | "unmatched";
+type ViewKey = "roster" | "unmatched" | "gaps";
 
 const FILTERS: { key: FilterKey; label: string }[] = [
   { key: "all", label: "All" },
@@ -90,10 +90,22 @@ export default function PlayersTable({
         >
           Sport5 unmatched ({unmatchedSport5.length})
         </button>
+        <button
+          onClick={() => setView("gaps")}
+          className={`-mb-px border-b-2 px-4 py-2 text-sm font-semibold transition-colors ${
+            view === "gaps"
+              ? "border-[var(--text)] text-[var(--text)]"
+              : "border-transparent text-[var(--text-faint)] hover:text-[var(--text-dim)]"
+          }`}
+        >
+          Price gaps
+        </button>
       </div>
 
       {view === "unmatched" ? (
         <UnmatchedSport5List rows={unmatchedSport5} />
+      ) : view === "gaps" ? (
+        <PriceGapsView rows={rows} />
       ) : (
         <RosterView
           rows={filtered}
@@ -299,6 +311,205 @@ function UnmatchedSport5List({ rows }: { rows: MergedPlayerRow[] }) {
         {sorted.length === 0 && (
           <div className="p-12 text-center text-sm text-[var(--text-faint)]">
             Nothing unmatched — every Sport5 player links to a Euroleague roster entry.
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+type GapFilterKey = "any" | "el" | "s5";
+
+function PriceGapsView({ rows }: { rows: MergedPlayerRow[] }) {
+  const [query, setQuery] = useState("");
+  const [cheaperIn, setCheaperIn] = useState<GapFilterKey>("any");
+  const [minPrice, setMinPrice] = useState(0);
+
+  const gaps = useMemo(() => {
+    return rows
+      .filter((r) => r.byLeague.euroleague && r.byLeague.sport5)
+      .map((r) => {
+        const el = r.byLeague.euroleague!.price;
+        const s5 = r.byLeague.sport5!.price;
+        // Round off floating-point noise (e.g. 5.300000000000001) from
+        // subtracting decimal prices.
+        return { row: r, el, s5, gap: Math.round((el - s5) * 10) / 10 };
+      });
+  }, [rows]);
+
+  const maxPrice = useMemo(
+    () => gaps.reduce((m, g) => Math.max(m, g.el, g.s5), 0),
+    [gaps]
+  );
+
+  const filtered = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    let result = gaps;
+    if (q) {
+      result = result.filter(
+        (g) => g.row.name.toLowerCase().includes(q) || g.row.team.toLowerCase().includes(q)
+      );
+    }
+    if (cheaperIn === "el") {
+      result = result.filter((g) => g.gap < 0); // cheaper in euroleague
+    } else if (cheaperIn === "s5") {
+      result = result.filter((g) => g.gap > 0); // cheaper in sport5
+    }
+    if (minPrice > 0) {
+      // A big gap only means something if the player isn't a scrub in
+      // *either* game - require both prices to clear the floor.
+      result = result.filter((g) => g.el >= minPrice && g.s5 >= minPrice);
+    }
+    return [...result].sort((a, b) => Math.abs(b.gap) - Math.abs(a.gap));
+  }, [gaps, query, cheaperIn, minPrice]);
+
+  return (
+    <div>
+      <p className="mb-4 max-w-[70ch] text-[0.82rem] leading-[1.6] text-[var(--text-dim)]">
+        Players priced in both games, ranked by how far apart those prices are. A big gap can mean
+        a bargain in whichever game the player costs less.
+      </p>
+
+      <div className="mb-4 flex flex-wrap items-center gap-3">
+        <label className="relative min-w-[200px] flex-1 basis-[240px]">
+          <svg
+            width="14"
+            height="14"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            className="pointer-events-none absolute left-[11px] top-1/2 -translate-y-1/2 text-[var(--text-faint)]"
+          >
+            <circle cx="11" cy="11" r="7" />
+            <line x1="21" y1="21" x2="16.65" y2="16.65" />
+          </svg>
+          <input
+            type="text"
+            placeholder="Search player or club…"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            className="w-full rounded-lg border border-[var(--border)] bg-[var(--surface)] py-2.5 pl-[34px] pr-3.5 text-sm text-[var(--text)] outline-none focus:outline-2 focus:outline-[var(--accent-s5)] focus:-outline-offset-1"
+          />
+        </label>
+
+        <div className="flex gap-1.5 rounded-lg border border-[var(--border)] bg-[var(--surface-2)] p-[3px]">
+          {(
+            [
+              { key: "any", label: "All" },
+              { key: "el", label: "Deal in Euroleague" },
+              { key: "s5", label: "Deal in Sport5" },
+            ] as { key: GapFilterKey; label: string }[]
+          ).map((f) => (
+            <button
+              key={f.key}
+              onClick={() => setCheaperIn(f.key)}
+              className={`rounded-md px-[13px] py-[7px] text-[0.8rem] font-medium transition-colors ${
+                cheaperIn === f.key
+                  ? "bg-[var(--surface)] text-[var(--text)] shadow-[var(--shadow)]"
+                  : "text-[var(--text-dim)] hover:text-[var(--text)]"
+              }`}
+            >
+              {f.label}
+            </button>
+          ))}
+        </div>
+
+        <label className="flex items-center gap-2 text-[0.8rem] text-[var(--text-dim)]">
+          Min price
+          <input
+            type="range"
+            min={0}
+            max={Math.max(1, Math.round(maxPrice))}
+            step={1}
+            value={minPrice}
+            onChange={(e) => setMinPrice(Number(e.target.value))}
+            className="w-28 accent-[var(--text)]"
+          />
+          <span className="w-5 text-right font-[family-name:var(--font-mono)] tabular-nums text-[var(--text)]">
+            {minPrice}
+          </span>
+        </label>
+
+        <span className="whitespace-nowrap font-[family-name:var(--font-mono)] text-[0.78rem] text-[var(--text-faint)]">
+          {filtered.length} players
+        </span>
+      </div>
+
+      <div className="max-h-[68vh] overflow-auto rounded-[10px] border border-[var(--border)] bg-[var(--surface)] shadow-[var(--shadow)]">
+        <table className="w-full min-w-[680px] border-collapse text-[0.87rem]">
+          <thead>
+            <tr>
+              <th className="sticky top-0 whitespace-nowrap border-b border-[var(--border)] bg-[var(--surface-2)] px-3.5 py-[11px] text-left text-[0.7rem] uppercase tracking-[0.05em] text-[var(--text-faint)]">
+                Player
+              </th>
+              <th className="sticky top-0 whitespace-nowrap border-b border-[var(--border)] bg-[var(--surface-2)] px-3.5 py-[11px] text-left text-[0.7rem] uppercase tracking-[0.05em] text-[var(--text-faint)]">
+                Club
+              </th>
+              <th className="sticky top-0 whitespace-nowrap border-b border-[var(--border)] bg-[var(--surface-2)] px-3.5 py-[11px] text-left text-[0.7rem] uppercase tracking-[0.05em] text-[var(--text-faint)]">
+                EL Credits
+              </th>
+              <th className="sticky top-0 whitespace-nowrap border-b border-[var(--border)] bg-[var(--surface-2)] px-3.5 py-[11px] text-left text-[0.7rem] uppercase tracking-[0.05em] text-[var(--text-faint)]">
+                S5 Credits
+              </th>
+              <th className="sticky top-0 whitespace-nowrap border-b border-[var(--border)] bg-[var(--surface-2)] px-3.5 py-[11px] text-left text-[0.7rem] uppercase tracking-[0.05em] text-[var(--text-faint)]">
+                Gap
+              </th>
+              <th className="sticky top-0 whitespace-nowrap border-b border-[var(--border)] bg-[var(--surface-2)] px-3.5 py-[11px] text-left text-[0.7rem] uppercase tracking-[0.05em] text-[var(--text-faint)]">
+                Cheaper In
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            {filtered.map((g) => (
+              <tr
+                key={g.row.id}
+                className="[&>td]:border-b [&>td]:border-[var(--border-soft)] last:[&>td]:border-b-0 hover:[&>td]:bg-[var(--surface-2)]"
+              >
+                <td className="px-3.5 py-[9px]">
+                  <span className="font-semibold" dir="auto">
+                    {g.row.name}
+                  </span>
+                  {g.row.nameHebrew && (
+                    <span dir="rtl" className="ml-2 text-[0.85em] text-[var(--text-faint)]">
+                      {g.row.nameHebrew}
+                    </span>
+                  )}
+                </td>
+                <td className="px-3.5 py-[9px] text-[0.86em] text-[var(--text-dim)]">{g.row.team}</td>
+                <td className="px-3.5 py-[9px] font-[family-name:var(--font-mono)] font-semibold tabular-nums text-[var(--accent-el)]">
+                  {g.el.toFixed(1)}
+                </td>
+                <td className="px-3.5 py-[9px] font-[family-name:var(--font-mono)] font-semibold tabular-nums text-[var(--accent-s5)]">
+                  {g.s5.toFixed(1)}
+                </td>
+                <td className="px-3.5 py-[9px] font-[family-name:var(--font-mono)] font-semibold tabular-nums text-[var(--text)]">
+                  {Math.abs(g.gap).toFixed(1)}
+                </td>
+                <td className="px-3.5 py-[9px]">
+                  {g.gap === 0 ? (
+                    <span className="text-[var(--text-faint)]">—</span>
+                  ) : g.gap < 0 ? (
+                    <span
+                      className="inline-block rounded-full border border-[var(--accent-el)] bg-[var(--accent-el-bg)] px-[7px] py-px text-[0.72rem] font-semibold text-[var(--accent-el)]"
+                    >
+                      Euroleague
+                    </span>
+                  ) : (
+                    <span
+                      className="inline-block rounded-full border border-[var(--accent-s5)] bg-[var(--accent-s5-bg)] px-[7px] py-px text-[0.72rem] font-semibold text-[var(--accent-s5)]"
+                    >
+                      Sport5
+                    </span>
+                  )}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        {filtered.length === 0 && (
+          <div className="p-12 text-center text-sm text-[var(--text-faint)]">
+            No players match that search.
           </div>
         )}
       </div>
