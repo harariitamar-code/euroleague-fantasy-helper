@@ -32,21 +32,38 @@ orientation for picking the project back up.
   Understands three input shapes — see `src/lib/data/source-formats.ts` for
   the two raw JSON API dumps (official Euroleague Fantasy, and Sport5
   Fantasy), and `src/lib/data/normalize.ts` for generic CSV/XLSX header
-  aliases. Cross-league identity is matched by (club, shirt number) — see
-  `scripts/import-data.ts` for the matching logic and its guardrails
-  against false merges (ambiguous shirt numbers within one file, and names
-  in non-Latin scripts slugifying to empty strings — both were real bugs
-  found and fixed while first importing real data, see git history).
+  aliases. Does basic (club, shirt number) matching on its own, but that
+  alone is intentionally conservative and under-matches a fresh pair of
+  exports — see the reconciliation step below, which is required after
+  every import, not optional.
+- **Reconciliation**: `npm run reconcile -- analyze|apply|report`
+  (`scripts/reconcile-cross-league.ts`) is the required second step after
+  `npm run import`. It re-derives matches from the current price snapshots
+  directly (never from historical linkage — that's what caused the
+  Sloukas/Fall bug, see git history) using shirt number plus a Hebrew
+  transliteration + fuzzy-name pass, auto-matching what it can and handing
+  back the rest for a manual, team-by-team review pass — see
+  `.claude/skills/reconcile-fantasy-data/SKILL.md` for the full workflow
+  and every gotcha hit so far (including a real id-collision bug that
+  silently merged distinct players, now guarded against with a hard
+  failure rather than a silent stat).
 - **UI**: `/players` — the "Courtside Ledger" — a searchable, sortable,
-  filterable table merging both leagues' prices side by side per player.
+  filterable table. **Euroleague Fantasy Challenge is the ground truth for
+  roster membership** (it's the more reliably current of the two sources):
+  the main "Roster" tab is every Euroleague player, Sport5 price attached
+  wherever matched. Sport5 rows that never matched a Euroleague player live
+  in a separate "Sport5 unmatched" tab, not mixed into the roster — that
+  list should normally be near-empty; a non-empty one is a signal to
+  re-run reconcile or to prune from data/sport5-fantasy/prices.json a
+  player Sport5 still lists who has actually left the club.
   Design system: **Big Shoulders** (display headline), **IBM Plex Sans**
   (body/UI), **IBM Plex Mono** (prices/numbers, tabular), amber = Euroleague
   accent, teal = Sport5 accent, full light/dark theme tokens in
   `src/app/globals.css`. Keep new UI consistent with this system rather
   than introducing new fonts/palettes.
-- **As of the last import** (Sep 2, 2026): 530 canonical players, 346 in
-  the official feed, 398 in Sport5, 214 linked across both leagues by
-  club+shirt#.
+- **As of the last import** (Sep 5, 2026, post-reconcile): 447 canonical
+  players, 346 in the official feed, 371 in Sport5, 270 linked across both
+  leagues.
 
 ## Important constraints
 

@@ -67,13 +67,37 @@ a summary: new players added, players matched/updated (and how many were
 newly linked across leagues), and any price changes since the last import
 for that league.
 
+### Required second step: reconcile
+
+`npm run import`'s own (team, shirt#) matching is intentionally
+conservative — it has no way to compare a Hebrew name against a Latin one,
+so on a fresh pair of exports it leaves most genuine cross-league matches
+unlinked. After importing both leagues, always run:
+
+```bash
+npm run reconcile -- analyze     # writes reconcile-out/ with auto-matches + a residual to review
+# ...review reconcile-out/needs-review.json team by team, build a manual pairs file...
+npm run reconcile -- apply --pairs reconcile-out/manual-pairs.json
+npm run reconcile -- report --out reconcile-out/unmatched-players.md
+```
+
+Full workflow, scoring rationale, and every gotcha found so far (stale
+shirt-number reuse, id-collision on Hebrew-only names, legitimate
+same-shirt duplicates, coach entries) are documented in
+`.claude/skills/reconcile-fantasy-data/SKILL.md`.
+
 ### Known limitation: cross-league matching isn't 100% certain
 
 Team+shirt-number matching is a heuristic, not a guarantee — jersey numbers
 occasionally differ between the two sources (transfers, number changes, or
 one feed being briefly stale), which can attach the wrong Sport5 entry to an
-official-feed player. If you spot a player showing an unrelated Hebrew name
-or price, fix it with `data/player-aliases.json`:
+official-feed player. `npm run reconcile` re-derives matches from the
+current snapshots each time rather than trusting old linkage, which
+resolves most of these; a handful of genuinely-ambiguous cases (e.g. two
+different people sharing a number across out-of-sync feeds) are left
+unmatched on purpose rather than guessed. For the rare case you want a
+permanent manual override at import time regardless, `data/player-aliases.json`
+still works:
 
 ```json
 {
@@ -86,6 +110,12 @@ or price, fix it with `data/player-aliases.json`:
 The key is `<league>:<sourceId>` (the source's own player id, visible in
 `sourceId` on that league's `prices.json` entry); the value is the canonical
 player id it should map to instead. Re-run the import afterwards.
+
+**Euroleague Fantasy Challenge is treated as the ground truth for roster
+membership** (it's the more reliably current source) — the app's main
+"Roster" view is every Euroleague player, Sport5 price attached where
+matched. Sport5 players that never match sit in a separate "Sport5
+unmatched" tab; that list should normally be near-empty.
 
 ## Running the app
 
