@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T20:34:41.544Z",
+  "updatedAt": "2026-09-05T10:07:08.908Z",
   "players": [
     {
       "id": "agustin-ubal-fc-barcelona",
@@ -64,7 +64,8 @@
       "id": "alex-mumbru-virtus-bologna",
       "name": "Alex Mumbru",
       "team": "Virtus Bologna",
-      "teamId": "virtus-bologna"
+      "teamId": "virtus-bologna",
+      "nameHebrew": "אלכס מומברו"
     },
     {
       "id": "aliou-diarra-virtus-bologna",
@@ -147,14 +148,16 @@
       "name": "Ante Zizic",
       "team": "Besiktas Istanbul",
       "teamId": "besiktas",
-      "shirtNumber": 41
+      "shirtNumber": 41,
+      "nameHebrew": "אנטה ז'יז'יץ'"
     },
     {
       "id": "anthony-brown-besiktas-istanbul",
       "name": "Anthony Brown",
       "team": "Besiktas Istanbul",
       "teamId": "besiktas",
-      "shirtNumber": 21
+      "shirtNumber": 21,
+      "nameHebrew": "אנתוני בראון"
     },
     {
       "id": "anton-gavel-fc-bayern-munich",
@@ -245,7 +248,8 @@
       "name": "Berk Ugurlu",
       "team": "Besiktas Istanbul",
       "teamId": "besiktas",
-      "shirtNumber": 6
+      "shirtNumber": 6,
+      "nameHebrew": "ברק אוגורלו"
     },
     {
       "id": "bobi-klintman-virtus-bologna",
@@ -316,13 +320,6 @@
       "teamId": "anadolu-efes",
       "shirtNumber": 19,
       "nameHebrew": "בורק אילדיזלי"
-    },
-    {
-      "id": "calathes-nick-partizan-mozzart-bet-belgrade",
-      "name": "CALATHES, NICK",
-      "team": "Partizan Mozzart Bet Belgrade",
-      "teamId": "partizan",
-      "shirtNumber": 33
     },
     {
       "id": "carlik-jones-partizan-mozzart-bet-belgrade",
@@ -408,7 +405,8 @@
       "name": "Conor Morgan",
       "team": "Besiktas Istanbul",
       "teamId": "besiktas",
-      "shirtNumber": 9
+      "shirtNumber": 9,
+      "nameHebrew": "קונור מורגן"
     },
     {
       "id": "cory-joseph-olympiacos-piraeus",
@@ -499,7 +497,8 @@
       "name": "David Dejulius",
       "team": "Besiktas Istanbul",
       "teamId": "besiktas",
-      "shirtNumber": 5
+      "shirtNumber": 5,
+      "nameHebrew": "דייויד דג'וליוס"
     },
     {
       "id": "david-kramer-crvena-zvezda-meridianbet-belgrade",
@@ -530,7 +529,8 @@
       "name": "Davide Casarin",
       "team": "Virtus Bologna",
       "teamId": "virtus-bologna",
-      "shirtNumber": 7
+      "shirtNumber": 7,
+      "nameHebrew": "דוידה קאסרין"
     },
     {
       "id": "davion-mintz-dubai-basketball",
@@ -592,7 +592,8 @@
       "name": "Devon Dotson",
       "team": "Besiktas Istanbul",
       "teamId": "besiktas",
-      "shirtNumber": 1
+      "shirtNumber": 1,
+      "nameHebrew": "דבון דוטסון"
     },
     {
       "id": "devon-hall-armani-olimpia-milan",
@@ -622,7 +623,8 @@
       "name": "Dimitris Moraitis",
       "team": "Panathinaikos AKTOR Athens",
       "teamId": "panathinaikos",
-      "shirtNumber": 6
+      "shirtNumber": 6,
+      "nameHebrew": "דימיטריס מורייטיס"
     },
     {
       "id": "dj-stewart-kosner-baskonia-vitoria-gasteiz",
@@ -659,7 +661,8 @@
       "id": "dusan-alimpijevic-besiktas-istanbul",
       "name": "Dusan Alimpijevic",
       "team": "Besiktas Istanbul",
-      "teamId": "besiktas"
+      "teamId": "besiktas",
+      "nameHebrew": "דושאן אלימפייביץ'"
     },
     {
       "id": "dustin-sleva-zalgiris-kaunas",
@@ -722,14 +725,16 @@
       "name": "Eleftherios Mantzoukas",
       "team": "Panathinaikos AKTOR Athens",
       "teamId": "panathinaikos",
-      "shirtNumber": 72
+      "shirtNumber": 72,
+      "nameHebrew": "אלפטריוס מנצוקאס"
     },
     {
       "id": "eli-ndiaye-real-madrid",
       "name": "Eli Ndiaye",
       "team": "Real Madrid",
       "teamId": "real-madrid",
-      "shirtNumber": 44
+      "shirtNumber": 44,
+      "nameHebrew": "אלי אנדיאיי"
     },
     {
       "id": "elias-valtonen-valencia-basket",
@@ -852,7 +857,8 @@
       "name": "Furkan Korkmaz",
       "team": "Besiktas Istanbul",
       "teamId": "besiktas",
-      "shirtNumber": 30
+      "shirtNumber": 30,
+      "nameHebrew": "פורקאן קורקמז"
     },
     {
       "id": "gabriel-deck-real-madrid",
@@ -883,13 +889,6 @@
       "team": "Olympiacos Piraeus",
       "teamId": "olympiacos",
       "nameHebrew": "גאורגיוס ברצוקאס"
-    },
-    {
-      "id": "georgios-kalaitzakis-panathinaikos-aktor-athens",
-      "name": "Georgios Kalaitzakis",
-      "team": "Panathinaikos AKTOR Athens",
-      "teamId": "panathinaikos",
-      "shirtNumber": 5
     },
     {
       "id": "georgios-papagiannis-anadolu-efes-istanbul",
@@ -934,7 +933,8 @@
       "name": "Guerschon Yabusele",
       "team": "Panathinaikos AKTOR Athens",
       "teamId": "panathinaikos",
-      "shirtNumber": 7
+      "shirtNumber": 7,
+      "nameHebrew": "גרשון יאבוסלה"
     },
     {
       "id": "gur-lavy-maccabi-rapyd-tel-aviv",
@@ -1025,8 +1025,7 @@
       "name": "Izan Almansa",
       "team": "Real Madrid",
       "teamId": "real-madrid",
-      "shirtNumber": 13,
-      "nameHebrew": "איזן אלמנסה"
+      "shirtNumber": 13
     },
     {
       "id": "jacob-toppin-hapoel-ibi-tel-aviv",
@@ -1164,7 +1163,8 @@
       "name": "Joffrey Lauvergne",
       "team": "Partizan Mozzart Bet Belgrade",
       "teamId": "partizan",
-      "shirtNumber": 77
+      "shirtNumber": 77,
+      "nameHebrew": "ג'ופרי לוברן"
     },
     {
       "id": "johannes-thiemann-fc-bayern-munich",
@@ -1209,7 +1209,8 @@
       "name": "Jonas Valanciunas",
       "team": "Zalgiris Kaunas",
       "teamId": "zalgiris",
-      "shirtNumber": 17
+      "shirtNumber": 17,
+      "nameHebrew": "יונאס ולנצ'ונאס"
     },
     {
       "id": "jordan-loyd-anadolu-efes-istanbul",
@@ -1327,7 +1328,8 @@
       "name": "Kaodirichi Akobundu-Ehiogu",
       "team": "Zalgiris Kaunas",
       "teamId": "zalgiris",
-      "shirtNumber": 2
+      "shirtNumber": 2,
+      "nameHebrew": "קאודיריצ'י אקובונדו-אהיוגו"
     },
     {
       "id": "keaton-wallace-maccabi-rapyd-tel-aviv",
@@ -1381,7 +1383,8 @@
       "name": "Kevin Kokila",
       "team": "Virtus Bologna",
       "teamId": "virtus-bologna",
-      "shirtNumber": 3
+      "shirtNumber": 3,
+      "nameHebrew": "קווין קוקילה"
     },
     {
       "id": "kevin-punter-fc-barcelona",
@@ -1466,7 +1469,8 @@
       "name": "Kyle Allman",
       "team": "Partizan Mozzart Bet Belgrade",
       "teamId": "partizan",
-      "shirtNumber": 0
+      "shirtNumber": 0,
+      "nameHebrew": "קייל אולמן"
     },
     {
       "id": "lamar-stevens-partizan-mozzart-bet-belgrade",
@@ -1505,7 +1509,8 @@
       "name": "Lucas Mari",
       "team": "Valencia Basket",
       "teamId": "valencia",
-      "shirtNumber": 6
+      "shirtNumber": 6,
+      "nameHebrew": "לוקאס מארי"
     },
     {
       "id": "mady-sissoko-besiktas-istanbul",
@@ -1564,14 +1569,16 @@
       "name": "Marcus Carr",
       "team": "Virtus Bologna",
       "teamId": "virtus-bologna",
-      "shirtNumber": 2
+      "shirtNumber": 2,
+      "nameHebrew": "מרקוס קאר"
     },
     {
       "id": "marek-blazevic-zalgiris-kaunas",
       "name": "Marek Blazevic",
       "team": "Zalgiris Kaunas",
       "teamId": "zalgiris",
-      "shirtNumber": 22
+      "shirtNumber": 22,
+      "nameHebrew": "מארק בלזביץ'"
     },
     {
       "id": "mario-nakic-partizan-mozzart-bet-belgrade",
@@ -1586,7 +1593,8 @@
       "name": "Mario Saint-supery",
       "team": "Valencia Basket",
       "teamId": "valencia",
-      "shirtNumber": 17
+      "shirtNumber": 17,
+      "nameHebrew": "מריו סיינט-סופרי"
     },
     {
       "id": "marius-grigonis-zalgiris-kaunas",
@@ -1748,8 +1756,7 @@
       "name": "Mitar Bosnjakovic",
       "team": "Partizan Mozzart Bet Belgrade",
       "teamId": "partizan",
-      "shirtNumber": 8,
-      "nameHebrew": "מיטר בוסנייקוביץ'"
+      "shirtNumber": 8
     },
     {
       "id": "mladenov-borislav-hapoel-ibi-tel-aviv",
@@ -1913,7 +1920,8 @@
       "name": "Nikola Tanaskovic",
       "team": "Partizan Mozzart Bet Belgrade",
       "teamId": "partizan",
-      "shirtNumber": 10
+      "shirtNumber": 10,
+      "nameHebrew": "ניקולה טנסקוביץ'"
     },
     {
       "id": "nikolaos-plotas-olympiacos-piraeus",
@@ -1935,7 +1943,8 @@
       "name": "Nobel Boungou-colo",
       "team": "Paris Basketball",
       "teamId": "paris-basketball",
-      "shirtNumber": 16
+      "shirtNumber": 16,
+      "nameHebrew": "נובל בונגו-קולו"
     },
     {
       "id": "oded-kattash-maccabi-rapyd-tel-aviv",
@@ -1964,7 +1973,8 @@
       "name": "Olivier Sarr",
       "team": "Real Madrid",
       "teamId": "real-madrid",
-      "shirtNumber": 33
+      "shirtNumber": 33,
+      "nameHebrew": "אוליבייה סאר"
     },
     {
       "id": "omari-moore-valencia-basket",
@@ -2028,6 +2038,14 @@
       "team": "Anadolu Efes Istanbul",
       "teamId": "anadolu-efes",
       "nameHebrew": "פבלו לאסו"
+    },
+    {
+      "id": "panagiotis-kalaitzakis-panathinaikos-aktor-athens",
+      "name": "Panagiotis Kalaitzakis",
+      "team": "Panathinaikos AKTOR Athens",
+      "teamId": "panathinaikos",
+      "shirtNumber": 5,
+      "nameHebrew": "פנגיוטיס קלאיצקיס"
     },
     {
       "id": "paolo-galbiati-kosner-baskonia-vitoria-gasteiz",
@@ -2379,7 +2397,8 @@
       "name": "Tommaso Baldasso",
       "team": "Virtus Bologna",
       "teamId": "virtus-bologna",
-      "shirtNumber": 11
+      "shirtNumber": 11,
+      "nameHebrew": "תומאסו בלדאסו"
     },
     {
       "id": "tony-parker-ldlc-asvel-villeurbanne",
@@ -2505,7 +2524,8 @@
       "name": "Uros Mijailovic",
       "team": "Partizan Mozzart Bet Belgrade",
       "teamId": "partizan",
-      "shirtNumber": 10
+      "shirtNumber": 10,
+      "nameHebrew": "אורוש מיחאילוביץ'"
     },
     {
       "id": "usman-garuba-real-madrid",
@@ -2611,15 +2631,15 @@
       "id": "xavier-albert-valencia-basket",
       "name": "Xavier Albert",
       "team": "Valencia Basket",
-      "teamId": "valencia"
+      "teamId": "valencia",
+      "nameHebrew": "צ'אבי אלברט"
     },
     {
       "id": "yakuba-ouattara-paris-basketball",
       "name": "Yakuba Ouattara",
       "team": "Paris Basketball",
       "teamId": "paris-basketball",
-      "shirtNumber": 24,
-      "nameHebrew": "יאקובה אוואטרה"
+      "shirtNumber": 24
     },
     {
       "id": "yam-madar-maccabi-rapyd-tel-aviv",
@@ -2668,14 +2688,6 @@
       "nameHebrew": "ז'לקו אוברדוביץ'"
     },
     {
-      "id": "paris-basketball",
-      "name": "איסמאל באקו ",
-      "team": "Paris Basketball",
-      "teamId": "paris-basketball",
-      "shirtNumber": 21,
-      "nameHebrew": "יוליוס תומאס"
-    },
-    {
       "id": "fc-bayern-munich",
       "name": "אליאס האריס",
       "team": "FC Bayern Munich",
@@ -2684,28 +2696,20 @@
       "nameHebrew": "ננו דימיטרייביץ'"
     },
     {
-      "id": "panathinaikos-aktor-athens",
-      "name": "ארגין עתמאן",
-      "team": "Panathinaikos AKTOR Athens",
-      "teamId": "panathinaikos",
-      "shirtNumber": 0,
-      "nameHebrew": "רישון הולמס"
-    },
-    {
-      "id": "partizan-mozzart-bet-belgrade",
-      "name": "ג'בארי פארקר",
-      "team": "Partizan Mozzart Bet Belgrade",
-      "teamId": "partizan",
-      "shirtNumber": 22,
-      "nameHebrew": "קמרון פיין"
-    },
-    {
       "id": "fenerbahce-tarfin-istanbul",
       "name": "ג'ילסון באנגו",
       "team": "Fenerbahce Tarfin Istanbul",
       "teamId": "fenerbahce",
       "shirtNumber": 44,
       "nameHebrew": "ברנדון בוסטון ג'וניור"
+    },
+    {
+      "id": "panathinaikos-aktor-athens",
+      "name": "גאורגיוס קלאיצקיס",
+      "team": "Panathinaikos AKTOR Athens",
+      "teamId": "panathinaikos",
+      "shirtNumber": 5,
+      "nameHebrew": "גאורגיוס קלאיצקיס"
     },
     {
       "id": "crvena-zvezda-meridianbet-belgrade",
@@ -2732,14 +2736,6 @@
       "nameHebrew": "אוסקר אורלנה"
     },
     {
-      "id": "zalgiris-kaunas",
-      "name": "לאוריינס בירוטיס",
-      "team": "Zalgiris Kaunas",
-      "teamId": "zalgiris",
-      "shirtNumber": 15,
-      "nameHebrew": "איגנאס סטומברגס"
-    },
-    {
       "id": "kosner-baskonia-vitoria-gasteiz",
       "name": "לוקה שמאניץ'",
       "team": "Kosner Baskonia Vitoria-Gasteiz",
@@ -2756,28 +2752,12 @@
       "nameHebrew": "לאונרדו טוטה"
     },
     {
-      "id": "valencia-basket",
-      "name": "מאט קוסטלו",
-      "team": "Valencia Basket",
-      "teamId": "valencia",
-      "shirtNumber": 24,
-      "nameHebrew": "תומאס טאלקיס"
-    },
-    {
       "id": "ldlc-asvel-villeurbanne",
       "name": "מלווין אג'ינסה",
       "team": "LDLC ASVEL Villeurbanne",
       "teamId": "villeurbanne",
       "shirtNumber": 8,
       "nameHebrew": "בריאן אנגולה"
-    },
-    {
-      "id": "real-madrid",
-      "name": "מריו הזוניה",
-      "team": "Real Madrid",
-      "teamId": "real-madrid",
-      "shirtNumber": 11,
-      "nameHebrew": "אלכס לן"
     },
     {
       "id": "maccabi-rapyd-tel-aviv",
@@ -2788,28 +2768,12 @@
       "nameHebrew": "זאק הנקינס"
     },
     {
-      "id": "virtus-bologna",
-      "name": "מתאו אקורסי",
-      "team": "Virtus Bologna",
-      "teamId": "virtus-bologna",
-      "shirtNumber": 8,
-      "nameHebrew": "ננאד יאקובלביץ'"
-    },
-    {
       "id": "hapoel-ibi-tel-aviv",
       "name": "סנדי כהן",
       "team": "Hapoel IBI Tel Aviv",
       "teamId": "hapoel-tel-aviv",
       "shirtNumber": 5,
       "nameHebrew": "ליוואי רנדולף"
-    },
-    {
-      "id": "olympiacos-piraeus",
-      "name": "קוסטס אנטטוקומפו",
-      "team": "Olympiacos Piraeus",
-      "teamId": "olympiacos",
-      "shirtNumber": 37,
-      "nameHebrew": "מונטה מוריס"
     },
     {
       "id": "anadolu-efes-istanbul",
