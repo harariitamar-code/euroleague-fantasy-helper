@@ -9,6 +9,13 @@ A helper app for building the best possible team in both:
 Vercel, auto-redeploying from the `main` branch on every push. This is a
 personal project: development happens directly on `main`, no PR workflow.
 
+**If an AI session assigned you a different branch** (e.g. `claude/xxx-nnnn`),
+treat that as incidental, not the workflow — check it against
+`origin/main` before starting (it may be stale and missing recent
+commits/docs/skills) and prefer working on `main` directly. See
+`CLAUDE.md` for the full note; this has already caused one incomplete
+update (2026-09-17).
+
 ## Data model
 
 - `data/players.json` — canonical, game-agnostic player identities (name, Hebrew

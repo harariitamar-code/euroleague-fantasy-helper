@@ -1,5 +1,25 @@
 @AGENTS.md
 
+## ⚠️ If you were assigned a feature branch, check it against `main` first
+
+This repo has **no long-lived feature branches** — development happens
+directly on `main` (see "Important constraints" below). If your session
+setup nonetheless checked you out onto a branch like `claude/xxx-nnnn`,
+that branch was almost certainly cut from `main` at some point in the
+past and may be **stale** — missing later commits, docs, or even this
+file's later revisions (this exact thing happened on 2026-09-17: a
+session's assigned branch predated the addition of
+`.claude/skills/reconcile-fantasy-data/`, so the session did an
+incomplete price import before noticing).
+
+Before doing any work: run `git fetch origin main && git log
+origin/main --oneline -5` and compare against your branch. If `main` has
+commits your branch doesn't, **restart from `main`**
+(`git checkout -B <your-branch> origin/main`, or just work on `main`
+directly and push there) rather than building on stale history. When in
+doubt, working directly on `main` is always correct for this project —
+that's its actual workflow.
+
 # Project: Euroleague Fantasy Helper ("Courtside Ledger")
 
 A personal tool to help build the best team in **two** separate fantasy
